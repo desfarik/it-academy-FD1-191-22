@@ -1,0 +1,5 @@
+name: 'Check Other People\''s Folders'
+description: 'Check Other Peoples Folders'
+runs:
+  using: 'node16'
+  main: 'index.js'

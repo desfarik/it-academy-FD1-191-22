@@ -1,0 +1,5 @@
+name: 'Pull Request Name Check'
+description: 'Pull Request Name Check'
+runs:
+  using: 'node16'
+  main: 'index.js'

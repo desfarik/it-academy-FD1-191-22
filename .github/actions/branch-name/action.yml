@@ -1,0 +1,9 @@
+name: 'Branch Name Check'
+description: 'Branch Name Check'
+inputs:
+  branch-name:
+    description: 'branch name'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'

@@ -1,0 +1,25 @@
+name: Check Other People's Folders
+
+on:
+  pull_request:
+    branches:
+      - master
+    types: [opened, edited, reopened, synchronize]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: rm -rf package.json package-lock.json
+      - run: npm i --no-audit @actions/core
+      - run: git fetch origin master:refs/remotes/origin/master
+      - name: Get changed files
+        run: |
+          echo "::set-output name=CHANGED_FILES::$(git diff --diff-filter=ACM --name-only origin/master | xargs)"
+        id: git
+      - name: Verify other people's folders
+        uses: ./.github/actions/other-folders
+        with:
+          branch-name: "${{ github.head_ref }}"
+          changed-files: "${{ steps.git.outputs.CHANGED_FILES }}"

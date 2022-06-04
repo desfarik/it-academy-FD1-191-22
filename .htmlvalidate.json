@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "rules": {
+    "no-style-tag": "error",
+    "class-pattern": "error"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "it-academy",
+  "version": "1.0.0",
+  "scripts": {
+    "lint-html": "html-validate src/",
+    "lint-css": "npx stylelint src/**/*.css",
+    "lint-js": "eslint src/",
+    "lint-html-diff": "bash .github/lint-html.sh",
+    "lint-css-diff": "bash .github/lint-css.sh",
+    "lint-js-diff": "bash .github/lint-js.sh"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "html-validate": "^6.1.6",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0"
+  }
+}

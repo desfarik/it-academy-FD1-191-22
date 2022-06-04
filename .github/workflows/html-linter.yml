@@ -1,0 +1,18 @@
+name: HTML Linter
+
+on:
+  pull_request:
+    branches:
+      - master
+    types: [opened, edited, reopened, synchronize]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: rm -rf package.json package-lock.json
+      - run: npm i --no-audit html-validate
+      - run: git fetch origin master:refs/remotes/origin/master
+      - name: Verify diff files
+        run: bash .github/lint-html.sh
