@@ -1,0 +1,9 @@
+.my-underline {
+    text-decoration: line-through;
+    width: 50px;
+    height: 100px;
+}
+
+.color__red {
+    color: red;
+}
