@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Спрайты</title>
+  <style>
+   .heart, .checkbox {
+    width: 64px; height: 64px; /* Размеры картинок */
+    background: url(/example/image/sprite.png) no-repeat; /* Спрайт */
+    display: inline-block; /* Выстраиваем по горизонтали */
+   }
+   .heart:hover {
+    background-position: 0 -64px ; /* Сдвигаем вверх */
+   }
+   .checkbox {
+    background-position: -64px 0; /* Сдвигаем влево */
+   }
+   .checkbox:hover {
+    background-position: -64px -64px; /* Сдвигаем влево и вверх  */
+   }
+  </style>
+ </head>
+ <body>
+  <div class="heart"></div>
+  <div class="checkbox"></div>
+ </body>
+</html>

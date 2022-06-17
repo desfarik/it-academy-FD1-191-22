@@ -1,0 +1,27 @@
+.brd_solid {
+    border: solid black; /* Параметры границы */
+    /*background: #fc3; /* Цвет фона */
+    /*padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px;
+   }
+.brd_groove{
+    border: groove yellow;
+}
+.brd_ridge{
+    border: ridge brown;
+}
+.brd_double{
+    border: double tomato;
+}
+.brd_dashed{
+    border: dashed green;
+}
+.brd_dotted{
+    border: dotted blue;
+}
+.brd_inset{
+    border: inset grey;
+}
+.brd_outset{
+    border: outset red;
+}
