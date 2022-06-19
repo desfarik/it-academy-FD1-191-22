@@ -1,8 +1,6 @@
 .brd_solid {
-    border: solid black; /* Параметры границы */
-    /*background: #fc3; /* Цвет фона */
-    /*padding: 10px; /* Поля вокруг текста */
-    border-radius: 10px;
+    border: solid black; 
+    border-radius: 10px; /*просто проверил)*/
    }
 .brd_groove{
     border: groove yellow;
