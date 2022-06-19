@@ -1,0 +1,36 @@
+#bla {
+    border: solid black;
+}
+
+#gro {
+    border: groove yellow;
+}
+
+#rid {
+    border: ridge brown;
+}
+
+#dou {
+    border: double tomato;
+}
+
+#das {
+    border: dashed green;
+}
+
+#dot {
+    border: dotted blue;
+}
+
+#ins {
+    border: inset grey;
+}
+
+#out {
+    border: outset red;
+}
+
+div {
+    margin-bottom: 1.5em;
+    width: 220px;
+}
