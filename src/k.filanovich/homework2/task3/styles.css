@@ -1,0 +1,22 @@
+.border{
+    
+    border-style: solid;
+    border-radius: 10px 0 10px 0;
+    border-color: purple;
+    border-width: 4px;
+    width: 84px;
+    height: 35px;
+}
+.color{
+    color: skyblue;
+}
+.sprite-icon {
+    display: inline-block;
+    background-image: url("https://abyssesclub.fr/wordpress/wp-content/plugins/wp-and-divi-icons-pro/icon-packs/material/sprites/css-sprite/sprite-action-black.png");
+    width: 30px;
+    height: 30px;
+}
+.okay-icon{
+    background-position-x: -228px;
+    background-position-y: -29px;
+}

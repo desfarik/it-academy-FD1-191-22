@@ -1,0 +1,48 @@
+.bs {
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 10px;
+  border-width: 4px;
+}
+.bsy {
+  border-style: groove;
+  margin-bottom: 10px;
+  border-width: 4px;
+  border-color: yellow;
+}
+.bsb {
+  border-style: ridge;
+  border-color: brown;
+  margin-bottom: 10px;
+  border-width: 4px;
+}
+.bst {
+  border-style: double;
+  border-color: tomato;
+  margin-bottom: 10px;
+  border-width: 4px;
+}
+.bsg {
+  border-style: dashed;
+  border-color: green;
+  margin-bottom: 10px;
+  border-width: 4px;
+}
+.bsblue {
+  border-style: dotted;
+  border-color: blue;
+  margin-bottom: 10px;
+  border-width: 4px;
+}
+.bsgrey {
+  border-style: inset;
+  border-color: grey;
+  margin-bottom: 10px;
+  border-width: 4px;
+}
+.bsred {
+  border-style: outset;
+  border-color: red;
+  margin-bottom: 10px;
+  border-width: 4px;
+}
