@@ -1,0 +1,22 @@
+.robot {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1em;
+}
+.ubunt {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1em;
+}
+body {
+    max-width: 600px;
+    margin: auto;
+}
+h2 {
+    font-size: 1em;
+    font-style: italic;
+}
+.center {
+    text-align: center;
+}
+.right{
+    text-align: right;
+}

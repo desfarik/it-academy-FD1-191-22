@@ -1,0 +1,23 @@
+.icon {
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    background-image: url("sprite.png") ;
+}
+.icon.icon-set:hover {
+    background-position: 0 100%;
+}
+.icon.icon-cancel {
+    background-position: -95% 0;
+}
+.icon.icon-cancel:hover {
+    background-position: -95% -90%;
+}
+.icon.icon-done {
+    background-position: -195% 0;
+}
+.icon.icon-done:hover {
+    background-position: -195% -90%;
+}
+
+
