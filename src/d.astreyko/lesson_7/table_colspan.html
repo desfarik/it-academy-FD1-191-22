@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        td {
+            border: 1px solid;
+            height: 20px;
+        }
+
+        .td_50 {
+            width: 50px;
+        }
+
+        .td_75 {
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <colgroup>
+        <col width="50">
+        <col width="25">
+        <col width="25">
+        <col width="50">
+    </colgroup>
+    <tr>
+        <td colspan="3" class="td_75"></td>
+        <td colspan="2" class="td_75"></td>
+    </tr>
+    <tr>
+        <td class="td_50"></td>
+        <td colspan="2" class="td_50"></td>
+        <td class="td_50"></td>
+    </tr>
+</table>
+
+</body>
+</html>
