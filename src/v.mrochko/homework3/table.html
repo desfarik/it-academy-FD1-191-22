@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 1px black solid;
+            width: 400px;
+            height: 60px;
+            border-collapse: collapse;
+        }
+        tr{
+            border: 1px black solid;
+        }
+        td{
+            border: 1px black solid;
+            text-align: center;
+            font-family: monospace;
+        }
+        .widthtd{
+            width: 300px;
+        }
+        col{
+            width: 50px;
+        }
+        .kostil{
+            border-bottom-color: white;
+        }
+    </style>
+</head>
+<body>
+<p>3.1)</p>
+<table>
+  <tr>
+      <td></td>
+      <td class="widthtd"></td>
+  </tr>
+  <tr>
+      <td></td>
+      <td class="widthtd"></td>
+  </tr>
+</table>
+<p>3.2)</p>
+<table>
+    <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <tbody>
+    <tr>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<p>3.3)</p>
+<table>
+    <colgroup>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <tr>
+        <td colspan="2" rowspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2"></td>
+    </tr>
+</table>
+<p>3.4)</p>
+<table>
+    <tr>
+        <td></td><td></td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+    </tr>
+</table>
+<p>3.5)</p>
+<table>
+    <tr>
+        <td style="background-color: aquamarine"></td><td style="background-color: aquamarine"></td><td style="background-color: aquamarine"></td><td rowspan="2" style="background-color: tomato"></td>
+    </tr>
+    <tr>
+        <td style="background-color: aquamarine"></td><td rowspan="2" style="background-color: tomato"></td><td style="background-color: aquamarine"></td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="background-color: tomato"></td><td colspan="2" style="background-color: tomato"></td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="background-color: aquamarine" ></td><td style="background-color: aquamarine" ></td><td style="background-color: aquamarine"></td>
+    </tr>
+</table>
+<p>3.6)</p>
+<table>
+    <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <tr>
+        <td colspan="3"></td>
+        <td rowspan="5"></td>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3" rowspan="2"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3" rowspan="1" class="kostil"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+    </tr>
+</table>
+<p>3.7)</p>
+<table>
+    <tr>
+        <td colspan="3"></td>
+        <td>Субъект</td>
+        <td>Объект</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Ед.число</td>
+        <td colspan="2">1 лицо</td>
+        <td>Я</td>
+        <td>Меня</td>
+    </tr>
+    <tr>
+        <td colspan="2">2 лицо</td>
+        <td>Ты</td>
+        <td>Тебя</td>
+    </tr>
+    <tr>
+        <td rowspan="3">3 лицо</td>
+        <td>&#9794;</td>
+        <td>Он</td>
+        <td>Его</td>
+    </tr>
+    <tr>
+        <td>&#9792;</td>
+        <td>Она</td>
+        <td>Ее</td>
+    </tr>
+    <tr>
+        <td>&bull;</td>
+        <td>Оно</td>
+        <td>Его</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Множ. число</td>
+        <td colspan="2">1 лицо</td>
+        <td>Мы</td>
+        <td>Нас</td>
+    </tr>
+    <tr>
+        <td colspan="2">2 лицо</td>
+        <td>Вы</td>
+        <td>Вас</td>
+    </tr>
+    <tr>
+        <td colspan="2">3 лицо</td>
+        <td>Они</td>
+        <td>Их</td>
+    </tr>
+</table>
+</body>
+</html>
