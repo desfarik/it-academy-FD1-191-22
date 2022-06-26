@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,700;1,100&family=Ubuntu:ital,wght@0,300;1,700&display=swap"
+          rel="stylesheet">
+    <style>
+        td {
+            border: 2px solid;
+            height: 100px;
+            text-align: center;
+        }
+
+        col {
+            width: 60px;
+        }
+
+        .no-border {
+            border-color: transparent;
+        }
+
+        .border {
+            border: 10px solid;
+            border-radius: 10px;
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+            font-size: 70px;
+        }
+
+        .blue {
+            color: #1e90ff;
+        }
+
+        .red {
+            color: #ff0000;
+        }
+
+        .green {
+            color: #32cd32;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <tr>
+        <td class="no-border" colspan="2"></td>
+        <td class="border blue" colspan="2">A</td>
+        <td class="no-border" colspan="2"></td>
+    </tr>
+    <tr>
+        <td class="no-border" colspan="1"></td>
+        <td class="border red" colspan="2">B</td>
+        <td class="border green" colspan="2">C</td>
+        <td class="no-border" colspan="1"></td>
+    </tr>
+    <tr>
+        <td class="border blue" colspan="2">D</td>
+        <td class="border green" colspan="2">E</td>
+        <td class="border red" colspan="2">F</td>
+    </tr>
+</table>
+</body>
+</html>
