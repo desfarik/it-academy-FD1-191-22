@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 800px;
+            table-layout: fixed;
+            margin: auto;
+            margin-bottom: 30px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 20px;
+        }
+
+        td {
+            border: 2px solid black;
+            width: 200px;
+        }
+
+        tr {
+            height: 50px;
+        }
+
+        caption {
+            font-style: italic;
+        }
+
+        .td_table3 {
+            width: 400px;
+        }
+
+        .td_colorgreen {
+            background-color: #7fffd4;
+        }
+
+        .td_colororange {
+            background-color: #ff7f50;
+        }
+
+        .td_table6 {
+            width: 114px;
+        }
+
+        .td_table7 {
+            width: 160px;
+        }
+
+        .td_table8 {
+            border: transparent;
+            width: 133px;
+        }
+
+        .td_colorgrey {
+            background-color: #808080;
+        }
+
+        .td_colorpink {
+            background-color: #ffc0cb;
+        }
+
+        .td_colorblack {
+            background-color: #000000;
+        }
+
+        /* class for table 3.8+ */
+        .base {
+            width: 800px;
+            height: 250px;
+            margin: auto;
+            position: relative;
+        }
+
+        .grey1 {
+            width: 133px;
+            height: 50px;
+            background-color: #808080;
+            position: absolute;
+        }
+
+        .grey2 {
+            width: 133px;
+            height: 50px;
+            background-color: #808080;
+            position: absolute;
+            left: 133px;
+            top: 50px;
+        }
+
+        .pink1 {
+            width: 133px;
+            height: 50px;
+            background-color: #ffc0cb;
+            position: absolute;
+            left: 667px;
+        }
+
+        .pink2 {
+            width: 133px;
+            height: 50px;
+            background-color: #ffc0cb;
+            position: absolute;
+            left: 534px;
+            top: 50px;
+        }
+
+        .black {
+            width: 266px;
+            height: 50px;
+            background-color: black;
+            position: absolute;
+            left: 266px;
+            top: 100px;
+        }
+
+        .green1 {
+            width: 133px;
+            height: 50px;
+            background-color: #7fffd4;
+            position: absolute;
+            left: 133px;
+            top: 150px;
+        }
+
+        .green2 {
+            width: 133px;
+            height: 50px;
+            background-color: #7fffd4;
+            position: absolute;
+            top: 200px;
+        }
+
+        .orange1 {
+            width: 133px;
+            height: 50px;
+            background-color: #ff7f50;
+            position: absolute;
+            left: 534px;
+            top: 150px;
+        }
+
+        .orange2 {
+            width: 133px;
+            height: 50px;
+            background-color: #ff7f50;
+            position: absolute;
+            left: 667px;
+            top: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 3.1 -->
+    <table>
+        <caption>3.1</caption>
+        <tr>
+            <td></td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+    <!-- 3.2 -->
+    <table>
+        <caption>3.2</caption>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+    </table>
+    <!-- 3.3 -->
+    <table>
+        <caption>3.3</caption>
+        <tr>
+            <td rowspan="2" colspan="2" class="td_table3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    <!-- 3.4 -->
+    <table>
+        <caption>3.4</caption>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <!-- 3.5 -->
+    <table>
+        <caption>3.5</caption>
+        <tr>
+            <td class="td_colorgreen"></td>
+            <td class="td_colorgreen"></td>
+            <td class="td_colorgreen"></td>
+            <td rowspan="2" class="td_colororange"></td>
+        </tr>
+        <tr>
+            <td class="td_colorgreen"></td>
+            <td rowspan="2" class="td_colororange"></td>
+            <td class="td_colorgreen"></td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="td_colororange"></td>
+            <td colspan="2" class="td_colororange"></td>
+        </tr>
+        <tr>
+            <td class="td_colorgreen"></td>
+            <td class="td_colorgreen"></td>
+            <td class="td_colorgreen"></td>
+        </tr>
+    </table>
+    <!-- 3.6 -->
+    <table>
+        <col span="7" class="td_table6">
+        <caption>3.6</caption>
+        <tr>
+            <td colspan="3"></td>
+            <td rowspan="5"></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+    <!-- 3.7 -->
+    <table>
+        <col span="5" class="td_table7">
+        <caption>3.7</caption>
+        <tr>
+            <td colspan="3"></td>
+            <td>Субъект</td>
+            <td>Объект</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Ед. число</td>
+            <td colspan="2">1 лицо</td>
+            <td>Я</td>
+            <td>Меня</td>
+        </tr>
+        <tr>
+            <td colspan="2">2 лицо</td>
+            <td>Ты</td>
+            <td>Тебя</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3 лицо</td>
+            <td>&#9794;</td>
+            <td>Он</td>
+            <td>Его</td>
+        </tr>
+        <tr>
+            <td>&#9792;</td>
+            <td>Она</td>
+            <td>Ее</td>
+        </tr>
+        <tr>
+            <td>&#8728;</td>
+            <td>Оно</td>
+            <td>Его</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Множ. числ.</td>
+            <td colspan="2">1 лицо</td>
+            <td>Мы</td>
+            <td>Нас</td>
+        </tr>
+        <tr>
+            <td colspan="2">2 лицо</td>
+            <td>Вы</td>
+            <td>Вас</td>
+        </tr>
+        <tr>
+            <td colspan="2">3 лицо</td>
+            <td>Они</td>
+            <td>Их</td>
+        </tr>
+    </table>
+    <!-- 3.8 -->
+    <table>
+        <col span="6" class="td_table8">
+        <caption>3.8</caption>
+        <tr>
+            <td class="td_colorgrey td_table8"></td>
+            <td colspan="4" class="td_table8"></td>
+            <td class="td_colorpink td_table8"></td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="td_table8"></td>
+            <td class="td_colorgrey td_table8"></td>
+            <td colspan="2" class="td_table8"></td>
+            <td class="td_colorpink td_table8"></td>
+            <td rowspan="3" class="td_table8"></td>
+        </tr>
+        <tr>
+            <td class="td_table8"></td>
+            <td colspan="2" class="td_colorblack td_table8"></td>
+            <td class="td_table8"></td>
+        </tr>
+        <tr>
+            <td class="td_colorgreen td_table8"></td>
+            <td colspan="2" class="td_table8"></td>
+            <td class="td_colororange td_table8"></td>
+        </tr>
+        <tr>
+            <td class="td_colorgreen td_table8"></td>
+            <td colspan="4" class="td_table8"></td>
+            <td class="td_colororange td_table8"></td>
+        </tr>
+    </table>
+    <!-- 3.8+ -->
+    <h2 style="text-align: center;"><i>3.8+</i></h2> <br><br>
+    <div class="base">
+        <div class="grey1"></div>
+        <div class="pink1"></div>
+        <div class="grey2"></div>
+        <div class="pink2"></div>
+        <div class="black"></div>
+        <div class="green1"></div>
+        <div class="green2"></div>
+        <div class="orange1"></div>
+        <div class="orange2"></div>
+    </div>
+
+</body>
+
+</html>
