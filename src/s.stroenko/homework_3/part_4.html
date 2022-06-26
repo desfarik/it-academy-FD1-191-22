@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site</title>
 </head>
 <style>
     .container {
-            height: 205vh;
+            height: 140vh;
             background: rgba(247, 40, 154, 0.3);
             width: 60vw;
             border: solid 3px black;
             border-radius: 5px;
+            
+            
     }
     .header{
         border: solid black;
@@ -26,19 +28,37 @@
         margin: 10px auto;
         font-size: 2rem;
     }
+    .middle-container{
+        border: hidden 1px;
+        width: 58vw;
+        height: 680px;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .border-banner{
+        border: solid black;
+        border-width: 1px;
+        background-color: aqua;
+        border-radius: 1%;
+        width: 23vw;
+        height: 430px;
+        display: inline-block;
+        /*text-align: center;*/
+    }
     .middle{
         border: solid black;
         border-width: 1px;
         background-color: aqua;
         border-radius: 1%;
-        text-align: center;
-        width: 58vw;
-        height: 600px;
-        margin: 20px auto;
+        /*text-align: center;*/
+        width: 30vw;
+        height: 630px;
+        display: inline-block;
     }
     .image{
         margin: 10px auto;
-        width: 55vw; 
+        width: 28vw; 
         height: 100px; 
     }
     .middle-block{
@@ -46,44 +66,37 @@
         border-width: 1px;
         border-radius: 2%;
         text-align: center;
-        width: 55vw;
-        height: 160px;
-        margin: 10px auto;
+        width: 28vw;
+        height: 165px;
+        margin: 5px auto;
 
     }
     .in-middle-block-1{
-        border: solid black;
+        border: hidden black;
         background-color: rgb(80, 203, 224);
         border-width: 1px;
-        border-radius: 2%;
         text-align: left;
-        vertical-align: middle;
+        
         padding-left: 5px;
-        width: 50vw;
+        width: 25vw;
         height: 40px;
         margin: 10px auto;
         font-size: 1.5rem;
     }
     .in-middle-block-2{
-        border: solid black;
+        border: hidden black;
         background-color: rgb(243, 174, 212);
         border-width: 1px;
-        border-radius: 2%;
         text-align: center;
-        width: 50vw;
-        height: 80px;
+        width: 25vw;
+        height: 95px;
         margin: 10px auto;
     }
-    .border-banner{
-        border: hidden;
-        border-width: 1px;
-        width: 55vw;
-        height: 170px;
-        margin: 10px auto;
-    }
+    
     .banner{
-        width: 150px; 
-        height: 150px;
+        width: 270px; 
+        height: 200px;
+        margin: 5px auto;
     }
     
     
@@ -91,7 +104,8 @@
 <body>
     <div class="container">
         <div class="header">Here is the header of your site!</div> 
-        <div class="middle">
+        <div class="middle-container">
+        <span class="middle">
             <img src="./som_random.jpg" class="image">
             <div class="middle-block">
                 <div class="in-middle-block-1">
@@ -114,18 +128,13 @@
                 </div>
             </div>
             <img src="./som_random.jpg" class="image">
-        </div> 
-        <div class="border-banner">
+        </span> 
+        <span class="border-banner">
             <img src="./banner.jpg" class="banner">
-        </div>
-        <div class="border-banner" style="text-align: center;">
             <img src="./banner.jpg" class="banner">
+        </span>
         </div>
-        <div class="border-banner" style="text-align: right;">
-            <img src="./banner.jpg" class="banner">
-        </div>
-        <div class="header">Here is the footer of your site!</div>
-        
+        <div class="header">Here is the footer of your site!</div>  
     </div>
 </body>
 </html>
