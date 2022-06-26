@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Rubik:wght@500&display=swap"
+    rel="stylesheet">
+
+<style>
+    table {
+        border: 0 solid black;
+    }
+
+    .borderNone {
+        border: transparent;
+    }
+
+    td {
+        border: 8px solid black;
+        height: 100px;
+        width: 30px;
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Rubik', sans-serif;
+        border-radius: 10px;
+    }
+
+    col {
+        width: 50px;
+    }
+
+    .red {
+        border-color: #ff0000;
+        color: #ff0000;
+    }
+
+    .blue {
+        border-color: #1e90ff;
+        color: #1e90ff;
+    }
+
+    .green {
+        border-color: #32cd32;
+        color: #32cd32;
+    }
+
+    .fontColor {
+        color: #1e90ff;
+    }
+</style>
+
+<body>
+    <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <tr>
+            <td class="borderNone"></td>
+            <td class="borderNone"></td>
+            <td colspan="2" class="red">A</td>
+            <td class="borderNone"></td>
+            <td class="borderNone"></td>
+        </tr>
+        <tr>
+            <td class="borderNone"></td>
+            <td colspan="2" class="blue">B</td>
+            <td colspan="2" class="green">C</td>
+            <td class="borderNone"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="red">D</td>
+            <td colspan="2" class="green">E</td>
+            <td colspan="2" class="blue">F</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
