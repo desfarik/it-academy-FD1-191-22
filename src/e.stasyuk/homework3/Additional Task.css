@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    box-sizing: border-box;
+    font-size: 38px;
+    background-color: rgb(127, 255, 212);
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 700px;
+    height: 65px;
+    text-align: center;
+    padding: 11px;
+    margin: 15px 10px;
+}
+
+footer {
+    box-sizing: border-box;
+    font-size: 38px;
+    background-color: rgb(127, 255, 212);
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 700px;
+    height: 65px;
+    text-align: center;
+    padding: 11px;
+    margin: 777px 10px;
+}
+
+.wrap {
+    background-color: rgb(255, 192, 203);
+    border: 3px solid black;
+    border-radius: 7px;
+    width: 730px;
+    height: 835px;
+}
+
+.mainPart {
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgb(127, 255, 212);
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 400px;
+    height: 650px;
+    text-align: center;
+    padding: 5px;
+    margin: 17px 10px;
+}
+
+.mainBanners {
+    box-sizing: border-box;
+    background-color: rgb(127, 255, 212);
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 280px;
+    height: 560px;
+    text-align: center;
+    padding: 5px;
+    margin: -667px 427px;
+}
+
+.someRandomImage {
+    width: 330px;
+}
+
+.borderContentFirstArticle {
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    padding: 5px;
+    margin: 12px 25px;
+}
+
+.headingFirstAricle {
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgb(135, 206, 235);
+    border-radius: 3px;
+    text-align: left;
+    width: 300px;
+    height: 60px;
+    padding: 8px;
+    margin: 7px;
+}
+
+.firstArticle {
+    box-sizing: border-box;
+    font-size: 13px;
+    background-color: rgb(221, 160, 221);
+    border-radius: 3px;
+    text-align: justify;
+    width: 300px;
+    height: 100px;
+    padding: 8px;
+    margin: 7px;
+}
+
+.banner {
+    background-image: url(./somerandombanneradditional.png);
+    background-position: 120px 95px;
+    background-attachment: fixed;
+    width: 265px;
+    height: 270px;
+}

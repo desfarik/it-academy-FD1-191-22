@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    box-sizing: border-box;
+    font-size: 23px;
+    background-color: rgb(127, 255, 212);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 480px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+    margin: 15px 10px;
+}
+
+.wrap {
+    background-color: rgb(255, 192, 203);
+    border: 3px solid black;
+    border-radius: 7px;
+    width: 500px;
+    height: 1140px;
+}
+
+.mainPart {
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgb(127, 255, 212);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 480px;
+    height: 585px;
+    text-align: center;
+    padding: 5px;
+    margin: 17px 10px;
+}
+
+.someRandomImage {
+    width: 430px;
+}
+
+.borderContentFirstArticle {
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 430px;
+    height: 145px;
+    text-align: center;
+    padding: 5px;
+    margin: 12px 15px;
+}
+
+.headingFirstAricle {
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgb(135, 206, 235);
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: left;
+    width: 400px;
+    height: 40px;
+    padding: 8px;
+    margin: 7px;
+}
+
+.firstArticle {
+    box-sizing: border-box;
+    font-size: 13px;
+    background-color: rgb(221, 160, 221);
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: justify;
+    width: 400px;
+    height: 75px;
+    padding: 8px;
+    margin: 7px;
+}
+
+.topBanner {
+    background-image: url(./somerandombanner.png);
+    width: 130px;
+    height: 130px;
+    margin: 25px 0 5px 25px;
+}
+
+.middleBanner {
+    background-image: url(./somerandombanner.png);
+    background-position: center;
+    background-attachment: fixed;
+    width: 130px;
+    height: 130px;
+    margin: 5px 188px;
+}
+
+.bottomBanner {
+    background-image: url(./somerandombanner.png);
+    width: 130px;
+    height: 130px;
+    margin: 5px 355px;
+}
