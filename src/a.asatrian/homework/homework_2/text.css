@@ -1,0 +1,13 @@
+.width-text {
+width: 50%; 
+margin: 0 auto;
+
+}
+.image-people {
+    max-width: 50%;
+}
+
+.image-front-end {
+    max-width: 50%;
+    display: block;
+}

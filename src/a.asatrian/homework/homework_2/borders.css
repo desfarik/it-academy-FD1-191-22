@@ -1,0 +1,37 @@
+.margin-bottom {
+  margin-bottom: 8px;
+}
+
+.border-solid {
+  border: solid black;
+}
+
+.border-groove {
+  border: groove yellow;
+}
+
+.border-ridge {
+  border: ridge brown;
+}
+
+.border-double {
+  border: double tomato;
+}
+
+.border-dashed {
+  border: dashed green;
+}
+
+.border-dotted {
+  border: dotted blue;
+}
+
+.border-inset {
+  border-style: inset;
+  border-color: black grey grey black;
+}
+
+.border-outset {
+  border-style: outset;
+  border-color: red firebrick firebrick red;
+}
