@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .container {
+            border: 1px solid;
+            padding: 20px;
+        }
+
+        .item {
+            height: 50px;
+            width: 250px;
+            background: #aa47bb;
+        }
+
+        .item:not(:last-child) {
+            margin-bottom: 20px;
+        }
+        .item + .item {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>

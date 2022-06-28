@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        p::first-line {
+            color: rebeccapurple;
+        }
+
+        .content::before {
+            content: 'before';
+            color: #e1717d;
+        }
+
+        .content::after {
+            content: 'after';
+        }
+
+        span[tooltip]:hover::after {
+            content: attr(tooltip);
+        }
+    </style>
+</head>
+<body>
+<p>text</p>
+
+
+<div class="content">
+    <span>span1</span>
+    <span>span2</span>
+</div>
+
+
+<span>текст</span>
+<span tooltip="ка">текст</span>
+<span tooltip="2">текст</span>
+</body>
+</html>

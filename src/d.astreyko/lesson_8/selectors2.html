@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block__blue {
+            color: blue;
+            font-size: 24px;
+        }
+
+        div.block__red {
+            color: red;
+            font-size: 24px;
+        }
+
+
+        #myId {
+            color: blue;
+        }
+
+        #myId.block__red {
+            color: black;
+        }
+
+        div#myId.block__red {
+            color: black;
+        }
+
+        div.block__red.my-red.block__red.block__red.block__red.block__red.block__red.block__red.block__red.block__red.block__red.block__red.block__red.block__red.block__red.block__red {
+            color: #e1717d;
+        }
+    </style>
+</head>
+<body>
+<div class="block__blue">text</div>
+<div class="block__red">text</div>
+<div id="myId" class="block__red my-red">text</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .block .content {
+            color: blue;
+        }
+
+        /*.block .block2 .content {*/
+        /*    color: red;*/
+        /*}*/
+
+        .block2 > .content {
+            color: yellow;
+        }
+
+        .content {
+            color: #3ec59d;
+        }
+    </style>
+</head>
+<body>
+<div class="block">
+    <div>
+        <div class="block2">
+            <span class="content">span</span>
+        </div>
+        <div class="block2">
+            <div>
+                <span class="content">span</span>
+            </div>
+        </div>
+    </div>
+</div>
+<span class="content">span</span>
+</body>
+</html>

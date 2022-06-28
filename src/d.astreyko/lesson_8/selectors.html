@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #redBlock {
+            color: red;
+        }
+
+
+
+        .block__blue {
+            color: blue;
+        }
+
+        .block__red {
+            color: red;
+        }
+
+        div {
+            color: green;
+        }
+
+        [class*="block__blue"] {
+            color: brown;
+        }
+
+        [id] {
+            color: brown;
+        }
+
+        [my-attr-blue] {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<div style="color: black" id="redBlock" class="block__blue">text</div>
+<div id="redBlock" class="block__blue">text</div>
+<div class="block__blue">text</div>
+<div class="block__blue block__red">text</div>
+<div class="block__red block__blue">text</div>
+<div my-attr-blue>text</div>
+<div>text</div>
+</body>
+</html>

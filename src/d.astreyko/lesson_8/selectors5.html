@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*1*/
+        .block1 {
+            background: #e1717d;
+        }
+
+        .block2 {
+            background: #e1717d;
+        }
+
+        /*2*/
+        /*    :nth-child(-n +2)*/
+
+        .block1 span:hover :nth-child(odd),
+        .block2 {
+            background: #e1717d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="block1">block1</div>
+<div class="block2">block2</div>
+<div class="block3">block3</div>
+<div class="block4">block4</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block1 ~ div.block4 .content {
+            color: #e1717d;
+        }
+
+        .block1 + .block2 {
+            color: #3ec59d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="block1">block1</div>
+<div class="block2">block2</div>
+<div class="block3">block3</div>
+<div class="block4">
+    <span class="content">
+        block4 content
+    </span>
+</div>
+</body>
+</html>
