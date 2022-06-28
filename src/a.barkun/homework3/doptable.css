@@ -1,0 +1,72 @@
+.mtab {
+    width: 700px;
+    /*height: 1200px;*/
+    border: solid black 5px;
+    border-radius: 7px;
+    margin: auto;
+    table-layout: fixed;
+    border-spacing: 10px;
+    background-color: #fdbfca;
+    border-collapse: initial;
+}
+th, td, tr {
+    border: solid black 1px;
+    height: 50px;
+}
+.img1 {
+    width: 310px;
+}
+.img2 {
+    width: 200px;
+    height: 200px;
+}
+thead th, tfoot th {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    border: solid black 3px;
+    border-radius: 7px;
+    background-color: #7efdd3;
+
+}
+.hdstyle {
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    background-color: #86cdea;
+    border: transparent;
+    text-align: justify;
+}
+.loremstyle {
+    font-family: Arial, sans-serif;
+   text-align: justify;
+    padding: 5px 0 5px 0;
+    background-color: #dc9fdc;
+    border: transparent;
+    margin: 10px 10px 10px 10px;
+}
+tbody {
+    /*background-color: #7efdd3;*/
+}
+.tdbanner {
+    background-color: #7efdd3;
+    border: solid black 2px;
+    text-align: center;
+    border-radius: 7px;
+}
+td {
+    border: hidden;
+}
+.border {
+    border: solid black 2px;
+    border-radius: 7px;
+}
+.nobrd {
+    border: transparent;
+    text-align: center;
+}
+.bcl {
+    background-color: #7efdd3;
+}
