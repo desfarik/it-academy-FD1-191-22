@@ -1,0 +1,57 @@
+.shifts {
+    font-family: Ubuntu, sans-serif;
+}
+.roboto {
+     font-family: Roboto, sans-serif;
+}
+.robotoBold {
+    font-family: Roboto, sans-serif;
+}
+.prosto {
+    font-family: 'Roboto', sans-serif;
+}
+.kdam {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#blueLi
+{
+    color: blue;
+    font-size:24px;
+    font-family: Arial, sans-serif, Bahnschrift;
+}
+p.class1 {
+    color: darkorchid;
+}
+.class2{
+    color: blue;
+}
+#head {
+    color: tomato;
+    font-size: 25px;
+}
+a[href="http://vk.com"]{
+    color:pink;
+}
+a[hfer="http://google.com"]{
+    color:purple;
+}
+.blablabla  p, h3{
+    color: palevioletred;
+    font-size:45px;
+    background: aquamarine;
+}
+.blablabla > p {
+    text-decoration: line-through;
+}
+#head + span {
+    color: darkorchid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1::first-letter {
+    color: blue;
+}
+.veryxorosho p {
+    color: tomato;
+}
