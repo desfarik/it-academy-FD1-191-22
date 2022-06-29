@@ -1,0 +1,16 @@
+#first {
+    color: red;
+    font-size: 30px;
+}
+
+.second {
+    color: blue;
+    font-size: 40px;
+}
+
+div {
+    color: blueviolet;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5%;
+}
