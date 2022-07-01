@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            border: solid 5px;
+            width: 80px;
+            height: 80px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 65px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        table {
+            border-collapse: separate;
+            width: 280px;
+            table-layout: fixed;
+            margin: auto;
+            margin-top: 60px;
+            text-align: center;
+            font-size: 65px;
+            font-family: 'Roboto Condensed', sans-serif;
+            border-spacing: 3px 3px;
+        }
+
+        /* td {
+            border: 2px solid black;
+            width: 90px;
+        } */
+
+        /* tr {
+            height: 90px;
+        } */
+
+        .cubeblue {
+            border: 5px solid blue;
+            border-radius: 6px;
+            color: blue;
+        }
+
+        .cubered {
+            border: 5px solid red;
+            border-radius: 6px;
+            color: red;
+        }
+
+        .cubegreen {
+            border: 5px solid green;
+            border-radius: 6px;
+            color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" style="color: blue; margin: auto; margin-bottom: 8px;">
+        <span>A</span>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 13px;">
+        <span class="container" style="color: red; margin-right: 3px; padding-right: 7px; padding-left: 20px;">
+            B
+        </span>
+        <span class="container" style="color: green; padding-right: 20px; padding-left: 20px;">
+            C
+        </span>
+    </div>
+
+    <div style="text-align: center;">
+        <span class="container" style="color: blue; margin-right: 3px; padding-right: 7px; padding-left: 20px;">
+            D
+        </span>
+        <span class="container" style="color: green; margin-right: 3px; padding-right: 10px; padding-left: 20px;">
+            E
+        </span>
+        <span class="container" style="color: red; margin-right: 5px; padding-right: 25px; padding-left: 25px;">
+            F
+        </span>
+    </div>
+
+    <table>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="cubeblue">A</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2" class="cubered">B</td>
+            <td colspan="2" class="cubegreen">C</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cubeblue">D</td>
+            <td colspan="2" class="cubegreen">E</td>
+            <td colspan="2" class="cubered">F</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
