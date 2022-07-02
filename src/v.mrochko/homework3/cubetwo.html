@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    table{
+      border: 0 solid black;
+    }
+    td{
+      border: 2px solid black;
+      height: 100px;
+      width: 30px;
+      text-align: center;
+    }
+    col{
+      width: 50px;
+    }
+    .redbox{
+      border-color: red;
+    }
+    .bluebox{
+      border-color: blue;
+    }
+    .greenbox{
+      border-color: green;
+    }
+    .borderdelete{
+        border: none;
+    }
+  </style>
+</head>
+<body>
+<table>
+    <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <tr>
+        <td class="borderdelete"></td>
+        <td class="borderdelete"></td>
+        <td colspan="2" class="redbox">A</td>
+        <td class="borderdelete"></td>
+        <td class="borderdelete"></td>
+    </tr>
+    <tr>
+        <td class="borderdelete"></td>
+        <td colspan="2" class="bluebox">B</td>
+        <td colspan="2" class="greenbox">C</td>
+        <td class="borderdelete"></td>
+    </tr>
+    <tr>
+        <td colspan="2" class="redbox">D</td>
+        <td colspan="2" class="greenbox">E</td>
+        <td colspan="2" class="bluebox">F</td>
+    </tr>
+</table>
+</body>
+</html>
