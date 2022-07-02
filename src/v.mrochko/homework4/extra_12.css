@@ -1,0 +1,16 @@
+p{
+    counter-increment: list;
+}
+p:after{
+    content:"#" counter(list);
+}
+p:hover{
+    background-color:transparent;
+}
+
+p{
+    background-color:red;
+}
+p:hover~p{
+    background-color: transparent;
+}

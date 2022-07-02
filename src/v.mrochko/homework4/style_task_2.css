@@ -1,0 +1,14 @@
+.alert{
+    border: red solid 3px;
+}
+#special{
+    background-color: yellow;
+}
+[class="alert stop"]{
+    background-color: blue;
+    border: none;
+}
+[class="alert go"]{
+    background-color: green;
+    border: none;
+}
