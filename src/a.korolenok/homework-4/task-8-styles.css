@@ -1,0 +1,16 @@
+body {
+    counter-reset:  item;
+}
+p {
+    font-size: 20px;
+}
+p::after {
+    counter-increment: item;
+    content: '#' counter(item) ;
+}
+p:hover {
+    background-color: green;
+}
+p:hover ~ p {
+    background-color: red;
+}
