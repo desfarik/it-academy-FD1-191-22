@@ -1,0 +1,62 @@
+div[class="cell"]:nth-child(-n+8):nth-child(even) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(n+10):nth-child(-n+17):nth-child(odd) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(n+17):nth-child(-n+24):nth-child(even) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(n+26):nth-child(-n+33):nth-child(odd) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(n+33):nth-child(-n+40):nth-child(even) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(n+42):nth-child(-n+49):nth-child(odd) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(n+49):nth-child(-n+56):nth-child(even) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(n+58):nth-child(-n+65):nth-child(odd) {
+    background: whitesmoke;
+}
+div[class="cell"]:nth-child(-n+9):nth-child(odd) {
+    background: grey;
+}
+div[class="cell"]:nth-child(n+10):nth-child(-n+17):nth-child(even) {
+    background: grey;
+}
+div[class="cell"]:nth-child(n+18):nth-child(-n+25):nth-child(odd) {
+    background: grey;
+}
+div[class="cell"]:nth-child(n+26):nth-child(-n+33):nth-child(even) {
+    background: grey;
+}
+div[class="cell"]:nth-child(n+34):nth-child(-n+41):nth-child(odd) {
+    background: grey;
+}
+div[class="cell"]:nth-child(n+42):nth-child(-n+49):nth-child(even) {
+    background: grey;
+}
+div[class="cell"]:nth-child(n+50):nth-child(-n+57):nth-child(odd) {
+    background: grey;
+}
+div[class="cell"]:nth-child(n+58):nth-child(-n+65):nth-child(even) {
+    background: grey;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background: grey;
+}
+tr:nth-child(odd) td:nth-child(even) {
+    background: grey;
+}
+tr:nth-child(odd) td:nth-child(odd) {
+    background: whitesmoke;
+}
+tr:nth-child(even) td:nth-child(even) {
+    background: whitesmoke;
+}
+

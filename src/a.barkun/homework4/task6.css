@@ -1,0 +1,43 @@
+body {
+    counter-reset: prg;
+    width: 50%;
+}
+p::after {
+    counter-increment: prg;
+    content: " #" counter(prg) "";
+}
+/*                                          !*TASK 7*!*/
+/*p:hover {*/
+/*    background-color: green;*/
+/*}*/
+/*p:hover + p {*/
+/*    background-color: red;*/
+/*}*/
+                                          /*TASK 8*/
+/*p:hover {*/
+/*    background-color: green;*/
+/*}*/
+/*p:hover ~ p {*/
+/*    background-color: red;*/
+/*}*/
+                                         /*TASK 9*/
+/*p:hover {*/
+/*    background-color: green;*/
+/*}*/
+/*p:hover ~ p:not(:last-of-type) {*/
+/*    background-color: red;*/
+/*}*/
+/*                                         TASK10*/
+
+p:nth-of-type(odd):hover {
+    background-color: red;
+}
+p:nth-of-type(odd):hover ~ p:nth-of-type(odd) {
+    background-color: red;
+}
+p:nth-of-type(even):hover {
+    background-color: red;
+}
+p:nth-of-type(even):hover ~ p:nth-of-type(even) {
+    background-color: red;
+}

@@ -1,0 +1,28 @@
+
+/*p:hover ~ p:nth-of-type(n) {*/
+/*    background-color: white;*/
+/*}*/
+/*p:not(p:hover ~ p) {*/
+/*    background-color: red;*/
+/*}*/
+body {
+    counter-reset: prg;
+    width: 30%;
+}
+p::after {
+    counter-increment: prg;
+    content: " #" counter(prg) "";
+}
+p { margin: 0;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid white;
+}
+.sibling p {
+    background-color: white;
+}
+.sibling:hover p {
+    background-color: red;
+}
+.sibling p:hover,.sibling p:hover ~ p {
+    background-color: white;
+}
