@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            font-size: 20px;
+        }
+        body {
+            counter-reset: p;
+        }
+        p::after {counter-increment: p;
+            content:" #"counter(p);
+        }
+        
+        p:hover~:nth-child(odd) {
+            background-color: red;           
+        }
+        
+        
+    </style>
+</head>
+<body>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+</body>
+</html>

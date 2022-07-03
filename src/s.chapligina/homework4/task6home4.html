@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            font-size: 20px;
+        }
+        body {
+            counter-reset: p;
+        }
+        p::after {counter-increment: p;
+            content:" #"counter(p);
+        }
+        p:hover {
+            background-color: green;
+        }
+        p:hover~p {
+            background-color: red;            
+        }
+        p:last-child {
+            background-color: white !important;
+        }
+    </style>
+</head>
+<body>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+<p>Параграф</p>
+</body>
+</html>
