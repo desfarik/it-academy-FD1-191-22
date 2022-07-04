@@ -1,0 +1,19 @@
+* {
+    font-family: Arial;
+    line-height: 1.5;
+    color: rgb(68, 57, 57);
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+    width: 600px;
+}
+
+span {
+    font-size: 200%;
+}

@@ -1,0 +1,42 @@
+body {
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td, th {
+    padding: 0.2em;
+    text-align: left;
+}
+
+a {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container p:first-child:first-line {
+    color: red;
+}
+
+.container p:first-child {
+    color: blue;
+}
+
+tr:nth-of-type(2n) /* или tr:nth-of-type(even) */ {
+    background-color: #333;
+    color: white;
+}
+

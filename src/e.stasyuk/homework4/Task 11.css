@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+}
+
+.desk {
+    width: 50%;
+    min-width: 400px;
+}
+
+.desk:first-child {
+    margin-top: 5px;
+}
+
+.cell {
+    display: inline-block;
+    width: 12.5%;
+    min-width: 50px;
+    margin: -5px -5px 0 0;
+    border: 1px solid #777777;
+    box-sizing: border-box;
+}
+
+.cell:after,
+td:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+td:after {
+    padding-bottom: calc(100% - 1px);
+    /*хз почему этот 1 px вылез*/
+    
+    /* и я хз */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 12.5%;
+    min-width: 50px;
+    padding: 0;
+    border: 1px solid #777777;
+    box-sizing: border-box;
+}
+
+.desk tr:nth-child(odd) td:nth-child(odd) {
+    background: black;
+}
+
+.desk tr:nth-child(even) td:nth-child(even) {
+    background: black;
+}
+
+.desk div.cell:nth-child(-n+8):nth-child(even) {
+    background: black;
+}
+
+.desk div.cell:nth-child(n+10):nth-child(-n+17):nth-child(odd) {
+    background: black;
+}
+
+.desk div.cell:nth-child(n+17):nth-child(-n+24):nth-child(even) {
+    background: black;
+}
+
+.desk div.cell:nth-child(n+26):nth-child(-n+33):nth-child(odd) {
+    background: black;
+}
+
+.desk div.cell:nth-child(n+33):nth-child(-n+40):nth-child(even) {
+    background: black;
+}
+
+.desk div.cell:nth-child(n+42):nth-child(-n+49):nth-child(odd) {
+    background: black;
+}
+
+.desk div.cell:nth-child(n+49):nth-child(-n+56):nth-child(even) {
+    background: black;
+}
+
+.desk div.cell:nth-child(n+58):nth-child(-n+65):nth-child(odd) {
+    background: black;
+}
