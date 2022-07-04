@@ -1,0 +1,135 @@
+table {
+    width: 750px;
+    margin: auto;
+    border: solid 2px;
+    border-collapse: collapse;
+}
+td {
+    border: solid 2px;
+    height: 40px;
+}
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.orange {
+    background-color: #fd7e50;
+}
+.lgreen {
+    background-color: #7efdd3;
+}
+.black {
+    background-color: black;
+}
+.pink {
+    background-color: #fdbfca;
+}
+.grey {
+    background-color: #7f7f80;
+}
+.nobrd {
+    border: transparent;
+}
+.nobrd td {
+    border: transparent;
+}
+.tabfont {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.mdiv{
+    width: 750px;
+    height: 200px;
+    margin: auto;
+    /*background-color: grey;*/
+    position: relative;
+}
+.divorange {
+    background-color: #fd7e50;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.divorange1 {
+    background-color: #fd7e50;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    right: 125px;
+    bottom: 40px;
+}
+.divlgreen {
+    background-color: #7efdd3;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.divlgreen1 {
+    background-color: #7efdd3;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    bottom: 40px;
+    left: 125px;
+}
+.divblack {
+    background-color: black;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.divpink {
+    background-color: #fdbfca;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.divpink1 {
+    background-color: #fdbfca;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    right: 125px;
+}
+.divgrey {
+    background-color: #7f7f80;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.divgrey1 {
+    background-color: #7f7f80;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 125px;
+}
