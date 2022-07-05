@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+</head>
+<style>
+    .container {
+            height: 140vh;
+            background: rgba(247, 40, 154, 0.3);
+            width: 60vw;
+            border: solid 3px black;
+            border-radius: 5px;           
+    }
+    .header{
+        border: solid black;
+        border-width: 1px;
+        background-color: aqua;
+        border-radius: 2%;
+        text-align: center;
+        vertical-align: middle;
+        width: 58vw;
+        height: 50px;
+        margin: 10px auto;
+        font-size: 2rem;
+    }
+    .middle-container{
+        border: hidden 1px;
+        width: 58vw;
+        height: 680px;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+    .border-banner{
+        border: solid black;
+        border-width: 1px;
+        background-color: aqua;
+        border-radius: 1%;
+        width: 23vw;
+        height: 430px;
+        margin-left: 30px;
+        /*display: inline-block;*/
+    }
+    .middle{
+        border: solid black;
+        border-width: 1px;
+        background-color: aqua;
+        border-radius: 1%;
+        width: 30vw;
+        height: 630px;
+        margin-right: 30px;
+       /* display: inline-block;*/      
+    }
+    .image{
+        margin: 10px auto;
+        width: 28vw; 
+        height: 100px; 
+    }
+    .middle-block{
+        border: solid black;
+        border-width: 1px;
+        border-radius: 2%;
+        text-align: center;
+        width: 28vw;
+        height: 165px;
+        margin: 5px auto;
+    }
+    .in-middle-block-1{
+        border: hidden black;
+        background-color: rgb(80, 203, 224);
+        border-width: 1px;
+        text-align: left;       
+        padding-left: 5px;
+        width: 25vw;
+        height: 40px;
+        margin: 10px auto;
+        font-size: 1.5rem;
+    }
+    .in-middle-block-2{
+        border: hidden black;
+        background-color: rgb(243, 174, 212);
+        border-width: 1px;
+        text-align: center;
+        width: 25vw;
+        height: 95px;
+        margin: 10px auto;
+    }
+    
+    .banner{
+        width: 270px; 
+        height: 200px;
+        margin: 5px auto;
+    }
+    
+    
+</style>
+<body>
+    <div class="container">
+        <div class="header">Here is the header of your site!</div> 
+        <div class="middle-container">
+        <span class="middle">
+            <img src="./som_random.jpg" class="image">
+            <div class="middle-block">
+                <div class="in-middle-block-1">
+                    Heading of the first article!
+                </div>
+                <div class="in-middle-block-2" style="text-align:justify; padding: 0 5px 0 5px">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugiat repellendus pariatur provident
+                    corrupti, totam voluptatibus maxime laudantium, temporibus reprehenderit
+                    porro quis nemo. Voluptas consectetur officiis eum ea nulla ut!
+                </div>
+            </div>
+            <div class="middle-block">
+                <div class="in-middle-block-1">
+                    Heading of the second article!
+                </div>
+                <div class="in-middle-block-2" style="text-align:justify; padding: 0 5px 0 5px">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolore, distinctio, dolor
+                     neque nulla saepe natus porro ipsum, sunt architecto dolores. 
+                     Quia, repudiandae majores harum obcaecati cumque ipsum sint quias!
+                </div>
+            </div>
+            <img src="./som_random.jpg" class="image">
+        </span> 
+        <span class="border-banner">
+            <img src="./banner.jpg" class="banner">
+            <img src="./banner.jpg" class="banner">
+        </span>
+        </div>
+        <div class="header">Here is the footer of your site!</div>  
+    </div>
+</body>
+</html>
