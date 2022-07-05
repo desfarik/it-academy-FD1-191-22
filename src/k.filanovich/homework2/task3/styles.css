@@ -1,0 +1,57 @@
+.border{
+    
+    border-style: solid;
+    border-radius: 10px 0 10px 0;
+    border-color: purple;
+    border-width: 4px;
+    width: 80px;
+    height: 25px;
+}
+.borderf{
+    
+    border-style: solid;
+    border-radius: 10px 0 10px 0;
+    border-color: purple;
+    border-width: 4px;
+    width: 65px;
+    height: 25px;
+}
+.borders{
+    
+    border-style: solid;
+    border-radius: 10px 0 10px 0;
+    border-color: purple;
+    border-width: 4px;
+    width: 98px;
+    height: 25px;
+}
+.color{
+    color: skyblue;
+}
+.colorp{
+    color: palevioletred;
+}
+.colorgr{
+    color: green;
+}
+.font-size{
+    font-size: 20px;
+}
+.sprite-icon {
+    display: inline-block;
+    background-image: url("https://abyssesclub.fr/wordpress/wp-content/plugins/wp-and-divi-icons-pro/icon-packs/material/sprites/css-sprite/sprite-action-black.png");
+    width: 30px;
+    height: 30px;
+}
+.setting {
+    background-position-x: -384px;
+    background-position-y: -99px;  
+}
+.cancel{
+    background-position-x: -226px;
+    background-position-y: -259px;    
+}
+.okay-icon{
+    background-position-x: -229px;
+    background-position-y: -35px;
+}
