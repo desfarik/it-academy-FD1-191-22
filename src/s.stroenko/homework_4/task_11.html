@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .desk {
+            width: 50%;
+            min-width: 400px;
+        }
+
+        .desk:first-child {
+            margin-top: 5px;
+        }
+
+        .cell {
+            display: inline-block;
+            width: 12.5%;
+            min-width: 50px;
+            margin: -5px -5px 0 0;
+            border: 1px solid #777777;
+            box-sizing: border-box;
+        }
+
+        .cell:after, td:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+        div:nth-child(-n+9):nth-child(odd).cell{
+            background-color: black;
+        }
+        div:nth-child(-n+16):nth-child(n+9):nth-child(even).cell{
+            background-color: black;
+        }
+        div:nth-child(-n+25):nth-child(n+18):nth-child(odd).cell{
+            background-color: black;
+        }
+        div:nth-child(-n+32):nth-child(n+26):nth-child(even).cell{
+            background-color: black;
+        }
+        div:nth-child(-n+41):nth-child(n+35):nth-child(odd).cell{
+            background-color: black;
+        }
+        div:nth-child(-n+48):nth-child(n+42):nth-child(even).cell{
+            background-color: black;
+        }
+        div:nth-child(-n+57):nth-child(n+50):nth-child(odd).cell{
+            background-color: black;
+        }
+        div:nth-child(-n+65):nth-child(n+58):nth-child(even).cell{
+            background-color: black;
+        }
+        tr:nth-child(odd) td:nth-child(odd){
+            background-color: black;
+        }
+        tr:nth-child(even) td:nth-child(even){
+            background-color: black;
+        }
+        
+        td:after {
+            padding-bottom: calc(100% - 1px); /*хз почему этот 1 px вылез*/
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 12.5%;
+            min-width: 50px;
+            padding: 0;
+            border: 1px solid #777777;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="desk">
+        <h1>Доска 1</h1>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="desk">
+        <h1>Доска 2</h1>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>
