@@ -1,0 +1,80 @@
+.box {
+
+    border: 9px solid #ab47bc;
+    width: 154px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.material-symbols-outlined {
+    font-size: 45px;
+}
+
+.setting_icon {
+    color: #79d1f8;
+}
+
+.cancel_icon {
+    color: #f06292;
+}
+
+.done_icon {
+    color: #7dc681
+}
+
+.second_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second_box img:first-child {
+    display: block;
+}
+
+.second_box img:nth-child(2n) {
+    display: block;
+}
+
+.second_box img:last-child {
+    display: block;
+}
+
+img {
+    height: 44px;
+    width: 44px;
+}
+
+.third_box {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sprite-icon {
+    display: inline-block;
+    background-image: url("http://acronetwork.org/bower_components/material-design-icons/sprites/css-sprite/sprite-action-black.png");
+    width: 35px;
+    height: 35px;
+}
+
+.setting-icon {
+    background-position-x: -337px;
+    background-position-y: 7px;
+}
+
+.cancel-icon {
+    background-position-y: -129px;
+    background-position-x: -237px;
+}
+
+.done-icon {
+    background-position-y: -28px;
+    background-position-x: -203px;
+
+}
