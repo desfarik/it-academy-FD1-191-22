@@ -1,0 +1,30 @@
+.border {
+    display: flex;
+    border: 3px solid violet;
+    width: 105px;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.settings {
+    background-image: url("http://liveperson.lae-edu.com/node_modules/material-design-icons/sprites/css-sprite/sprite-action-black.png");
+    width: 35px;
+    height: 35px;
+    background-position-x: 93px;
+    background-position-y: 383px;
+}
+.cancel {
+    background-image: url("http://liveperson.lae-edu.com/node_modules/material-design-icons/sprites/css-sprite/sprite-action-black.png");
+    width: 35px;
+    height: 35px;
+    background-position-x: 253px;
+    background-position-y: 223px;
+}
+.done {
+    background-image: url("http://liveperson.lae-edu.com/node_modules/material-design-icons/sprites/css-sprite/sprite-action-black.png");
+    width: 35px;
+    height: 35px;
+    background-position-x: 254px;
+    background-position-y: 444px;
+}
