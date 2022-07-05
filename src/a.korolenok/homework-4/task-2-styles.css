@@ -1,0 +1,22 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+#special {
+    background-color: yellow;
+}
+p:first-of-type .alert:first-of-type {
+    border: 3px solid red;
+}
+.alert.stop {
+    background-color: #4fc2f6;
+}
+.alert.go {
+    background-color: green;
+}
