@@ -1,0 +1,95 @@
+body {
+    box-sizing: content-box;
+    font-family: Impact, monospace;
+}
+
+tr {
+    text-align: center;
+    border-spacing: 3px;
+    display: block;
+}
+
+.newLine {
+    text-align: center;
+    margin: 23px;
+}
+
+.cubeA {
+    border-radius: 10px;
+    border-color: rgb(30, 144, 255);
+    border-style: solid;
+    border-width: 7px;
+    font-weight: 500;
+    font-size: 80px;
+    color: rgb(30, 144, 255);
+    padding: 3px 31px;
+}
+
+.cubeB {
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-width: 7px;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 3px 27px;
+    color: rgb(255, 0, 0);
+    margin: 3px;
+}
+
+.cubeC {
+    border-radius: 10px;
+    border-color: rgb(50, 205, 50);
+    border-style: solid;
+    border-width: 7px;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 3px 27px;
+    color: rgb(50, 205, 50);
+}
+
+.cubeD {
+    border-radius: 10px;
+    border-color: rgb(30, 144, 255);
+    border-style: solid;
+    border-width: 7px;
+    font-weight: 500;
+    font-size: 80px;
+    color: rgb(30, 144, 255);
+    padding: 3px 27px;
+}
+
+.cubeE {
+    border-radius: 10px;
+    border-color: rgb(50, 205, 50);
+    border-style: solid;
+    border-width: 7px;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 3px 34px;
+    color: rgb(50, 205, 50);
+    margin: 3px;
+}
+
+.cubeF {
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-width: 7px;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 3px 34px;
+    color: rgb(255, 0, 0);
+}
+
+.lineA {
+    margin: 0 700px;
+}
+
+.lineBC {
+    margin: 0 647px;
+}
+
+.lineDEF {
+    margin: 0 585px;
+}

@@ -1,0 +1,38 @@
+h4 {
+    font-family: Arial;
+    font-style: italic;
+    margin-left: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+td {
+    border: 2px solid black;
+    height: 30px;
+}
+
+col {
+    width: 100px;
+}
+
+div {
+    width: 66.77px;
+    height: 30px;
+}
+
+.lightBlueCollumns {
+    background-color: rgb(127, 255, 212);
+}
+
+.salmonCollumns {
+    background-color: rgb(255, 127, 80);
+}
+
+.table3point7 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial;
+}
