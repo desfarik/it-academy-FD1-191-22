@@ -1,0 +1,25 @@
+.brd_solid {
+    border: solid black; 
+    border-radius: 10px; /*просто проверил)*/
+   }
+.brd_groove{
+    border: groove yellow;
+}
+.brd_ridge{
+    border: ridge brown;
+}
+.brd_double{
+    border: double tomato;
+}
+.brd_dashed{
+    border: dashed green;
+}
+.brd_dotted{
+    border: dotted blue;
+}
+.brd_inset{
+    border: inset grey;
+}
+.brd_outset{
+    border: outset red;
+}
