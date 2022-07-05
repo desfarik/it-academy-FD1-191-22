@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .box {
+            background: rebeccapurple;
+            width: 25%;
+            aspect-ratio: 1;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            border: 4px salmon solid;
+            width: 50%;
+            aspect-ratio: 1;
+        }
+
+        .flex-grow {
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="box"></div>
+        <div class="flex-grow"></div>
+        <div class="box"></div>
+    </div>
+    <div class="flex-grow"></div>
+    <div class="row">
+        <div class="box"></div>
+        <div class="flex-grow"></div>
+        <div class="box"></div>
+    </div>
+</div>
+</body>
+</html>

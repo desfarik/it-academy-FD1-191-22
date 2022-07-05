@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .box-container {
+            border: 2px solid salmon;
+            width: 50%;
+        }
+
+        .box {
+            width: 20%;
+            aspect-ratio: 1;
+            position: relative;
+        }
+
+        .box:nth-child(1) {
+            background: #4fc2f6;
+        }
+
+        .box:nth-child(2) {
+            background: red;
+            left: 20%;
+        }
+
+        .box:nth-child(3) {
+            background: blue;
+            left: 40%;
+        }
+
+        .box:nth-child(4) {
+            background: black;
+            left: 60%;
+        }
+
+        .box:nth-child(5) {
+            background: green;
+            left: 80%;
+        }
+
+        .box-container__absolute {
+            aspect-ratio: 1;
+            position: relative;
+        }
+
+        .box-container__absolute .box {
+            position: absolute;
+        }
+
+        .box-container__absolute .box:nth-child(2) {
+            top: 20%;
+        }
+
+        .box-container__absolute .box:nth-child(3) {
+            top: 40%;
+        }
+
+        .box-container__absolute .box:nth-child(4) {
+            top: 60%;
+        }
+
+        .box-container__absolute .box:nth-child(5) {
+            top: 80%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box-container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<div class="box-container box-container__absolute">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+
+</body>
+</html>

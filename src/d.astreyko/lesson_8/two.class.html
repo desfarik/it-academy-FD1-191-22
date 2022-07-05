@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .list-even__blue li:nth-child(even) {
+            color: #4fc2f6;
+        }
+
+        .list-odd__green li:nth-child(odd) {
+            color: #32cd32;
+        }
+
+        ul:first-child li:nth-child(even) {
+            color: #4fc2f6;
+        }
+
+        ul:last-child li:nth-child(odd) {
+            color: #32cd32;
+        }
+
+        .style, #style {
+            color: #4fc2f6;
+        }
+
+        .style#style {
+            color: #4fc2f6 !important;
+        }
+
+
+        li[title] {
+            color: yellow !important;
+        }
+
+
+        li[title="privet1"] {
+            color: red !important;
+        }
+
+        li[title]:not([title="privet1"]) {
+            color: fuchsia !important;
+        }
+    </style>
+</head>
+<body>
+
+<div id="style"
+     class="style"
+     style="color: black">
+    text
+</div>
+<ul class="list-even__blue">
+    <li>item 1</li>
+    <li title="privet1">item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    <li>item 5</li>
+    <li>item 6</li>
+    <li title="privet2">item 7</li>
+    <li>item 8</li>
+    <li>item 9</li>
+    <li>item 10</li>
+</ul>
+<ul class="list-odd__green">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li title="privet2">item 3</li>
+    <li>item 4</li>
+    <li>item 5</li>
+    <li>item 6</li>
+    <li title="privet2">item 7</li>
+    <li>item 8</li>
+    <li>item 9</li>
+    <li>item 10</li>
+</ul>
+</body>
+</html>

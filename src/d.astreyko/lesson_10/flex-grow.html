@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        .box {
+            background: rebeccapurple;
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            border: #aa47bb 1px solid;
+            flex-basis: 50px;
+        }
+
+        .flex-grow {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="flex-row">
+    <div class="box"></div>
+    <div class="flex-grow"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>

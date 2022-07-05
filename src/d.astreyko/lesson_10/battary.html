@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .battery {
+            width: 50px;
+            height: 120px;
+
+            border: 2px solid black;
+            border-radius: 12px;
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 5px;
+            margin-top: 7px;
+        }
+
+        .battery:before {
+            content: '';
+            display: block;
+            width: 30%;
+            height: 7px;
+            background: black;
+            position: absolute;
+            top: -7px;
+            border-radius: 3px;
+        }
+
+        .charge-cell {
+            width: 80%;
+            aspect-ratio: 2;
+
+            background: #aa47bb;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin: 20px;
+        }
+
+        .battery__full_charge .charge-cell {
+            background: chartreuse;
+        }
+
+        .battery__medium_charge .charge-cell {
+            background: yellow;
+        }
+
+        .battery__low_charge .charge-cell {
+            background: indianred;
+        }
+
+        .battery__separated-cells {
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="row">
+    <div class="battery battery__full_charge">
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+    </div>
+
+    <div class="battery battery__medium_charge">
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+    </div>
+
+    <div class="battery battery__low_charge">
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="battery battery__full_charge battery__separated-cells">
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+    </div>
+
+    <div class="battery battery__medium_charge battery__separated-cells">
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+    </div>
+
+    <div class="battery battery__low_charge battery__separated-cells">
+        <div class="charge-cell"></div>
+        <div class="charge-cell"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

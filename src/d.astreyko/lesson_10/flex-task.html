@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .box {
+            background: rebeccapurple;
+            width: 25%;
+            aspect-ratio: 1;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .container {
+            border: 4px salmon solid;
+            width: 50%;
+            aspect-ratio: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="container flex-column">
+    <div class="row">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="row">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</div>
+</body>
+</html>

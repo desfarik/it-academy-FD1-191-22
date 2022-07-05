@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .block {
+            border: 1px solid;
+            width: 50px;
+            height: 50px;
+        }
+
+        .parent {
+            width: 50%;
+            height: 50%;
+            border: 1px solid #32cd32;
+        }
+
+        .absolute {
+            position: absolute;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background: red;
+        }
+
+        .parent.main {
+            width: 50%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="parent main">
+    <div class="parent">
+        <div class="parent">
+
+            <div class="absolute"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
