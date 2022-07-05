@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table-3-5</title>
+  <style>
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 400px;
+    }
+
+    td {
+      border: 1px solid black;
+      height: 30px;
+      text-align: center;
+    }
+
+    col {
+      width: 100px;
+    }
+    .green {
+background-color: #7fffd4;
+    }
+    .orange {
+      background-color: #ff7f50;
+
+    }
+  </style>
+</head>
+<body>
+</head>
+<body>
+<table>
+  <caption> Таблица 3.5</caption>
+  <colgroup>
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <tr>
+    <td class="green"></td>
+    <td class="green"></td>
+    <td class="green"></td>
+    <td class="orange" rowspan="2"></td>
+  </tr>
+  <tr>
+    <td class="green"></td>
+    <td class="orange" rowspan="2"></td>
+    <td class="green"></td>
+  </tr>
+  <tr>
+    <td class="orange" rowspan="2"></td>
+    <td class="orange" colspan="2"></td>
+  </tr>
+  <tr>
+    <td class="green"></td>
+    <td class="green"></td>
+    <td class="green"></td>
+  </tr>
+</table>
+</body>
+</html>
