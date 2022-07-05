@@ -1,0 +1,48 @@
+.background{
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    background-color: #ffc0cb;
+    width: 70vw ;
+    height: 162vh;
+}
+.text1{
+    border-style: solid;
+    background-color: #7fffd4;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+}
+body{ margin: 0 auto;}
+.text2{
+    border-style: solid;
+    background-color: #dda0dd;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+}
+.text3{
+    border-style: solid;
+    background-color: #74b3cc;
+    border-radius: 5px;
+    text-align: left;
+    margin: 15px 10px 5px 10px;
+    padding: 1px;
+}
+.image{
+    text-align: center;
+    margin: 10px;
+}
+.imgl{
+    text-align: left;
+    margin: 10px;
+}
+.imgc{
+    text-align: center;
+    margin: 10px;
+}
+.imgr{
+    text-align: right;
+    margin: 10px;
+}

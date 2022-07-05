@@ -1,0 +1,33 @@
+.collapse {
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+
+}
+.font{
+    font-size: "3rem";
+}
+.size {
+    height: 40px;
+}
+.backgreen{
+    background-color: rgb(52 255 195 / 98%);
+}
+.backorange{
+    background-color: rgb(254 109 4 / 98%);
+}  
+.size36 {
+    height: 50px;
+}
+.size37{
+    height: 100px;
+}
+.backpink{
+    background-color: pink;
+}
+.backgrey{
+    background-color: grey;
+}
+.backblack{
+    background-color: black;
+}
