@@ -1,0 +1,16 @@
+.desk tr:nth-child(odd) td:nth-child(odd){
+    background: black;
+    }
+.desk tr:nth-child(even) td:nth-child(even) {
+    background: black;
+}
+.cell:nth-child(-2n+8),
+.cell:nth-child(10) ~ div:nth-child(-2n+17),
+.cell:nth-child(17) ~ div:nth-child(-2n+24),
+.cell:nth-child(25) ~ div:nth-child(-2n+33),
+.cell:nth-child(33) ~ div:nth-child(-2n+40),
+.cell:nth-child(41) ~ div:nth-child(-2n+49),
+.cell:nth-child(49) ~ div:nth-child(-2n+56),
+.cell:nth-child(57) ~ div:nth-child(-2n+65) {
+    background-color: black;
+    }

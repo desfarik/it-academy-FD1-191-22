@@ -1,0 +1,49 @@
+.cell {
+    background-color: #e8e8e8;
+}
+
+.cell:nth-of-type(-2n+8),
+.cell:nth-of-type(9),
+.cell:nth-of-type(11),
+.cell:nth-of-type(13),
+.cell:nth-of-type(15),
+.cell:nth-of-type(18),
+.cell:nth-of-type(20),
+.cell:nth-of-type(22),
+.cell:nth-of-type(24),
+.cell:nth-of-type(25),
+.cell:nth-of-type(27),
+.cell:nth-of-type(29),
+.cell:nth-of-type(31),
+.cell:nth-of-type(34),
+.cell:nth-of-type(36),
+.cell:nth-of-type(38),
+.cell:nth-of-type(40),
+.cell:nth-of-type(41),
+.cell:nth-of-type(43),
+.cell:nth-of-type(45),
+.cell:nth-of-type(47),
+.cell:nth-of-type(50),
+.cell:nth-of-type(52),
+.cell:nth-of-type(54),
+.cell:nth-of-type(56),
+.cell:nth-of-type(57),
+.cell:nth-of-type(59),
+.cell:nth-of-type(61),
+.cell:nth-of-type(63) {
+    background-color: #b0b0b0;
+}
+/* знаю что это дичайший костыль, и логика вела к (an+b), но так и не довела.. */
+
+td {
+    background-color: #e8e8e8;
+}
+
+tr:nth-last-of-type(even) td:nth-last-of-type(odd) {
+    background-color: #b0b0b0;
+}
+
+tr:nth-last-of-type(odd) td:nth-last-of-type(even) {
+    background-color: #b0b0b0;
+}
+

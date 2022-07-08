@@ -1,0 +1,21 @@
+body {
+    counter-reset: paragraph;
+}
+
+p::after {
+    counter-increment: paragraph;
+    content: " #" counter(paragraph);
+}
+
+p {
+    color: black;
+    background-color: red;
+}
+
+p:hover {
+    background-color: transparent;
+}
+
+p:hover ~ p {
+    background-color: transparent;
+}
