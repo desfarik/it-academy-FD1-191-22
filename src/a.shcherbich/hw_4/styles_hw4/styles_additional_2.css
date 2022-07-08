@@ -1,0 +1,45 @@
+.cellwhite {
+    aspect-ratio: 1;
+    background-color: #e8e8e8;
+    width: 50px;
+    display: inline-block;
+    margin: 0px 0px -4px -4px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cellblack {
+    aspect-ratio: 1;
+    background-color: #b0b0b0;
+    width: 50px;
+    display: inline-block;
+    margin: 0px 0px -4px -4px;
+    text-align: center;
+}
+
+div {
+    margin-top: -3px;
+}
+
+.cell_hov1, .cell_hov2, .cell_hov3  {
+    opacity: 0;
+}
+
+.cell_hov1:hover {
+    text-shadow: 0px -50px red, 0px -100px red, 0px -150px red, 0px -200px red, 0px -250px red, -50px 0px red, -100px 0px red, -150px 0px red, 0px 100px red, 50px 0px red, 100px 0px red, 150px 0px red, 200px 0px red, 0px 50px red, 0px 100px red;
+    opacity: 1;
+    position: relative;
+}
+
+.cell_hov2:hover {
+    text-shadow: -50px -50px red, -100px -100px red, -150px -150px red, 50px -50px red, 100px -100px red, 150px -150px red, 200px -200px red, 50px 50px red, 100px 100px red, -50px 50px red, -100px 100px red;
+    opacity: 1;
+    position: relative;
+}
+
+.cell_hov3:hover {
+    text-shadow: -50px -100px red, 50px -100px red, 100px -50px red, 100px 50px red, 50px 100px red, -50px 100px red, -100px -50px red, -100px 50px red;
+    opacity: 1;
+    position: relative;
+}
+/* не смог победить то, что ниже фигуры не отображаются ходы.. */
