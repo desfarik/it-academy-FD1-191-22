@@ -1,0 +1,18 @@
+.h1blue {
+  color: blue;
+}
+.alert {
+  border: 3px solid red;
+}
+#special {
+  background-color: yellow;
+}
+
+.alert.stop {
+  background-color: blue;
+  border: hidden;
+}
+.alert.go {
+  background-color: green;
+  border: hidden;
+}

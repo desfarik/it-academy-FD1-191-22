@@ -1,0 +1,13 @@
+h2+p{
+    color: red;
+}
+ul>li.list{border-bottom: solid grey 1px;}
+[href^="https"]{
+    border: green solid;
+}
+[href="contact"]{
+    border: orange solid;
+}
+[title]{
+    border: pink solid;
+}

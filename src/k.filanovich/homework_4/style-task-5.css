@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+  [href^="https"] {
+    border: green solid;
+    width: 300px;
+  }
+  [href*="contact"] {
+    border: orange solid;
+    width: 300px;
+  }
+  [title] {
+    border: pink solid;
+    width: 300px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 0 0.5em;
+  }
+
+  a {
+    display: block;
+    padding: 0.5em;
+  }
+
+  a {
+    border: 5px solid grey;
+  }
