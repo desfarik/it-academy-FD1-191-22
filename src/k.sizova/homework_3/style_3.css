@@ -1,0 +1,83 @@
+.last_task {
+    width: 610px;
+    height: 250px;
+}
+
+.grey_block {
+    width: 100px;
+    height: 50px;
+    background-color: #808080;
+}
+
+.rose_block {
+    width: 100px;
+    height: 50px;
+    background-color: #ffc0cb;
+}
+
+.line_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey_block_2 {
+    width: 100px;
+    height: 50px;
+    background-color: #808080;
+    margin-left: 100px;
+}
+
+.rose_block_2 {
+    width: 105px;
+    height: 50px;
+    background-color: #ffc0cb;
+    margin-right: 100px
+}
+
+.line_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.black_block {
+    width: 205px;
+    height: 50px;
+    background-color: black;
+    margin-left: 200px;
+}
+
+.green_block {
+    width: 100px;
+    height: 50px;
+    background-color: #7fffd4;
+    margin-left: 100px;
+}
+
+.orange_block {
+    width: 105px;
+    height: 50px;
+    background-color: #ff7f50;
+    margin-right: 100px;
+}
+
+.line_4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.green_block_2 {
+    width: 100px;
+    height: 50px;
+    background-color: #7fffd4;
+}
+
+.orange_block_2 {
+    width: 100px;
+    height: 50px;
+    background-color: #ff7f50;
+}
+
+.line_5 {
+    display: flex;
+    justify-content: space-between;
+}
