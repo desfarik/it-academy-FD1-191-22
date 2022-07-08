@@ -1,0 +1,18 @@
+.ice-cream {
+    width: 50%;
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+}
+
+.cone {
+    position: absolute;
+}
+
+.purple {
+    position: absolute;
+}
+
+.green {
+    position: absolute;
+}
