@@ -15,11 +15,7 @@ p:hover {
     background-color: green;
 }
 
-p:hover ~ p {
+p:hover ~ p:not(p:last-child) {
     background-color: red;
 }
-
-p:last-of-type {
-    background-color: transparent !important
-   }
 

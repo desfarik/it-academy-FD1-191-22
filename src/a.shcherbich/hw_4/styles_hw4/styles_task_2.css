@@ -2,7 +2,7 @@
     background-color: yellow;
 }
 
-[class=alert] {
+.alert {
     border: 3px solid red;
 }
 
