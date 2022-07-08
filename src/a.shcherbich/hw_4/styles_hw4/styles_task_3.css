@@ -14,7 +14,7 @@ a:hover {
     color: red;
 }
 
-p:first-child {
+.container p:first-child {
     color: blue;
 }
 
