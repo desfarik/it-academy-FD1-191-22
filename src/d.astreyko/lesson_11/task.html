@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+    <style>
+
+        body {
+            min-width: 650px;
+        }
+
+        * {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .main-block {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-grow {
+            flex-grow: 1;
+        }
+
+        .header-container {
+            height: 64px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .header-container,
+        .main-block_data {
+            background: #ffe8cc;
+        }
+
+        .main-block_data {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .banners-container {
+            height: 120px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banners-container .banner-item {
+            padding: 20px 36px;
+        }
+
+        .banners-container .banner-item:not(:last-child) {
+            border-right: 5px solid #fddf57;
+        }
+
+        .banner-item .banner-title {
+            font-size: 32px;
+        }
+
+        .logo-image {
+            width: 70px;
+            padding-right: 36px;
+        }
+
+        .toolbar-item {
+            margin-left: 12px;
+        }
+
+        .main-block_left-column {
+            width: 40%;
+            min-width: 270px;
+            padding-left: 30px;
+        }
+
+        .main-block_right-column .main-block__image {
+            width: 100%;
+        }
+
+        .main-block_right-column {
+            background-image: url("./img/2pc.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top center;
+            flex-grow: 1;
+        }
+
+        .header-title {
+            font-size: 60px;
+            margin: 12px 0 24px;
+        }
+
+        .header-title:first-line {
+            color: #743d22;
+        }
+
+        .button {
+            height: 54px;
+            width: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .primary-button.button {
+            background: #f6b14a;
+            color: white;
+        }
+
+        .secondary-button.button {
+            background: white;
+            color: #f6b14a;
+        }
+
+        .header-actions {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .navigation-container .nav-item.item__middle {
+            margin: 0 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="main-block">
+    <div class="header-container">
+        <img class="logo-image"
+             src="./img/Logo.svg"
+             alt="logo">
+        <div class="navigation-container">
+            <span class="nav-item">Flavor</span>
+            <span class="nav-item item__middle">STORE</span>
+            <span class="nav-item item__middle">BLOG</span>
+            <span class="nav-item">About us</span>
+        </div>
+        <div class="toolbar-container">
+            <span class="toolbar-item material-symbols-outlined">
+                search
+            </span>
+            <span class="toolbar-item material-symbols-outlined">
+                add_shopping_cart
+            </span>
+            <span class="toolbar-item material-symbols-outlined">
+                person
+            </span>
+        </div>
+    </div>
+    <div class="main-block_data flex-grow">
+        <div class="main-block_left-column">
+            <h1 class="header-title">Treaty <br> Fruity</h1>
+            <p class="header-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ex explicabo nihil ut? Doloremque,
+                eaque eum ex fugit harum illo ipsa neque nesciunt nihil perspiciatis, qui quia reiciendis sunt vero.
+            </p>
+            <div class="header-actions">
+                <div class="button primary-button">
+                    <span class="toolbar-item material-symbols-outlined">
+                        add_shopping_cart
+                    </span>
+                    Add to cart
+                </div>
+                <div class="button secondary-button">
+                    View Details
+                </div>
+            </div>
+        </div>
+        <div class="main-block_right-column"></div>
+    </div>
+    <div class="banners-container">
+        <div class="banner-item">
+            <div class="banner-title">100+</div>
+            <div class="banner-subtitle">Organic product</div>
+        </div>
+        <div class="banner-item">
+            <div class="banner-title">100+</div>
+            <div class="banner-subtitle">Organic product</div>
+        </div>
+        <div class="banner-item">
+            <div class="banner-title">100+</div>
+            <div class="banner-subtitle">Organic product</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
