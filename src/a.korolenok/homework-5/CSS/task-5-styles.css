@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #1976d2;
+    color: white;
+    line-height: 40px;
+    padding-left: 100px;
+}
+
+h3 {
+    width: 90%;
+    background-color: #7fffd4;
+    margin: 20px 100px;
+}
+
+.body-box-1 {
+    margin-bottom: 40px;
+}
+
+.body,
+.body-box-1 {
+    position: sticky;
+    top: 42px;
+    border: 1px solid transparent;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+}
+
+p {
+    width: 90%;
+    margin: 0 100px;
+    text-align: justify;
+}
+
+a {
+    margin-right: 20px;
+    color: white;
+}
