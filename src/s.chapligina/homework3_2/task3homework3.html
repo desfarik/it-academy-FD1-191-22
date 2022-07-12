@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Таблицы</title>
+        <style>           
+            .td {
+                width: 25%; height: 30px; 
+            }          
+            .header1 {
+                text-align: center;
+            }
+            .table-style1 {
+                border-collapse: collapse; width: 100%; height: 60px; table-layout: fixed; margin-top: 40px;
+            } 
+            .table-style2 {
+                border-collapse: collapse; width: 100%; height: 90px; table-layout: fixed; margin-top: 40px;
+            }  
+            
+            .table-style3 {
+                border-collapse: collapse; width: 100%; height: 120px; table-layout: fixed; margin-top: 40px;
+            }
+            .table-style4 {
+                border-collapse: collapse; width: 100%; height: 150px; table-layout: fixed; margin-top: 40px;
+            }
+            col {
+                height: 30px; width: 14.2%;
+            } 
+            .table-style5 {
+                border-collapse: collapse; width: 100%; height: 270px; table-layout: fixed; margin-top: 40px; text-align: center;
+            } 
+            .table-style6 {
+                border-collapse: collapse; width: 100%; height: 270px; table-layout: fixed; margin-top: 40px; 
+            }
+            .container {
+                width: 100%; 
+                height: 270px;                               
+            }
+            .row-style {
+                width: 16.5%;
+                height: 54px;
+            }    
+            .row11-color {
+                background-color: grey;                 
+                float: left;
+            }
+            .row12-color {
+                background-color: #FFC0CB;           
+        
+                float: right;
+            }
+            .row21-color {
+                background-color: grey;
+                margin-left: 16.5%;                 
+                float: left;
+            }
+            .row22-color {
+                background-color: #FFC0CB;            
+                margin-right: 16.5%;
+                float: right;
+            }
+            .row3 {
+                background-color: black;            
+                margin: auto;
+                width: 34%;
+                height: 54px;
+            }
+            .row41-color {
+                background-color: aquamarine;            
+                margin-left: 16.5%;
+                float: left;
+            }
+            .row42-color {
+                background-color: #FF7F50;            
+                margin-right: 16.5%;
+                float: right;
+            }
+            .row51-color {
+                background-color: aquamarine;          
+               
+                float: left;
+            }
+            .row52-color {
+                background-color: #FF7F50;           
+                
+                float: right;
+            }
+            .box {
+                width: 100%;
+                height: 54px;                             
+            }
+            h4 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>        
+        <table border=1 class="table-style1">
+            <caption class="header1"><b>3.1</b></caption>           
+            <tr>
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+        </table>        
+        
+        <table border=1 class="table-style1">
+            <caption class="header1"><b>3.2</b></caption>                                       
+            <tr>
+                <td colspan="2" ></td>                
+                <td colspan="2"></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"></td>                
+                <td></td>
+            </tr>
+        </table>
+ 
+        <table border=1 class="table-style2">
+            <caption class="header1"><b>3.3</b></caption>                                       
+            <tr>
+                <td colspan="2" rowspan="2" ></td>                
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>                       
+               
+            </tr>
+            <tr>
+                <td></td>                               
+                <td colspan="2"></td>
+            </tr>
+        </table>
+
+        <table border=1 class="table-style2">
+            <caption class="header1"><b>3.4</b></caption>                                       
+            <tr>
+                <td></td>                
+                <td></td>                
+            </tr>
+            <tr>
+                <td colspan="2"></td>                       
+               
+            </tr>
+            <tr>
+                <td></td>                               
+                <td></td>
+            </tr>
+        </table>
+
+        <table border=1 class="table-style3" bgcolor="#7FFFD4">
+            <caption class="header1"><b>3.5</b></caption>                                       
+            <tr>
+                <td></td>                
+                <td></td>
+                <td></td>
+                <td rowspan="2" bgcolor="FF7F50"></td>                  
+            </tr>
+            <tr>
+                <td></td>                       
+                <td rowspan="2" bgcolor="FF7F50"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2" bgcolor="FF7F50"></td>                               
+                <td colspan="2" bgcolor="FF7F50"></td>                
+            </tr>
+            <tr>                                               
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <table border=1 class="table-style4">
+            <caption class="header1"><b>3.6</b></caption>
+            <col><col><col><col><col><col><col>                                 
+            <tr>
+                <td colspan="3"></td>         
+                <td rowspan="5"></td> 
+                <td colspan="2"></td>
+                <td></td>                                 
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="2"></td>                       
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="2"></td>                            
+                            
+            </tr>
+            <tr>                                               
+                
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>                                               
+                
+                <td></td>
+                <td colspan="2"></td>
+                <td colspan="3"></td>
+            </tr>
+            </table>
+
+            <table border=1 class="table-style5">
+                <caption class="header1"><b>3.7</b></caption>
+                                                 
+                <tr>
+                    <td colspan="3"></td>         
+                    <td>Субъект</td>                     
+                    <td>Объект</td>                                 
+                </tr>
+                <tr>
+                    <td rowspan="5">Ед. числ.</td>                       
+                    <td colspan="2">1 лицо</td>
+                    <td>Я</td>
+                    <td>Меня</td>
+                </tr>
+                <tr>
+                                       
+                    <td colspan="2">2 лицо</td>
+                    <td>Ты</td>
+                    <td>Тебя</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">3 лицо</td>                            
+                    <td>&#9794</td>
+                    <td>Он</td>
+                    <td>Его</td>            
+                </tr>
+                <tr>                                             
+                    
+                    <td>&#9792</td>
+                    <td>Она</td>
+                    <td>Ее</td>
+                </tr>
+                <tr>                                             
+                    
+                    <td>&#9675</td>
+                    <td>Оно</td>
+                    <td>Его</td>
+                </tr>
+                <tr>                                               
+                    
+                    <td rowspan="3">Множ. числ.</td>
+                    <td colspan="2">1 лицо</td>
+                    <td>Мы</td>
+                    <td>Нас</td>
+                </tr>
+                <tr>                                         
+                                       
+                    <td colspan="2">2 лицо</td>
+                    <td>Вы</td>
+                    <td>Вас</td>
+                </tr>
+                <tr>                                         
+                                       
+                    <td colspan="2">3 лицо</td>
+                    <td>Они</td>
+                    <td>Их</td>
+                </tr>
+            </table>
+            <table border=0 class="table-style6">
+                <caption class="header1"><b>3.8</b></caption>           
+                <tr>
+                    <td bgcolor="grey"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor="#FFC0CB"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td bgcolor="#808080"></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor="#FFC0CB"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2" bgcolor="#000000"></td>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td bgcolor="#7FFFD4"></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor="#FF7F50"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#7FFFD4"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor="#FF7F50"></td>
+                </tr>
+            </table>
+            <h4>3.8</h4>
+            <div class="container">
+                <div class="box">
+                    <div class="row-style row11-color"></div>
+                    <div class="row-style row12-color"></div>
+                </div>
+                <div class="box">
+                    <div class="row-style row21-color"></div>
+                    <div class="row-style row22-color"></div>
+                </div>
+                <div class="box">
+                    <div class="row3"></div>                    
+                </div>
+                <div class="box">
+                    <div class="row-style row41-color"></div>
+                    <div class="row-style row42-color"></div>
+                </div>
+                <div class="box">
+                    <div class="row-style row51-color"></div>
+                    <div class="row-style row52-color"></div>
+                </div>
+            </div> 
+            
+    </body>
+</html>

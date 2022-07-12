@@ -1,0 +1,104 @@
+.letter_A {
+    width: 100px;
+    height: 100px;
+    border: 9px solid #1e90ff;
+    border-radius: 10%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 120px;
+}
+
+.letters_B {
+    width: 100px;
+    height: 100px;
+    border: 9px solid #ff0000;
+    border-radius: 10%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.letter_C {
+    width: 100px;
+    height: 100px;
+    border: 9px solid #32cd32;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.letter_D {
+    width: 100px;
+    height: 100px;
+    border: 9px solid #1e90ff;
+    border-radius: 10%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.letter_E {
+    width: 100px;
+    height: 100px;
+    border: 9px solid #32cd32;
+    border-radius: 10%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.letter_F {
+    width: 100px;
+    height: 100px;
+    border: 9px solid #ff0000;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.A {
+    font-size: 85px;
+    font-family: fantasy;
+    color: #1e90ff;
+
+}
+
+.B {
+    font-size: 85px;
+    font-family: fantasy;
+    color: #ff0000;
+
+
+}
+
+.C {
+    font-size: 85px;
+    font-family: fantasy;
+    color: #32cd32;
+
+}
+
+.D {
+    font-size: 85px;
+    font-family: fantasy;
+    color: #1e90ff;
+
+}
+
+.E {
+    font-size: 85px;
+    font-family: fantasy;
+    color: #32cd32;
+
+}
+
+.F {
+    font-size: 85px;
+    font-family: fantasy;
+    color: #ff0000;
+
+}
+.BC {
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 60px;
+
+}
+.DFE {
+    display: flex;
+}

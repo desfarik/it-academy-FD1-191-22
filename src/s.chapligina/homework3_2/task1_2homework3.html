@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Кубики 2 способ</title>
+        <style>
+            table {
+                border-spacing: 5px;
+                margin: auto;
+                empty-cells: hide;
+            }
+            td {
+            /*width:40px;
+            height:80px;*/
+            font-size: 80px;
+            text-align: center;
+            border-radius: 5px;
+            }
+            .td-style-blue {
+                width: 90px;
+                border: 5px solid blue;
+                color: blue;
+            }
+            .td-style-red {
+                width: 90px;
+                border: 5px solid red;
+                color: red;
+            }
+            .td-style-green {
+                width: 90px;
+                border: 5px solid green;
+                color: green;
+            }
+            col {
+                width: 45px;
+            }
+        </style>
+    </head>
+    <body>
+         <table class="table-style">
+            <col><col><col><col><col><col>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="2" class="td-style-blue">A</td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2" class="td-style-red">B</td>
+                <td colspan="2" class="td-style-green">C</td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td colspan="2" class="td-style-blue">D</td>
+                <td colspan="2" class="td-style-green">E</td>
+                <td colspan="2" class="td-style-red">F</td>                
+            </tr>
+         </table>
+            
+         
+    </body>
+</html>

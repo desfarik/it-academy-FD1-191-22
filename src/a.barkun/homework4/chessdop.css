@@ -1,0 +1,77 @@
+.chess {
+    border: solid black 1px;
+    display: table-cell;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+}
+.brown {
+    width: 80px;
+    height: 80px;
+    background-color: sandybrown;
+    aspect-ratio: 1;
+    /*display: inline-block;*/
+    margin: 0 0 -4px -4px;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+.wsmoke {
+    width: 80px;
+    height: 80px;
+    background-color: whitesmoke;
+    aspect-ratio: 1;
+    /*display: inline-block;*/
+    margin: 0 0 -4px -4px;
+    font-size: 50px;
+    text-align: center;
+    /*vertical-align: center;*/
+    display: table-cell;
+    vertical-align: middle;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+.round {
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    opacity: 1;
+}
+.ladia {
+    opacity: 0;
+}
+.ladia:hover  {
+
+    text-shadow: 0 -80px black, 0 -160px black, 0 -240px black, 0 -320px black, 0 -400px black, 0 -480px black, 0 -560px black, 0 -640px black,
+    -80px 0 black, -160px 0 black, -240px 0 black, -320px 0 black, -400px 0 black, -480px 0 black, -560px 0 black, -640px 0 black,
+    80px 0 black, 160px 0 black, 240px 0 black, 320px 0 black, 400px 0 black, 480px 0 black, 560px 0 black, 640px 0 black,
+    0 80px black, 0 160px black, 0 240px black, 0 320px black, 0 400px black, 0 480px black, 0 560px black, 0 640px black;
+    opacity: 1;
+}
+.slon {
+    opacity: 0;
+}
+.slon:hover  {
+    text-shadow: -80px -80px black, -160px -160px black, -240px -240px black, -320px -320px black, -400px -400px black, -480px -480px black, -560px -560px black,
+    -80px 80px black, -160px 160px black, -240px 240px black, -320px 320px black, -400px 400px black, -480px 480px black, -560px 560px black,
+    80px -80px black, 160px -160px black, 240px -240px black, 320px -320px black, 400px -400px black, 480px -480px black, 560px -560px black,
+    80px 80px black, 160px 160px black, 240px 240px black, 320px 320px black, 400px 400px black, 480px 480px black, 560px 560px black;
+    opacity: 1;
+}
+.konb {
+    opacity: 0;
+}
+.konb:hover  {
+    text-shadow:
+            80px 160px black, -80px 160px black, -80px -160px black, 80px -160px black,
+            160px 80px black, -160px 80px black, -160px -80px black, 160px -80px black;
+    opacity: 1;
+}
