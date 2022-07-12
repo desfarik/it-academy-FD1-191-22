@@ -1,0 +1,23 @@
+body {
+    counter-reset: paragraph;
+}
+
+p::after {
+    counter-increment: paragraph;
+    content: ' #' counter(paragraph)
+}
+
+.paragraph:hover {
+    width: 8%;
+    background-color: green;
+}
+
+.paragraph:hover:not(.paragraph:nth-of-type(even))~.paragraph:nth-of-type(odd) {
+    width: 8%;
+    background-color: red;
+}
+
+.paragraph:hover:not(.paragraph:nth-of-type(odd))~.paragraph:nth-of-type(even) {
+    width: 8%;
+    background-color: red;
+}
