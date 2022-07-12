@@ -1,0 +1,143 @@
+.banner {
+    width: 400px;
+    height: 1020px;
+    border: 3px solid black;
+    border-radius: 1%;
+    background-color: #ffc0cb;
+}
+.top {
+    width: 370px;
+    height: 30px;
+    background-color: #7fffd4;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 7px;
+}
+.span_top {
+    font-size: 20px;
+    font-family: Arial;
+}
+.middle {
+    width: 370px;
+    height: 530px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #7fffd4;
+    border-radius: 1%;
+}
+.img_1 {
+    padding-left: 15px;
+}
+
+.first_article  {
+    width: 340px;
+    height: 105px;
+    background-color: #7fffd4;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding-top: 10px;
+    border-radius: 1%;
+  }
+.head_1 {
+    width: 310px;
+    height: 22px;
+    background-color: #87ceeb;
+    margin-left: 12px;
+    border-radius: 3%;
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+.span_head {
+    font-family: Arial ;
+}
+.text_1 {
+    width: 310px;
+    height: 60px;
+    background-color: #dda0dd;
+    margin-top: 5px;
+    margin-left: 12px;
+    padding-left: 5px;
+    border-radius: 3%;
+    line-height: 12px;
+    padding-top: 4px;
+}
+.span_text {
+    font-family: Arial;
+    font-size: 10px;
+    text-align: center;
+    line-height: 0;
+}
+.second_article {
+    width: 340px;
+    height: 105px;
+    background-color: #7fffd4;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding-top: 10px;
+    border-radius: 1%;
+}
+.head_2 {
+    width: 310px;
+    height: 22px;
+    background-color: #87ceeb;
+    margin-left: 12px;
+    border-radius: 3%;
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+.span_head_2 {
+    font-family: Arial ;
+}
+.text_2 {
+    width: 310px;
+    height: 60px;
+    background-color: #dda0dd;
+    margin-top: 5px;
+    margin-left: 12px;
+    padding-left: 5px;
+    border-radius: 3%;
+    line-height: 12px;
+    padding-top: 4px;
+}
+.span_text_2 {
+    font-family: Arial;
+    font-size: 10px;
+    text-align: center;
+    line-height: 0;
+}
+.img_2 {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+.cubes {
+   background-color: #ffc0cb;
+    width: 370px;
+    height: 305px;
+    margin-top: 15px;
+    margin-left: 7px;
+    padding: 5px;
+}
+
+.cube_2 {
+    margin-left: 135px;
+}
+.cube_3 {
+    margin-left: 270px;
+}
+.footer {
+    width: 370px;
+    height: 30px;
+    background-color: #7fffd4;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.span_footer {
+    font-size: 15px;
+    font-family: Arial;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"/>
+</head>
+<style>
+    .dialog {
+        width: 400px;
+        border-radius: 2px;
+        overflow: hidden;
+        background: white;
+    }
+
+    .dialog--header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 40px;
+        padding: 0 20px;
+        background: red;
+        color: white;
+    }
+
+    .dialog--title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .dialog--content {
+        display: flex;
+        padding: 20px;
+    }
+
+    .dialog--message {
+        margin: 0 0 0 12px;
+    }
+
+    .dialog--actions {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 20px 30px;
+        gap: 20px;
+    }
+
+    .primary-button,
+    .secondary-button {
+        border-radius: 4px;
+        padding: 8px 16px;
+    }
+
+    .secondary-button {
+        border: 1px solid black;
+    }
+
+    .primary-button {
+        background: red;
+        color: white;
+        text-align: center;
+    }
+
+    .dialog--submit-button {
+        width: 100px;
+    }
+
+    .dialog-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0; /*height: 100%*/
+        right: 0; /*width: 100%*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: grey;
+    }
+</style>
+<body>
+
+<div class="dialog-container">
+    <div class="dialog">
+        <div class="dialog--header">
+            <div class="dialog--title">Confirm</div>
+            <span class="dialog--close-button material-symbols-outlined">close</span>
+        </div>
+        <div class="dialog--content">
+            <span class="warning-icon material-symbols-outlined">warning</span>
+            <p class="dialog--message">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum distinctio dolorem id itaque minima nobis?
+                <br>
+                A ad animi corporis dicta eius esse exercitationem fugit laborum maiores, odio quibusdam recusandae,
+                voluptates.
+            </p>
+        </div>
+        <div class="dialog--actions">
+            <div class="secondary-button">NO</div>
+            <div class="primary-button dialog--submit-button">YES</div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
