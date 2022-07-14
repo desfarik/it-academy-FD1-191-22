@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<style>
+    .container {
+        width: 414px;
+        height: 896px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: #082464;
+        height: 40px;
+        align-items: center;
+        color: white;
+    }
+
+    .name {
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+
+    .content-pencil {
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0px;
+
+    }
+
+    .content-rubberbands {
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0px;
+    }
+
+    .content-rules {
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0px;
+    }
+
+    .content-clock {
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+            Cart
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <span class="material-symbols-outlined">
+                more_vert
+            </span>
+
+        </div>
+        <b> 4 Items in your cart</b>
+        <div class="name">
+
+            <div class="content-pencil">
+                <img class="content-pencil"
+                    src="data:image/png;base64,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"
+                    alt="">
+                <div>
+                    <div>Pencil </div>
+                    <div> in stock</div>
+                </div>
+                <div> 1.50</div>
+            </div>
+
+        </div>
+        <div class="content-rubberbands">
+            <img class="content-rubberbands"
+                src="https://image.shutterstock.com/image-vector/set-pink-rubber-bands-icon-260nw-1984836506.jpg"
+                alt="">
+            <div>
+                <div>Rubberbands </div>
+                <div> in stock</div>
+            </div>
+            <div> 1.50</div>
+        </div>
+        <div class="content-rules">
+            <img class="content-rules" src="https://cdn-icons-png.flaticon.com/512/1240/1240279.png" alt="">
+            <div>
+                <div>Rules </div>
+                <div> in stock</div>
+            </div>
+            <div> 1.50</div>
+        </div>
+        <div class="content-clock">
+            <img class="content-clock"
+                src="https://c8.alamy.com/comp/2B7K1J2/clockwise-rotation-icon-in-thin-line-style-passage-of-time-vector-illustration-linear-clock-icon-2B7K1J2.jpg"
+                alt="">
+            <div>
+                <div>cClock </div>
+                <div> in stock</div>
+            </div>
+            <div> 1.50</div>
+        </div>
+
+    </div>
+    <div class="bottom-content">
+
+    </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
