@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <style>
+        .material-symbols-outlined {
+            font-size: 32px;
+            color: #aa47bb;
+        }
+
+        .checkbox {
+            display: none;
+        }
+
+        .checkbox:checked + label > .checkbox-label {
+            color: #aa47bb;
+        }
+
+        .checkbox + label:before {
+            font-family: 'Material Symbols Outlined';
+            display: inline-block;
+            font-size: 32px;
+            color: #aa47bb;
+        }
+
+        .checkbox:checked + label:before {
+            content: 'check_box';
+        }
+
+        .checkbox:not(:checked) + label:before {
+            content: 'check_box_outline_blank';
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <input id='checkbox'
+           type="checkbox"
+           class="checkbox">
+    <label for="checkbox">
+        <span class="checkbox-label">checkbox</span>
+    </label>
+</form>
+
+<div class="div"> text</div>
+</body>
+</html>

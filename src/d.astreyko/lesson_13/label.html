@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        label {
+            margin-top: 64px;
+            display: block;
+        }
+
+        input {
+            font-size: 48px;
+            color: #aa47bb;
+            width: 100%;
+        }
+
+        input:focus {
+            color: #4fc2f6;
+        }
+        input:checked {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+
+<form method="post" action="/my-action">
+    <label>
+        label 1
+        <br>
+        <input type="text" id="label1"
+               name="user">
+    </label>
+
+    <br>
+
+    <label for="label2">label 2</label>
+    <br>
+    <input type="text" id="label2"
+           name="email">
+
+
+
+<!--    <input type="submit" value="submit">-->
+    <button type="submit">submit</button>
+
+</form>
+<hr>
+вне формы
+<button type="submit">submit</button>
+
+</body>
+</html>
