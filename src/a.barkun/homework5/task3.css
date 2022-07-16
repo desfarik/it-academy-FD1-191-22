@@ -1,0 +1,81 @@
+h1 {
+    font-size: 24px;
+    flex-basis: 250px;
+    margin-left: 57px;
+}
+.maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 950px;
+}
+.redled {
+    background-color: red;
+}
+.yellowled {
+    background-color: yellow;
+}
+.greenled {
+    background-color: green;
+}
+.redled,.greenled,.yellowled {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 50%;
+}
+/*----------------------------------------------------------*/
+.margindiv {
+    width: 180px;
+    height: 360px;
+    margin: 10px auto 0;
+    border: solid black 5px;
+}
+.mrg {
+    margin: 36% -50% -29% 50%;
+    transform: translate(-50%, -50%);
+}
+/*---------------------------------------------------------*/
+.positiondiv {
+    width: 180px;
+    height: 360px;
+    margin: 10px auto 0;
+    border: solid black 5px;
+    position: relative;
+}
+.posred {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+}
+.posgreen {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+.posyellow {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 83%;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+}
+/*-------------------------------------------------*/
+
+.flexdiv {
+    width: 180px;
+    height: 360px;
+    margin: 10px auto 0;
+    border: solid black 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+ }

@@ -1,0 +1,56 @@
+
+.cone {
+    z-index: 5;
+    height: 60vh;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.violet {
+    position: fixed;
+    z-index: 4;
+    height: 20vh;
+    top: 28%;
+    left: 48.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.green {
+    position: fixed;
+    z-index: 3;
+    height: 20vh;
+    top: 28%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.red {
+    position: fixed;
+    z-index: 2;
+    height: 20vh;
+    top: 22%;
+    left: 47%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.blue {
+    position: fixed;
+    z-index: 1;
+    height: 20vh;
+    top: 16%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.cherry {
+    position: fixed;
+    z-index: 5;
+    height: 20vh;
+    top: 14%;
+    left: 49%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+

@@ -1,0 +1,33 @@
+.mdiv {
+    width: 40%;
+    height: 500px;
+    margin: 50px auto 0;
+    overflow: auto;
+}
+.header {
+    background-color: #1976d1;
+    display: block;
+    color: white;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.block1 {
+    background-color: #7efdd3;
+    width: 90%;
+    position: sticky;
+    margin: 20px auto 0;
+    top: 4%;
+    border-top: white 20px solid;
+    font-weight: bold;
+}
+.content1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
