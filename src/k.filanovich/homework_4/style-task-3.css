@@ -1,0 +1,27 @@
+.collapse{
+    border-collapse: collapse;
+}
+
+.container::first-line{
+    color:red;
+}
+.container p:first-child {
+color: blue;
+}
+tr:nth-child(even){
+    background-color: #333;
+    color: white;
+}
+a.link {
+    color: orange;
+    border-bottom: 1px;
+}
+a.visited{
+    color: green;
+    border-bottom: 1px;
+}
+a.hover{
+    text-decoration: none;
+}
+
+

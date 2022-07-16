@@ -1,0 +1,19 @@
+p{
+    counter-increment: list;
+}
+p:after{
+    content:"#" counter(list);
+}
+p {
+    font-size: 20px;
+}
+p:hover{background-color: red;
+
+}
+p:nth-child(odd):hover~:nth-child(odd){
+    background-color:red;
+}
+p:nth-child(even):hover~:nth-child(even){
+    background-color:red;
+}
+
