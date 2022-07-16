@@ -1,0 +1,62 @@
+.ice-cream {
+    top: 100px;
+    left: 200px;
+    position: relative;
+}
+
+.cone {
+    top: 200px;
+    left: 200px;
+    position: absolute;
+    z-index: 65;
+}
+
+.cone img {
+    width: 200px;
+}
+
+.purple img,
+.green img,
+.red img,
+.blue img {
+    width: 150px;
+}
+
+.cherry img {
+    width: 50px;
+}
+
+.purple {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    z-index: 5;
+}
+
+.green {
+    position: absolute;
+    top: 130px;
+    left: 246px;
+    z-index: 4;
+}
+
+.red {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    z-index: 3;
+}
+
+.blue {
+    position: absolute;
+    top: 15px;
+    left: 246px;
+    z-index: 2;
+}
+
+.cherry {
+    position: absolute;
+    top: -70px;
+    left: 281px;
+    z-index: 1;
+}
