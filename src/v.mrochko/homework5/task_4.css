@@ -1,0 +1,34 @@
+
+.blue-ice-ball{
+    position: absolute;
+    top: 10px;
+}
+.rose-ice-ball{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 90px;
+}
+.green-ice-ball{
+    position: absolute;
+    z-index: 2;
+    top: 110px
+}
+.purple-ice-ball{
+    position: absolute;
+    z-index: 3;
+    top: 120px;
+    left: 90px;
+}
+.ice-cream-cone{
+    height: 700px;
+    position: absolute;
+    z-index: 4;
+    top: 250px;
+}
+.height-ball{
+    height: 200px;
+}
+.height-ice-cream-cone{
+    height: 700px;
+}
