@@ -1,0 +1,7 @@
+p{
+    counter-increment: list;
+}
+p:after{
+    content:"#" counter(list);
+}
+
