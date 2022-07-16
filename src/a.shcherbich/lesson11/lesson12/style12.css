@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(213, 200, 183);
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+}
+
+.header {
+    background-color: rgb(233, 48, 48);
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.content {
+    background-color: rgb(191, 229, 229);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.attention_icon {
+    padding: 20px 10px;
+}
+
+.attention_message {
+    padding-left: 10px;
+}
+
+.action {
+    background-color: rgb(191, 229, 229);
+    display: flex;
+   justify-content: flex-end;
+   padding: 10px 30px;
+   gap: 20px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button_yes {
+    background-color: red;
+    color: antiquewhite;
+}

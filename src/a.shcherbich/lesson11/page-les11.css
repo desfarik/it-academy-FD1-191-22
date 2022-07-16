@@ -1,0 +1,29 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 100vh;
+background-image: url(./2pc.jpg);
+background-size: contain;}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-img {
+
+}
+
+.footer {
+height: 10%;
+width: 100%;
+background-color: aliceblue;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
