@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+<style>
+    * {
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+    .container {
+        width: 400px;
+
+        background-color: #ececf4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header {
+        width: 390px;
+        margin: 5% 0;
+        background-color: #ececf4;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header-leftblock {
+        width: 50%;
+    }
+
+    .header-leftblock-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #808080;
+        margin-bottom: 5px;
+    }
+
+    .header-leftblock-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header-rightblock {
+        width: 30%;
+
+    }
+
+    .header-rightblock-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #808080;
+        margin-bottom: 5px;
+    }
+
+    .header-rightblock-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
+    .lunch {
+        width: 390px;
+        margin: 5px 5px;
+        height: 150px;
+        border: hidden 1px black;
+        overflow: hidden;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 6px 8px #4a4a4a40;
+    }
+
+
+    .top-lunch {
+        background-color: white;
+        height: 65%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .bottom-lunch {
+        height: 35%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bottom-lunch-left {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .bottom-lunch-right {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .lunch-calc {
+        display: flex;        
+    }
+    .calories{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 5px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-leftblock">
+                <div class="header-leftblock-top">
+                    <div>Жиры</div>
+                    <div>Углев</div>
+                    <div>Белк</div>
+                </div>
+                <div class="header-leftblock-bottom">
+                    <span>223.82</span>
+                    <span>265.46</span>
+                    <span>157.37</span>
+                </div>
+            </div>
+            <div class="header-rightblock">
+                <div class="header-rightblock-top">
+                    <span>РСК</span>
+                    <span>Калории</span>
+
+                </div>
+                <div class="header-rightblock-bottom">
+                    <span>76%</span>
+                    <span style="font-size: 150%">3505</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="lunch">
+            <div class="top-lunch">
+                <div>
+                    <span class="material-symbols-outlined" style="color: yellow;">wb_twilight</span>
+                    <span>Завтрак</span>
+                </div>
+                <div class="lunch-calc">
+                    <div class="calories">
+                        <div style="font-size: 150%">1453</div>
+                        <div>Калории</div>
+                    </div>
+                    <div style="font-size: 250%">+</div>
+                </div>
+            </div>
+            <div class="bottom-lunch">
+                <div class="bottom-lunch-left">
+                    <div>88.03</div>
+                    <div>131.76</div>
+                    <div>37.85</div>
+                </div>
+                <div class="bottom-lunch-right">
+                    <span>32%</span>
+                    <span class="material-symbols-outlined">Expand_More</span>
+                </div>
+            </div>
+        </div>
+        <div class="lunch">
+            <div class="top-lunch">
+                <div>
+                    <span class="material-symbols-outlined" style="color: blue;">sunny</span>
+                    <span>Обед</span>
+                </div>
+                <div class="lunch-calc">
+                    <div class="calories">
+                        <div style="font-size: 150%">1453</div>
+                        <div>Калории</div>
+                    </div>
+                    <div style="font-size: 250%">+</div>
+                </div>
+            </div>
+            <div class="bottom-lunch">
+                <div class="bottom-lunch-left">
+                    <span>62.99</span>
+                    <span>79.1</span>
+                    <span>104.12</span>
+                </div>
+                <div class="bottom-lunch-right">
+                    <span>27%</span>
+                    <span class="material-symbols-outlined">Expand_More</span>
+                </div>
+            </div>
+        </div>
+        <div class="lunch">
+            <div class="top-lunch">
+                <div>
+                    <span class="material-symbols-outlined" style="color: orange;">brightness_4</span>
+                    <span>Ужин</span>
+                </div>
+                <div class="lunch-calc">
+
+                    <div style="font-size: 250%">+</div>
+                </div>
+            </div>
+            <div class="bottom-lunch">
+                <div style="color: #808080;">Никакие продукты еще не были добавлены</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<style>
+    .cont {
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    .container {
+        width: 400px;
+        box-shadow: 0 6px 8px #4a4a4a40;
+        background-color: white;
+
+    }
+
+    .header {
+        border: hidden 1px black;
+        border-radius: 5px;
+        height: 50px;
+        background-color: rgb(252, 7, 101);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .dialog {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 15px;
+
+    }
+
+    .block__button {
+        display: flex;
+        justify-content: end;
+        margin: 30px 30px;
+        padding-bottom: 10px;
+    }
+
+    .button_no {
+        border: solid 1px black;
+        border-radius: 5px;
+        margin-right: 15px;
+        width: 50px;
+        height: 30px;
+
+        text-align: center;
+    }
+
+    .button_yes {
+        border: hidden 1px black;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(252, 7, 101);
+        color: white;
+        text-align: center;
+    }
+
+    .warning_icon {
+        width: 30px;
+
+        font-size: 180%;
+        margin: 10px 10px;
+        color: rgb(252, 7, 101);
+    }
+
+    .close_icon {
+        width: 20px;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="cont">
+        <div class="container">
+            <div class="header">
+                <span>Confirm</span>
+                <span class="close_icon warning_icon material-symbols-outlined">close</span>
+            </div>
+            <div class="dialog">
+                <span class="warning_icon material-symbols-outlined">warning</span>
+                <span>Are you sure you want todelete this file?<br>You can't undo this action.</span>
+            </div>
+            <div class="block__button">
+                <div class="button_no">NO</div>
+                <div class="button_yes">YES</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
