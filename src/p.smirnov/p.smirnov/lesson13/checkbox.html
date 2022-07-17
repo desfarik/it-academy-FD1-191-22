@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<style>
+    .checkbox {
+        display: none;
+    }
+
+    .material-symbols-outlined {
+        font-size: 32px;
+        color: blueviolet;
+        font-size: 150px;
+    }
+
+    .checkbox:checked+label>.checkbox-lable {
+        color: blueviolet;
+    }
+
+    .checkbox:not(:checked)+label .number_1 {
+        display: none;
+
+
+    }
+
+    .checkbox:checked+label .number_2 {
+        display: none;
+
+
+
+    }
+</style>
+
+<body>
+    <form action="">
+        <input id='checkbox' type="checkbox" class="checkbox">
+        <label for="checkbox">
+            <span class="material-symbols-outlined number_1">
+                check_box
+            </span>
+            <span class="material-symbols-outlined number_2">
+                check_box_outline_blank
+            </span>
+            <span class="checkbox-lable">
+                checkbox
+            </span>
+            
+            
+            
+        </label>
+    </form>
+</body>
+
+</html>
