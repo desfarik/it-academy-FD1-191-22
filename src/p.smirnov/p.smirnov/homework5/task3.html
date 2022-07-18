@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Selectors: Type Selectors</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+        .container_1,
+        .container_2,
+        .container_3 {
+            border: 1px solid black;
+            height: 400px;
+            width: 250px;
+            margin-bottom: 50px;
+        }
+
+        .container_1 .red_circle {
+            border: 1px solid red;
+            background-color: red;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            position: relative;
+            top: 20px;
+            left: 85px;
+        }
+
+        .container_1 .yellow_circle {
+            border: 1px solid yellow;
+            background-color: yellow;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            position: relative;
+            top: 50px;
+            left: 85px;
+        }
+
+        .container_1 .green_circle {
+            border: 1px solid green;
+            background-color: green;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            position: relative;
+            top: 75px;
+            left: 85px;
+        }
+
+        .container_2 .red_circle {
+            border: 1px solid red;
+            background-color: red;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            margin: 20px 85px;
+            
+        }
+
+        .container_2 .yellow_circle {
+            border: 1px solid yellow;
+            background-color: yellow;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            margin: 20px 85px;
+        }
+
+        .container_2 .green_circle {
+            border: 1px solid green;
+            background-color: green;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            margin: 0px 85px;
+        }
+
+        .container_3 .red_circle {
+            border: 1px solid red;
+            background-color: red;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            
+            
+        }
+
+        .container_3 .yellow_circle {
+            border: 1px solid yellow;
+            background-color: yellow;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+           
+        }
+
+        .container_3 .green_circle {
+            border: 1px solid green;
+            background-color: green;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            
+        }
+        .container_3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container_1">
+        <div class="red_circle"></div>
+        <div class="yellow_circle"></div>
+        <div class="green_circle"></div>
+    </div>
+    <div class="container_2">
+        <div class="red_circle"></div>
+        <div class="yellow_circle"></div>
+        <div class="green_circle"></div>
+    </div>
+    <div class="container_3">
+        <div class="red_circle"></div>
+        <div class="yellow_circle"></div>
+        <div class="green_circle"></div>
+    </div>
+
+</body>
+
+</html>
