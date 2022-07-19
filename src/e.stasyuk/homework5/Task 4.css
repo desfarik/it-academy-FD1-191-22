@@ -1,0 +1,47 @@
+.container {
+    margin: 15% 40%;
+    width: 50%;
+    position: relative;
+}
+
+img {
+    position: absolute;
+}
+
+[src="./cone.svg"] {
+    width: 30%;
+    z-index: 4;
+}
+
+[src="./purple.svg"] {
+    width: 20%;
+    top: -5vw;
+    z-index: 3;
+}
+
+[src="./green.svg"] {
+    width: 20%;
+    top: -5vw;
+    left: 4.5vw;
+    z-index: 2;
+}
+
+[src="./red.svg"] {
+    width: 20%;
+    top: -8vw;
+    left: -0.5vw;
+    z-index: 1;
+}
+
+[src="./blue.svg"] {
+    width: 20%;
+    top: -11vw;
+    left: 5vw;
+    z-index: 0;
+}
+
+[src="./top.png"] {
+    width: 30%;
+    top: -14vw;
+    z-index: 5;
+}
