@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        min-width: 650px;
+    }
+
+    * {
+        margin: 0;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+
+    .header {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        padding: 0 20px;
+        background-color: #fde2c5;
+        align-items: center;
+    }
+
+    .header-center {
+        display: flex;
+        align-content: center;
+
+    }
+
+    .header-down {
+        height: 100px;
+        background-color: white;
+        display: flex;
+
+        justify-content: space-around;
+    }
+
+    .head-cen-left {
+        background-color: #fde2c5;
+        padding-left: 20px;
+        padding-right: 200px;
+        width: 60%;
+    }
+
+    .head-cen-right {
+        background-color: #fde2c5;
+
+        width: 40%;
+    }
+
+    .menu-cont {
+        position: relative;
+        width: 50%;
+
+    }
+
+    .menu-cont ul li {
+        display: inline-block;
+        vertical-align: middle;
+
+    }
+
+    .menu {
+        font-size: 1.2rem;
+        margin: 0 auto;
+        padding: 0 3%;
+    }
+
+    .title {
+        font-size: 100px;
+        padding-left: 20px;
+
+    }
+
+    .title::first-line {
+        color: brown;
+
+    }
+
+    .toolbar-item material-symbols-outlined {
+        background-color: #fde2c5;
+
+    }
+
+    .button {
+        height: 54px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-actions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .primary-button.button {
+        background: #f6b14a;
+        color: white;
+    }
+
+    .secondary-button.button {
+        background: white;
+        color: #f6b14a;
+    }
+
+    .banners-container {
+        height: 120px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banners-container .banner-item {
+        padding: 20px 36px;
+    }
+
+    .banners-container .banner-item:not(:last-child) {
+        border-right: 5px solid #fddf57;
+    }
+
+    .banner-item .banner-title {
+        font-size: 32px;
+    }
+
+    .container-2 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-2 {
+        background-color: white;
+        color: brown;
+        text-align: center;
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 300%;
+        margin: 50px auto;
+    }
+
+    .cont-2-block {
+        display: flex;
+    }
+
+    .cont-2-img {
+        background-color: #fde2c5;
+        margin: 50px 50px;
+        width: 50%;
+    }
+
+    .cont-2-text {
+        background-color: white;
+        margin: 50px 50px;
+        width: 50%;
+        
+    }
+    .select{
+        margin: 30px auto;
+        text-align: center;
+        font-size: 250%;
+    }
+    .text{
+        margin: 30px 30px;
+        text-align: left;
+        line-height: 2;
+        font-size: 130%;
+    }
+    .cont-2-block-center{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .number{
+        font-size: 150%;
+        color: orange;
+        font-weight: bold;
+        margin: 0 40px;
+    }
+    .number-txt{
+        font-weight: bold;
+        font-size: 70%;
+        margin: 0 10px;
+    }
+    .third-button{
+        background-color: orange;
+        color: white;
+        margin: 50px 40px;
+    }
+    .fourth-button{
+        background-color: brown;
+        color: white;
+        margin: 50px 40px;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div><img src="./Logo.svg" style="width: 25%;"></div>
+            <div class="menu-cont">
+                <ul>
+                    <li class="menu">Flavors</li>
+                    <li class="menu">STORE</li>
+                    <li class="menu">BLOG</li>
+                    <li class="menu">About Us</li>
+                </ul>
+            </div>
+            <div>
+                <span class="toolbar-item material-symbols-outlined">
+                    search
+                </span>
+                <span class="toolbar-item material-symbols-outlined">
+                    add_shopping_cart
+                </span>
+                <span class="toolbar-item material-symbols-outlined">
+                    person
+                </span>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="head-cen-left">
+                <h1 class="title">Treaty <br>Fruity</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aperiam placeat nostrum quam quaerat
+                    laborum minus consequatur perspiciatis error, ullam quia cupiditate repudiandae porro blanditiis
+                    obcaecati similique dolorem nesciunt quos?</p>
+                <div class="header-actions">
+                    <div class="button primary-button">
+                        <span class="toolbar-item material-symbols-outlined">
+                            add_shopping_cart
+                        </span>
+                        Add to cart
+                    </div>
+                    <div class="button secondary-button">
+                        View Details
+                    </div>
+                </div>
+            </div>
+            <div class="head-cen-right"><img src="./2pc.jpg" style="width: 100%;"></div>
+        </div>
+
+        <div class="banners-container">
+            <div class="banner-item">
+                <div class="banner-title">500+</div>
+                <div class="banner-subtitle">Organic product</div>
+            </div>
+            <div class="banner-item">
+                <div class="banner-title">100+</div>
+                <div class="banner-subtitle">International Franshises</div>
+            </div>
+            <div class="banner-item">
+                <div class="banner-title">1 Million+</div>
+                <div class="banner-subtitle">Sales through-out the World</div>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="header-2">Flavors</div>
+            <div class="cont-2-block">
+                <div class="cont-2-img"><img src="./4pc.jpg" style="width: 100%;"></div>
+                <div class="cont-2-text">
+                    <div class="select">RANDOM FLAVOR</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias delectus eligendi
+                        est impedit maiores provident quos voluptatem? Animi assumenda, cum eos, fuga impedit ipsam laborum
+                        laudantium placeat porro,
+                        reiciendis tenetur?</div>
+                    <div class="cont-2-block-center">
+                        <div class="number">6,254</div>
+                        <div class="number-txt">Avialable in<br> store</div>
+                        <div class="number">12,700</div>
+                        <div class="number-txt">Recently<br>Sold</div>
+                    </div>
+                    <div class="button third-button">
+                        View Details
+                    </div>
+                </div>
+            </div>
+            <div class="cont-2-block">               
+                <div class="cont-2-text">
+                    <div class="select">RANDOM FLAVOR</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias delectus eligendi
+                        est impedit maiores provident quos voluptatem? Animi assumenda, cum eos, fuga impedit ipsam laborum
+                        laudantium placeat porro,
+                        reiciendis tenetur?</div>
+                    <div class="cont-2-block-center">
+                        <div class="number">6,254</div>
+                        <div class="number-txt">Avialable in<br> store</div>
+                        <div class="number">12,700</div>
+                        <div class="number-txt">Recently<br>Sold</div>
+                    </div>
+                    <div class="button fourth-button">
+                        View Details
+                    </div>
+                </div>
+                <div class="cont-2-img"><img src="./1pc.jpg" style="width: 100%;"></div>
+            </div>
+        </div>
+</body>
+
+</html>

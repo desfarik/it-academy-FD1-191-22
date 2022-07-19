@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+    body{
+        margin: 0;
+    }
+    .container{
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        background-color: rgb(58, 58, 143);
+        color: white;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header_bottom{
+        margin: 10px;
+    }
+    .middle{
+
+    }
+    .footer{
+
+    }
+    .head_left{
+        
+    }
+    .hed_right{
+
+    }
+    .middle_item{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    .middle_item_left{
+        display: flex;
+    }
+    .middle_item_right{
+
+    }
+    .head_but{
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .image{
+        width: 35px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .item_name{
+        display: flex;
+        flex-direction: column;
+    }
+    .item_name::first-line{
+        font-weight: bold;
+    }
+    
+    
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="head_left">
+                <span class="material-symbols-outlined head_but">menu</span>
+                <span>Cart</span>
+            </div>
+            <div class="head_right">
+                <span class="material-symbols-outlined head_but">search</span>
+                <span class="material-symbols-outlined head_but">more_vert</span>
+            </div>
+        </div>
+        <div class="header_bottom">4 items in your cart</div>
+        <div class="middle">
+            <div class="middle_item">
+                <div class="middle_item_left">
+                    <img src="./pencil.jpg" class="image">
+                    <div class="item_name">
+                        <div>Pencil</div>
+                        <div>in stock</div>
+                    </div>
+                </div>
+                <div class="middle_item_right">1.50</div>
+            </div>
+            <div class="middle_item">
+                <div class="middle_item_left">
+                    <img src="./rubber-bands.png" class="image">
+                    <div class="item_name">
+                        <div>Rubberbands</div>
+                        <div>in stock</div>
+                    </div>
+                </div>
+                <div class="middle_item_right">4.50</div>
+            </div>
+            <div class="middle_item">
+                <div class="middle_item_left">
+                    <img src="./rulers.jpg" class="image">
+                    <div class="item_name">
+                        <div>Rulers</div>
+                        <div>only 1 left in stock</div>
+                    </div>
+                </div>
+                <div class="middle_item_right">8.00</div>
+            </div>
+            <div class="middle_item">
+                <div class="middle_item_left">
+                    <img src="./clock.jpg" class="image">
+                    <div class="item_name">
+                        <div>Clock</div>
+                        <div>in stock</div>
+                    </div>
+                </div>
+                <div class="middle_item_right">22.00</div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    
+</body>
+</html>
