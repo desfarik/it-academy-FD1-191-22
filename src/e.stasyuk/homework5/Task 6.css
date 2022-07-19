@@ -1,0 +1,142 @@
+.container {
+    width: 400px;
+    background-color: #ececf4;
+    font-family: 'Ubuntu Mono', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.nutritional_values {
+    color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 2% 0 0 7%;
+}
+
+.values {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: 2% 22% 2% 7%;
+}
+
+.carbs {
+    margin: 0 0 0 8%;
+}
+
+.proteins {
+    margin: 0 0 0 8%;
+}
+
+.cfr {
+    margin: 0 5% 0 12%;
+}
+
+.carbs_count {
+    margin: 0 0 0 8%;
+}
+
+.proteins_count {
+    margin: 0 0 0 8%;
+}
+
+.cfr_count {
+    margin: 0 5% 0 12%;
+}
+
+.calories_count {
+    margin-left: 8%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.weather_panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    height: 11vw;
+}
+
+.breakfast,
+.lunch,
+.dinner {
+    background-color: white;
+    width: 96%;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5.5vw;
+    box-shadow: 0 0 10px gray;
+}
+
+.sunrise {
+    color: #fed800;
+}
+
+.daylight {
+    color: #017fff;
+    font-variation-settings: 'FILL' 1;
+}
+
+.dawn {
+    color: #fc6a03;
+    font-variation-settings: 'FILL' 1;
+}
+
+.name_panel_breakfast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 32%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.calories_panel_breakfast {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.calories_value {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20%;
+}
+
+.add_button {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 20%;
+}
+
+.nutritionalValues_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vw;
+    border-radius: 0 0 15px 15px;
+    background-color: #ececf4;
+    width: 96%;
+    box-shadow: 0 5px 5px gray;
+}
+
+.noProducts_panel {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 5%;
+    align-items: center;
+    height: 4vw;
+    border-radius: 0 0 15px 15px;
+    background-color: #ececf4;
+    width: 96%;
+    box-shadow: 0 5px 5px gray;
+    color: gray;
+}

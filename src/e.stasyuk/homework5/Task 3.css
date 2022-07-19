@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.trafficLight_relative {
+    position: relative;
+    border: 2px solid black;
+    min-width: 14vw;
+    min-height: 27vw;
+    display: inline-block;
+}
+
+.redLight_absolute {
+    position: absolute;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    min-width: 50%;
+    min-height: 25%;
+    top: 5%;
+    left: 25%;
+}
+
+.yellowLight_absolute {
+    position: absolute;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+    min-width: 50%;
+    min-height: 25%;
+    top: 36%;
+    left: 25%;
+}
+
+.greenLight_absolute {
+    position: absolute;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    min-width: 50%;
+    min-height: 25%;
+    top: 67%;
+    left: 25%;
+}
+
+.trafficLight_margins {
+    border: 2px solid black;
+    min-width: 14vw;
+    min-height: 27vw;
+    display: inline-block;
+}
+
+.redLight_margins {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 6.75vw;
+    margin: 10% 25%;
+}
+
+.yellowLight_margins {
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 6.75vw;
+    margin: 10% 25%;
+}
+
+.greenLight_margins {
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 6.75vw;
+    margin: 10% 25%;
+}
+
+.trafficLight_flex {
+    border: 2px solid black;
+    min-width: 14vw;
+    min-height: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redLight_flex {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 6.75vw;
+}
+
+.yellowLight_flex {
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 6.75vw;
+}
+
+.greenLight_flex {
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 6.75vw;
+}

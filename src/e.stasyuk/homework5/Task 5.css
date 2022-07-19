@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+div {
+    margin: 5% 10%;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: #1976d2;
+    color: white;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.block {
+    background-color: #7fffd4;
+    position: sticky;
+    width: 62vw;
+    top: 5.6vw;
+}
