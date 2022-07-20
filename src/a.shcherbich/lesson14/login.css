@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.header {
+    background-color: rgb(54, 20, 203);
+    color: whitesmoke;
+    width: 100%;
+}
+
+.input-content {
+    border-radius: 5px;
+    height: 20px;
+    padding: 10px 10px 10px 60px;
+    border: none;
+}
+
+.input-style {
+    padding: 20px;
+}
+
+.input-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 220px;
+    font-size: 12px;
+    padding: 5px;
+    color: blue;
+}
+
+.button-login {
+    background-color: black;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: 320px;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 30px;
+    border-right: 2px solid black;
+    left: 6px;
+    top: -5px;
+    padding-right: 3px;
+}
+

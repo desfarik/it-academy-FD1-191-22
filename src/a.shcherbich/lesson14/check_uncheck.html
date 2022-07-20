@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Check</title>
+</head>
+
+<style>
+    input,
+    .check,
+    .uncheck {
+        display: none;
+        margin: 20px 10px;
+    }
+
+    label {
+        background-color: rgb(214, 98, 98);
+        margin: 50px 50px;
+    }
+
+    #check:checked~.check {
+        display: block;
+    }
+
+    #uncheck:checked~.uncheck {
+        display: block;
+    }
+
+    .uncheck,
+    .check {
+        color: blue;
+        width: 50px;
+    }
+
+   
+
+</style>
+
+<body>
+
+
+    <input type="radio" id="check" name="fine" checked>
+    <input type="radio" id="uncheck" name="fine">
+
+    <label for="check">Personal</label>
+    <label for="uncheck">Company</label>
+
+
+    <div class="check"><span class="material-icons">
+        check_circle
+        </span></div>
+    <div class="uncheck"><span class="material-icons">
+        radio_button_unchecked
+        </span></div>
+
+</body>
+
+</html>

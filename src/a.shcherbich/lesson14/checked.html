@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    input,
+    .tab1,
+    .tab2,
+    .tab3 {
+        display: none;
+        margin: 20px 10px;
+    }
+
+    label {
+        background-color: brown;
+        margin: 10px 20px;
+    }
+
+    #tab1:checked~.tab1 {
+        display: block;
+    }
+
+    #tab2:checked~.tab2 {
+        display: block;
+    }
+
+    #tab3:checked~.tab3 {
+        display: block;
+    }
+</style>
+
+<body>
+
+
+    <input type="radio" id="tab1" name="fine" checked>
+    <input type="radio" id="tab2" name="fine">
+    <input type="radio" id="tab3" name="fine">
+
+    <label for="tab1">Hello</label>
+    <label for="tab2">This is</label>
+    <label for="tab3">Three</label>
+
+
+    <div class="tab1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, ducimus minima? Rem nam ea,
+        praesentium
+        aliquam ratione temporibus tempora voluptatibus, sed ullam magnam molestias tenetur, non tempore vero modi cum.
+    </div>
+    <div class="tab2">Dicta, cumque voluptate fuga corporis nihil consequatur magnam dolores nisi commodi dolorum
+        tempore fugiat eum
+        placeat accusamus! Fugit id cumque facere aliquid inventore, perferendis, suscipit molestiae nam architecto
+        corrupti deserunt!</div>
+    <div class="tab3">Voluptates perferendis distinctio ducimus velit enim, dolor cumque ab nesciunt vero doloremque
+        impedit
+        reprehenderit recusandae sint deleniti minus. Cupiditate reprehenderit laudantium quas? Minus deleniti laborum
+        culpa aut, quidem sapiente delectus!</div>
+
+</body>
+
+</html>
