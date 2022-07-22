@@ -1,0 +1,41 @@
+.container {
+    border: 2px solid black;
+    width: 200px;
+    height: 440px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.red-box {
+    border: solid 2px;
+    border-radius: 50%;
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+
+
+}
+.yellow-box {
+    border: solid 2px;
+    border-radius:50%;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+
+
+}
+.green-box {
+    border: solid 2px;
+    border-radius:50%;
+    background: green;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+
+
+
+}

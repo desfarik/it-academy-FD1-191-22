@@ -1,0 +1,74 @@
+.container {
+    margin: auto;
+    width: 400px;
+    background-color:#dcdee7;
+    font-family: 'Cormorant', serif;
+    padding-bottom: 10px;
+}
+.rows1 {
+    display: flex;
+    justify-content: space-around;
+}
+.rows1, .composition {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 30px;
+}
+.rows {
+    margin: 7px 7px ;
+    border-radius: 8px;
+    background-color: #ececf4;
+    box-shadow: 2px 2px 10px grey;
+}
+.cart {
+    display: flex;
+    font-size: 28px;
+}
+.cart_header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+}
+.caption {
+    display: flex;
+    margin:0 8px;
+    align-items: center;
+}
+.caption p{
+    margin-left: 12px;
+}
+.total-block {
+    display: flex;
+    align-items: center;
+}
+.calories {
+    margin-right: 20px;
+}
+.calories div{
+    text-align: right;
+}
+.calories div strong{
+    font-size: 16px;
+    text-align: right;
+}
+.plus {
+    margin-right: 5px;
+}
+
+.head {
+    color: #83858a;
+    }
+.composition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expand {
+    text-align: right;
+    padding-top: 7px;
+}

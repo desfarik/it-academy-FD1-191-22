@@ -1,0 +1,49 @@
+.ice-cream{
+    height: 800px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cone {
+    position: absolute;
+    z-index: 5;
+    top: 43%;
+    left: 50%;
+    width: 150px;
+}
+.violet {
+    position: absolute;
+    z-index: 5;
+    width: 150px;
+    top: 30%;
+    left:48%;
+    }
+.green {
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    top: 30%;
+    left: 52%;
+   }
+.red {
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    top: 24%;
+    left: 47%;
+    }
+.blue {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    top: 17%;
+    left: 52%;
+}
+.strawberries {
+    position: absolute;
+    top: 7%;
+    width: 176px;
+    z-index: 0;
+    left: 50%;
+}
