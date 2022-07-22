@@ -1,0 +1,60 @@
+.container-background {
+    width: 610px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #a184bc;
+}
+
+.container-main {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.container-main-left-image {
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    height: 400px;
+}
+
+.container-main-right {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 0 5px 5px 0;
+}
+
+.button-submit {
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    margin: 15px 75px 0 0;
+}
+
+input {
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    height: 25px;
+}
+
+.label {
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    fill: white;
+    padding-left: 145px;
+}
+
