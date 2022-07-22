@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        body {
+            background: grey;
+        }
+
+        .tab-header-container {
+            display: flex;
+        }
+
+        .tab-header {
+            display: block;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            background: #4fc2f6;
+            box-sizing: border-box;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tabs input {
+            display: none;
+        }
+
+        .tabs input:checked:nth-child(1) ~ .tab-content-container .tab-content:nth-child(1),
+        .tabs input:checked:nth-child(2) ~ .tab-content-container .tab-content:nth-child(2),
+        .tabs input:checked:nth-child(3) ~ .tab-content-container .tab-content:nth-child(3) {
+            display: block;
+        }
+
+        .tabs input:checked:nth-child(1) ~ .tab-header-container .tab-header:nth-child(1),
+        .tabs input:checked:nth-child(2) ~ .tab-header-container .tab-header:nth-child(2),
+        .tabs input:checked:nth-child(3) ~ .tab-header-container .tab-header:nth-child(3) {
+            color: white;
+            border-bottom: 3px solid white;
+        }
+
+    </style>
+</head>
+<body>
+<div class="tabs">
+    <input type="radio" name="tab" id="tab1" checked>
+    <input type="radio" name="tab" id="tab2">
+    <input type="radio" name="tab" id="tab3">
+
+    <div class="tab-header-container">
+        <label for="tab1" class="tab-header">tab1</label>
+        <label for="tab2" class="tab-header">tab2</label>
+        <label for="tab3" class="tab-header">tab3</label>
+    </div>
+
+    <div class="tab-content-container">
+        <div class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi assumenda cumque
+            dolor, doloremque eligendi exercitationem, fugit harum, laboriosam laudantium nobis nostrum nulla quasi
+            quidem ratione rem reprehenderit sapiente vitae.
+        </div>
+        <div class="tab-content">Aut consequuntur dignissimos, ea inventore iusto labore minima minus nobis, nostrum
+            quae quasi quibusdam quisquam quos recusandae reiciendis rem sapiente tenetur vero. Dolores excepturi
+            expedita labore libero molestias nam totam.
+        </div>
+        <div class="tab-content">Ad aliquam error est expedita fugiat molestiae officiis, reiciendis. Animi dicta ex
+            maiores, molestias nesciunt quo repudiandae voluptas voluptatum. A culpa delectus eum eveniet illo impedit
+            labore nihil quam voluptatem.
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

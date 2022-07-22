@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+
+    <style>
+        .dialog {
+            width: 400px;
+            border: 1px solid black;
+        }
+
+        .header-block {
+            height: 150px;
+            background: #4fc2f6;
+            border-bottom: 1px solid white;
+
+            position: relative;
+        }
+
+        .header-block:after {
+            content: '';
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #4fc2f6;
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+            transform: rotate(45deg) translateX(-50%);
+            position: absolute;
+            bottom: -27px;
+            left: 50%;
+
+        }
+
+        .content-block {
+            height: 200px;
+            background: #e1717d;
+            padding: 40px 20px;
+        }
+
+        .input {
+            font-size: 18px;
+            padding-left: 40px;
+            height: 32px;
+        }
+
+        .input-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .input--icon {
+            position: absolute;
+            border-right: 1px solid;
+            left: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="dialog">
+    <div class="header-block">
+    </div>
+    <div class="content-block">
+
+
+        <form action="">
+
+            <label class="input-container">
+                <span class="material-symbols-outlined input--icon">
+                    person
+                </span>
+                <input type="text" name="login" class="input">
+            </label>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

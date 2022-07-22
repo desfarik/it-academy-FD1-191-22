@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+
+        label {
+            background: blueviolet;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        input,
+        .tab-content1,
+        .tab-content2,
+        .tab-content3 {
+            display: none;
+        }
+
+        input#tab1:checked ~ .tab-content1,
+        #tab2:checked ~ .tab-content2,
+        #tab3:checked ~ .tab-content3 {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="tab-content">
+    <input type="radio" name="tab" id="tab1"
+           checked>
+    <input type="radio" name="tab"
+           id="tab2">
+
+    <div class="tab-headers">
+        <label for="tab1">Tab One</label>
+        <label for="tab2">Tab Two</label>
+    </div>
+
+    <div class="tab-content1">
+        tab-content One
+    </div>
+    <div class="tab-content2">
+        tab-content Two
+    </div>
+</div>
+
+</body>
+</html>
