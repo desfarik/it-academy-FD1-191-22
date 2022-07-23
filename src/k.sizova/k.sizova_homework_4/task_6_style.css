@@ -1,0 +1,12 @@
+p {
+    font-size: 20px;
+}
+
+body {
+    counter-reset: item;
+}
+
+p::after {
+    counter-increment: item;
+    content: '#' counter(item)
+}

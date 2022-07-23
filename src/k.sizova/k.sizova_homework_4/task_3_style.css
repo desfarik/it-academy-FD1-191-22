@@ -1,0 +1,48 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td,
+th {
+    padding: 0.2em;
+    text-align: left;
+}
+
+a:link {
+    color: orange
+}
+
+a:visited {
+    color: green
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p:first-of-type {
+    color: blue;
+}
+
+p:first-of-type:first-line {
+    color: red;
+}
+
+
+tr:nth-child(even) {
+    background-color: #333333;
+    color: white;
+}

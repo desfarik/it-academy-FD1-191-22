@@ -1,0 +1,11 @@
+p {
+    font-size: 20px;
+}
+
+p:hover {
+    background-color: green;
+}
+
+p:hover + p {
+    background-color: red;
+}

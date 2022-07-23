@@ -1,0 +1,9 @@
+p {
+    font-size: 20px;
+}
+
+p:hover,
+p:nth-child(even):hover ~ p:nth-of-type(even),
+p:nth-child(odd):hover ~ p:nth-of-type(odd) {
+    background-color: red;
+}
