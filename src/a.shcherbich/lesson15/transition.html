@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box {
+        width: 200px;
+        aspect-ratio: 1;
+        background-color: greenyellow;
+        margin: 0 0 100px 100px;
+        display: inline-block;
+        transition: 1s;
+    }
+
+    /* .box.box-rotate:hover {
+        transform: rotate(45deg);
+        transition: 1s;
+    } */
+
+    /* .box.box-width:hover {
+        width: 300px;
+        transition: 1s;
+    } */
+
+    /* .box.box-color:hover {
+        background-color: blueviolet;
+        transition: 1s;
+    } */
+
+    /* .box.box-move:hover {
+        transform: translateX(100px);
+        transition: 1s;
+    } */
+
+    .box-all:hover>.box-rotate {
+        transform: rotate(45deg);
+        transition: 1s;
+    }
+
+    .box-all:hover>.box-width {
+        width: 300px;
+        transition: 1s;
+    }
+
+    .box-all:hover>.box-color {
+        background-color: blueviolet;
+        transition: 1s;
+    }
+
+    .box-all:hover>.box-move {
+        transform: translateX(100px);
+        transition: 1s;
+    }
+</style>
+
+<body>
+    <div class="box-all">
+        <div class="box box-rotate"></div>
+        <div class="box box-width"></div>
+        <div class="box box-color"></div>
+        <div class="box box-move"></div>
+    </div>
+    <label for="one"><input type="radio" id="one" name="choise">
+        One
+    </label>
+    <label for="all"><input type="radio" id="all" name="choise">
+        All
+    </label>
+
+</body>
+
+</html>

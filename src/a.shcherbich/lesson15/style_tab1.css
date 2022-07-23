@@ -1,0 +1,27 @@
+input,
+.tab1,
+.tab2,
+.tab3,
+.tab4 {
+    display: none;
+}
+
+label {
+    background-color: rgb(72, 72, 182);
+    padding: 20px;
+}
+
+.content-label {
+    margin: 20px 0 20px 0;
+}
+
+#tab1:checked ~ .tab1,
+#tab2:checked ~ .tab2,
+#tab3:checked ~ .tab3,
+#tab4:checked ~ .tab4 {
+    display: block;
+}
+
+#tab1:hover ~ label.tab1 {
+    background-color: blanchedalmond;
+}
