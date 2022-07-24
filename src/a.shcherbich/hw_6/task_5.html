@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payinfo</title>
+    <link rel="stylesheet" href="./styles_hw6/styles_task_5.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-header">PAYMENT INFO</div>
+        <div class="lock-icon">
+            <img src="./assets/lock-icon.png" alt="">
+        </div>
+        <div class="container-content">
+            <div class="container-content-info">Secure Payment Info</div>
+            <hr>
+            <div>
+                <form action="/my-payment">
+                    <label>
+                        <input type="radio" name="credit-card" value="img">
+                        <img src="./assets/cards-logo.png" alt="" class="credit-card">
+                    </label>
+                    <label class="paypal">
+                        <input type="radio" name="credit-card">
+                        <img src="./assets/paypal.jpg" alt="" class="paypal">
+                    </label>
+                    <div class="container-content-username">
+                        <label>
+                            Name (as it appears on your card) <br>
+                            <input type="text" size="35">
+                        </label>
+                    </div>
+                    <div class="container-content-cardnumber">
+                        <label>
+                            Card number (no dashes or spaces) <br>
+                            <input type="text" size="35">
+                        </label>
+                    </div>
+                    <div class="container-content-expdate">
+                        <label>
+                            Expiration date <br>
+                            <select name="" id="month">
+                                <option value="month">01 - January</option>
+                            </select>
+                            <select name="" id="year">
+                                <option value="year">2016</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="container-content-seccode">
+                        <label>
+                            Security code (3 on back, Amex: 4 on front) <br>
+                            <input type="text"> <img src="./assets/secure-card.png" alt="" class="seccode-icon">
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+.container {
+    width: 600px;
+    border: 5px solid #d2d2d2;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.container-header {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 445px;
+    background-color: #e4e4e4;
+    width: 155px;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 100px;
+}
+
+.credit-card {
+    width: 150px;
+    margin-bottom: -10px;
+}
+
+.paypal {
+    width: 60px;
+    opacity: 50%;
+    margin-bottom: -2px;
+}
+
+hr {
+    width: 230px;
+    padding-left: 60px;}
+
+.container-content-username {
+    padding: 20px 0;
+    color: gray;
+}
+
+.container-content-cardnumber {
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.container-content-expdate {
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.container-content-seccode {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.lock-icon {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+.seccode-icon {
+    margin-bottom: -15px;
+
+}
+
+.container-content-info {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+

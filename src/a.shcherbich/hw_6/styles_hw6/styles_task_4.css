@@ -2,7 +2,7 @@
     width: 610px;
     margin: 0 auto;
     padding: 5px;
-    background-color: #a184bc;
+    background: linear-gradient(to top, #d1b4ed, #915bc3) ;
 }
 
 .container-main {

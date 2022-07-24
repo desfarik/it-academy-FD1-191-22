@@ -1,7 +1,7 @@
 .container {
     width: 610px;
     margin: 0 auto;
-    background-color: #ab29f8;
+    background: linear-gradient(to right, rgb(92, 89, 180), rgb(117, 56, 179));
     padding: 5px;
 }
 
