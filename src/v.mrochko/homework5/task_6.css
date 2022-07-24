@@ -1,0 +1,70 @@
+.container{
+    width: 400px;
+    background-color: #ececf4 ;
+}
+.header-nutrients{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-eat{
+    display: flex;
+    flex-direction: column;
+    background-color: #ececf4;
+    padding-bottom: 8px;
+}
+.breakfast,.dinner,.lunch{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 2px solid #ececf4;
+    overflow: auto;
+    padding: 1px;
+    -webkit-box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+    -moz-box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 0 6px 5px -5px rgba(34, 60, 80, 0.6);
+    margin-bottom: 8px;
+}
+
+.time_eat {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+    background-color:#ececf4 ;
+    align-items: center;
+}
+.svg-height{
+    height: 25px;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+}
+.diner-total{
+    display: flex;
+    justify-content: center;
+    background-color:#ececf4 ;
+}
+.flex-grow{
+    flex-grow: 1;
+    padding-left: 15px;
+}
+.name-colum,.diner-total{
+    color: #818285;
+}
+body{
+    font-family: 'Amita', cursive;
+}
+.colum-rsk{
+    position: relative;
+    left: 25px;
+}
+.colum-protein{
+    position: relative;
+    left: 15px;
+}
+

@@ -1,0 +1,42 @@
+p{
+    padding: 0 10px;
+}
+h2{
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+
+}
+.container{
+    margin: 0 20px;
+}
+.block_1{
+    background-color: #3ec59d;
+    position: sticky;
+    top: 40px;
+    margin-bottom: 40px;
+}
+.block_2{
+    position: sticky;
+    background-color: #777777;
+    top: 40px;
+}
+.block_3{
+    position: sticky;
+    background-color: #c19a6b;
+    top: 40px;
+}
+.block_4{
+    position: sticky;
+    background-color: #ef6291;
+    top: 40px;
+}
+.block_5{
+    position: sticky;
+    background-color: brown;
+    top: 40px;
+}
