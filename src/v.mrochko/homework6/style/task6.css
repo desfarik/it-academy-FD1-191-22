@@ -1,0 +1,95 @@
+.container{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    font-family: sans-serif;
+    border: 2px solid blue;
+    border-left: 6px solid;
+    border-image: linear-gradient(to right, blue, pink);
+}
+.container{
+    border-image-slice: 1;
+}
+.left-colum,.right-colum{
+    width: 50%;
+}
+.right-colum{
+    padding: 20px 20px 100px;
+    border-radius: 0 6px 6px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-border{
+    border: none;
+    border-bottom: 2px solid blue;
+    border-image: linear-gradient(to right, blue, purple);
+}
+.input-border{
+    border-image-slice: 1;
+}
+.button-continue{
+    width: 100%;
+    border: none;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,69,202,1) 100%);
+    color: white;
+    padding: 5px;
+}
+.button-continue-span {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+}
+.img-arrow{
+    position: absolute;
+    right: 0;
+    height: 15px;
+    top: 6px;
+}
+.relative{
+    position: relative;
+}
+.text-social-media{
+    color: grey;
+    text-align: center;
+}
+.button-twitter{
+    width: 100%;
+    border: none;
+    background: rgb(50,137,164);
+    background: linear-gradient(90deg, rgba(50,137,164,1) 0%, rgba(35,186,233,1) 51%, rgba(138,214,237,1) 99%);
+    color: white;
+    padding: 5px;
+}
+.button-facebook{
+    width: 100%;
+    border: none;
+    background: rgb(21,86,106);
+    background: linear-gradient(90deg, rgba(21,86,106,1) 0%, rgba(8,156,203,1) 100%);
+    color: white;
+    padding: 5px;
+}
+.img-height{
+    height: 20px;
+    position: absolute;
+    left: 10%;
+    top: 3px;
+}
+.left-colum{
+    background-image: url("../img/welcome-page.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 6px 0 0 6px;
+}
+.input-placeholder-size{
+    font-size: 10px;
+}
+.text-social-media{
+    font-size: 10px;
+    margin: 20px 0;
+}
+.name-button-padding{
+    padding-right: 80px;
+}
