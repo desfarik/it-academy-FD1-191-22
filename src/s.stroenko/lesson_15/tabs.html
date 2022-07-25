@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .box {
+        width: 30%;
+        color: #e0e0e0;
+    }
+
+    .material-symbols-outlined {
+        font-size: 35px;
+    }
+
+    .tabs {
+        font-size: 0;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .tabs>input[type="radio"] {
+        display: none;
+    }
+
+    .tabs>div {
+        /* скрыть контент по умолчанию */
+        display: none;
+        
+        
+        font-size: 16px;
+    }
+
+    /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+    #tab-btn-1:checked~#content-1,
+    #tab-btn-2:checked~#content-2,
+    #tab-btn-3:checked~#content-3 {
+        display: block;
+    }
+
+    .tabs>label {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        background-color: rgb(134, 134, 236);
+        border: 1px solid #e0e0e0;
+        padding: 2px 8px;
+        font-size: 25px;
+        line-height: 1.5;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+        cursor: pointer;
+        position: relative;
+        top: 1px;
+
+    }
+
+    .tabs>label:not(:first-of-type) {
+        border-left: none;
+    }
+
+    .tabs>input[type="radio"]:checked+label {
+        background-color: rgb(134, 134, 236);
+        border-bottom: 3px solid #fff;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="tabs">
+
+        <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+
+        <label for="tab-btn-1" class="box">
+            <span class="material-symbols-outlined">
+                explore
+            </span>
+            Explore</label>
+
+        <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+        <label for="tab-btn-2" class="box">
+            <span class="material-symbols-outlined">
+                Flight
+            </span>
+            Flights</label>
+
+        <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+        <label for="tab-btn-3" class="box">
+            <span class="material-symbols-outlined">
+                card_travel
+            </span>
+            Trips</label>
+
+
+        <div id="content-1">
+            Содержимое 1...
+        </div>
+        <div id="content-2">
+            Содержимое 2...
+        </div>
+        <div id="content-3">
+            Содержимое 3...
+        </div>
+
+    </div>
+
+</body>
+
+</html>

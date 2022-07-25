@@ -1,0 +1,99 @@
+.container {
+    width: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: rgb(241, 243, 245);
+    box-shadow: 0 6px 8px #4a4a4a40;
+    overflow: auto;
+}
+
+.header {
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.request {
+    display: flex;
+}
+
+.left-block {
+    width: 25%;
+    padding-top: 45px;
+    text-align: center;
+    color: gray;
+}
+
+.left-block-2 {
+    width: 50%;
+    padding-top: 45px;
+    text-align: center;
+    color: gray;
+}
+
+.right-block {
+    width: 75%;
+    display: flex;
+}
+
+.first-name {
+    width: 50%;
+}
+
+.last-name {
+    width: 50%;
+}
+
+.name-block {
+    font-size: 90%;
+    color: rgb(160, 158, 158);
+    margin-left: 5px;
+}
+
+.data {
+    font-size: 20px;
+    border: hidden;
+    box-shadow: 0 6px 8px #4a4a4a40;
+    color: rgb(194, 190, 190);
+    padding: 10px 12px;
+    width: 65%;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#company.data {
+    width: 83%;
+}
+#email.data{
+    width: 83%;
+}
+
+select.data {
+    width: 90%;
+}
+
+.footer {
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 10px 25px;
+    background-color: rgb(185, 72, 72);
+    color: white;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.input-radio {
+    margin-left: 30px;
+}
+
+.radio {
+    color: gray;
+    text-align: left;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}

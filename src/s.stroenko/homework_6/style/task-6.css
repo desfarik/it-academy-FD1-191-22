@@ -1,0 +1,91 @@
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    width: 700px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+}
+
+.block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.material-symbols-outlined {
+    color: white;
+    margin-left: 70px;
+}
+
+.header {
+    font-size: 150%;
+    text-align: left;
+    margin: 30px 40px;
+    font-weight: bold;
+}
+
+.data {
+    margin: 20px 40px;
+    border-bottom: solid 2px blueviolet;
+}
+
+.connect {
+    margin: 20px 40px;
+    color: gray;
+    font-size: 80%;
+    text-align: center;
+}
+
+.input {
+    border: hidden;
+    padding-bottom: 3px;
+    color: gray;
+}
+
+.button {
+    background-color: blueviolet;
+    background: linear-gradient(to right, blueviolet, pink);
+    color: white;
+    padding-left: 80px;
+    display: flex;
+    margin: 40px 40px;
+    font-size: 70%;
+    letter-spacing: 3px;
+    height: 30px;
+    align-items: center;
+}
+
+.button-twitter {
+    background-color: bl#33acd0;
+    background: linear-gradient(to right, #33acd0, #9ae6f2);
+    color: white;
+    display: flex;
+    margin: 40px 40px;
+    font-size: 70%;
+    align-items: center;
+    height: 30px;
+    
+}
+
+.button-faceboock {
+    background-color: #247fbc;
+    background: linear-gradient(to right, #247fbc, #4c9fd9);
+    color: white;
+    display: flex;
+    margin: 40px 40px;
+    font-size: 70%;
+    align-items: center;
+    height: 30px;
+    
+}
+
+.logo {
+    width: 30px;
+    margin: 0 20px;
+}

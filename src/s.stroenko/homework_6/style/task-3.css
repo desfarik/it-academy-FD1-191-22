@@ -1,0 +1,72 @@
+.container {
+    width: 600px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    box-shadow: 0 6px 8px #4a4a4a40;
+
+    display: flex;
+}
+
+.block {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+    margin: 30px 0;
+    padding-left: 20px;
+}
+
+.data {
+    margin: 10px 0;
+    margin-left: 10px;
+    border-bottom: solid 1px gray;
+
+}
+
+.input {
+    border: hidden;
+}
+
+.remember-check {
+    margin: 20px 0;
+    font-size: 80%;
+}
+
+.button {
+    width: 100px;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border: hidden;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.footer {
+    font-size: 70%;
+    margin: 10px 0 50px 0;
+    color: gray;
+}
+.soc-net{
+    width: 20px;
+    margin: 0 3px;
+    border-radius: 2px;
+    overflow: hidden;
+    
+}
+.footer-left {
+    font-size: 70%;
+    margin: 20px auto;
+    color: gray;
+}

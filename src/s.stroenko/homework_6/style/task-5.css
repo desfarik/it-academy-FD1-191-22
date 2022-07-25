@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(133, 152, 172)
+}
+
+.container {
+    width: 600px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.cont{
+    display: flex;
+}
+.central-block {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.header {
+    font-size: 130%;
+    text-align: left;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: rgb(228, 231, 235);
+}
+
+.block {
+    width: 25%;
+}
+
+.block-header {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: solid 1px rgb(228, 231, 235);
+    padding: 10px 0;
+}
+
+.input-pay {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    color: gray;
+    margin: 20px 0;
+}
+
+.card {
+    width: 30px;
+    height: 20px;
+    margin: 0 2px;
+    border: solid 1px rgb(196, 192, 192);
+    border-radius: 3px;
+}
+
+.card-code {
+    width: 50px;
+    height: 30px;
+    margin: 0 2px;
+    border: solid 1px rgb(196, 192, 192);
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.input {
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.input-code {
+    font-size: 16px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-date {
+
+    border-radius: 5px;
+    width: 45%;
+
+    margin: 5px auto;
+}
+.loock{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}

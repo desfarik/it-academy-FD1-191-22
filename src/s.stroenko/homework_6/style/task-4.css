@@ -1,0 +1,58 @@
+body {
+    color: white;
+}
+
+.container {
+    width: 600px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 13, 13);
+}
+
+.header {
+    font-size: 150%;
+
+    text-align: left;
+    margin: 30px 40px;
+
+}
+
+.data {
+    margin: 20px 40px;
+
+    border-bottom: solid 1px gray;
+
+}
+
+.input {
+    border: hidden;
+    padding-bottom: 3px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+
+}
+
+.input[name="birthday"] {
+    margin-left: 45px;
+}
+
+select.input {
+    transform: translate(-65px, 0px);
+}
+
+.button {
+    width: 100px;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border: hidden;
+    border-radius: 25px;
+    margin: 20px 0 20px 40px;
+}

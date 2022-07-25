@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        border: solid 1px purple;
+        margin: 15px auto;
+        width: 420px;
+        height: 420px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-1 {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        margin: 40px;
+        transition-duration: 1s;
+    }
+
+    .box-2 {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        margin: 40px;
+        transition-duration: 1s;
+    }
+
+    .box-3 {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        margin: 40px;
+        transition-duration: 1s;
+    }
+
+    .box-4 {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        margin: 40px;
+        transition-duration: 1s;
+        
+    }
+/*
+    .box-1:hover {
+        transform: rotate(45deg);
+        
+    }
+
+    .box-2:hover {
+        width: 150px;
+        
+    }
+    .box-3:hover {
+        background-color: rgb(255, 0, 0);
+        
+    }
+    .box-4:hover {
+        transform: translateX(100%);
+        
+    }
+    .container:hover .box-1{
+        transform: rotate(45deg);
+    }
+    .container:hover .box-2{
+        width: 150px;
+    }
+    .container:hover .box-3{
+        background-color: rgb(255, 0, 0);
+    }
+    .container:hover .box-4{
+        transform: translateX(100%);
+    }*/
+    input[type="radio"]:checked .box-1{
+        transform: rotate(45deg);
+    
+    }
+</style>
+
+<body>
+    <input type="radio" name="but" id="one">
+    <span>One</span>
+    <input type="radio" name="but" id="two">
+    <span>Two</span>
+    <div class="container">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+    </div>
+    
+</body>
+
+</html>
