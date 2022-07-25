@@ -1,0 +1,93 @@
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 40
+}
+.main {
+    max-width: 800px;
+    min-height: 500px;
+    border: solid blueviolet 2px;;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+.form {
+    padding: 50px;
+    min-width: 30%;
+}
+.content {
+    display: flex;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    outline: none;
+}
+.input {
+    margin: 20px 0;
+    position: relative;
+
+}
+input.inputtext {
+    border: none;
+    border-bottom: solid blueviolet 2px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+h2 {
+    font-size: 36px;
+    padding: 0;
+    margin-top: 0;
+}
+input[value="CONTINUE"] {
+    font-size: 15px;
+    padding: 10px 0;
+    position: relative;
+    background: linear-gradient(to bottom right, #2485d3, #a729fa);
+    border: none;
+    color: white;
+}
+input[value="Sign in with Twitter"] {
+    background: linear-gradient(to bottom right, #2da9e0, #2da9e0);
+    border: none;
+    color: white;
+
+}
+input[value="Sign in with Facebook"] {
+    background: linear-gradient(to bottom right, #3c5a99, #3c5a99);
+    border: none;
+    color: white;
+
+}
+.arrow {
+    position: absolute;
+    right: 8px;
+    top: 25%;
+    font-size: 20px;
+    color: white;
+}
+.connectwrapper {
+    font-size: 15px;
+    /*padding: 30px;*/
+    text-align: center;
+    padding: 10px 0;
+    color: grey;
+}
+.footerbutton {
+    padding: 10px 0;
+    font-size: 15px;
+}
+img {
+    width: 35px;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 0;
+    padding-top: 2px;
+    z-index: 1;
+}
+
+

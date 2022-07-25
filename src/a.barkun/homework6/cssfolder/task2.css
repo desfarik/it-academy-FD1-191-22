@@ -1,0 +1,144 @@
+.background {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 10px 20px 10px 10px;
+    background: linear-gradient(to bottom right, #2485d3, #a729fa);
+}
+.palitra {
+    width: 100%;
+    height: 100%;
+    background-color: #fdfdfe;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 10%;
+}
+.form {
+    margin: 30px 100px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form1 {
+    margin: 30px 100px 50px 50px;
+
+}
+.namepart {
+    font-size: 20px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.namepart > div {
+    height: 40px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.inputpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputpart,.firstname,.lastname,
+.companyinput, .emailinput
+{    flex-grow: 1;}
+input, select {
+    height: 40px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+select {
+    color: grey;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.company, .email, .choose {
+    display: flex;
+}
+.area {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.zip {
+    width: 15%;
+}
+.phone, .select {
+    flex-grow: 1;
+}
+.name, .company, .email, .area, .choose {
+    margin: 20px 0;
+}
+.exist {
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: grey;
+}
+
+.yesno, .yes, .no {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    gap: 10px;
+    font-weight: normal;
+}
+input[type='submit'] {
+    width: 25%;
+    background-color: #fa4e58;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+.name {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: grey;
+}
+div.name > span {
+    min-width: 20%;
+}
+label[for="firstname"] {
+    position: absolute;
+    left: 155px;
+    top: 50px;
+}
+label[for="lastname"] {
+    position: absolute;
+    right: 165px;
+    top: 50px;
+}
+label[for="zip"] {
+    position: absolute;
+    left: 155px;
+    top: 50px;
+}
+label[for="phone"] {
+    position: absolute;
+    left: 285px;
+    top: 50px;
+}
+
+
+

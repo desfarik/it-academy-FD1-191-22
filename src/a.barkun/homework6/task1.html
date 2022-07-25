@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./cssfolder/task1.css">
+</head>
+<body>
+<div class="mainform">
+    <div class="palitra">
+    <h2 class="header">Registration</h2>
+    <form action="post">
+        <div class="choice">
+            <label> <input name="whois" type="radio" value="personal" checked> Personal </label>
+            <label> <input name="whois" type="radio" value="company"> Company </label>
+        </div>
+
+        <div class="inputbody">
+            <div class="icon1 material-symbols-outlined">mail</div>
+            <input class="maininput" type="email" placeholder="Email">
+            <div class="icon2 material-symbols-outlined">person</div>
+             <input class="maininput" type="text" placeholder="Name">
+            <div class="icon3 material-symbols-outlined">security</div>
+             <input class="maininput" type="password" placeholder="Password">
+        </div>
+
+        <div class="gender">
+        <label> <input name="gender" type="radio" value="male" checked> Male </label>
+        <label> <input name="gender" type="radio" value="female"> Female </label>
+        </div>
+    </form>
+    <div class="footer">
+    <div>By clicking Register, you agree on our <a href="">terms and conditions</a></div>
+    <div> <button>Register</button></div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>

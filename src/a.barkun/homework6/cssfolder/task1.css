@@ -1,0 +1,109 @@
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+}
+.mainform {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px lightslategrey;
+    color: grey;
+}
+.palitra {
+    width: 90%;
+    /*border: solid black 2px;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    font-style: normal;
+    color: grey;
+    font-size: 35px;
+    margin: 10px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+.choice, .gender,.maininput {
+    font-size: 20px;
+}
+.maininput {
+    margin: 5px;
+    padding-left: 50px;
+    height: 40px;
+    border: solid #d0d0d0 2px;
+}
+.choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: #d0d0d0 solid 2px;
+    border-top: #d0d0d0 solid 2px;
+    padding: 15px;
+
+}
+.inputbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    position: relative;
+}
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 82%;
+    margin-bottom: 20px;
+    gap: 20px;
+    font-size: 15px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: #3957ae;
+    color: white;
+    border-radius: 7px;
+    border: none;
+
+}
+.icon1, .icon2, .icon3 {
+    height: 46px;
+    width: 46px;
+    background-color: #3957ae;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+
+}
+.icon1 {
+    left: 0;
+    top: 5px;
+}
+.icon2 {
+    left: 0;
+    top: 61px;
+}
+.icon3 {
+    left: 0;
+    top: 117px;
+}
+
