@@ -1,0 +1,80 @@
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+    border-radius: 10px;
+    background-color: black;
+    color: #d2d4d6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-left,
+.column-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+}
+
+.column-right {
+    padding-left: 50px;
+}
+
+.main-img {
+    width: 350px;
+    height: 530px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-name,
+.input-birthdate,
+select,
+.input-email,
+.input-phone {
+    border: none;
+    width: 230px;
+    height: 30px;
+    margin-bottom: 25px;
+    background-color: black;
+    border-bottom: 1px solid #5e6062;
+
+}
+
+select {
+    color: #5e6062;
+}
+
+.button-submit {
+    width: 120px;
+    padding: 10px 15px;
+    background-color: #5ab948;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.header {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.input-calendar {
+    display: flex;
+}
+
+.calendar_month {
+    color: #5e6062;
+    font-size: 20px;
+    position: absolute;
+    left: 930px;
+    top: 180px;
+}

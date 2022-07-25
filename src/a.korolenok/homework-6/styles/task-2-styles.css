@@ -1,0 +1,114 @@
+.main-container {
+    width: 550px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+input,
+select {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    border: none;
+}
+
+.form-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0 0 0;
+}
+
+.input-name {
+    display: flex;
+    gap: 20px;
+}
+
+.input-title-name {
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    padding-left: 135px;
+    gap: 151px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+.form-company,
+.form-email,
+.form-subject {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.form-company {
+    gap: 22px;
+}
+
+
+.form-email {
+    gap: 45px;
+}
+
+.form-phone {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.input-phone {
+    display: flex;
+    margin-left: 40px;
+    gap: 20px;
+}
+
+.input-title-phone {
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    padding-left: 130px;
+    gap: 62px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.select-subject {
+    margin-left: 32px;
+    width: 372px;
+}
+
+.form-customer {
+    margin-left: 50px;
+}
+
+.input-customer {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.button-register {
+    width: 130px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

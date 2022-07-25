@@ -1,0 +1,93 @@
+.main-container {
+    width: 700px;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    margin: 0 auto;
+    -webkit-box-shadow: 4px 4px 8px 10px rgba(34, 60, 80, 0.13);
+    -moz-box-shadow: 4px 4px 8px 10px rgba(34, 60, 80, 0.13);
+    box-shadow: 4px 4px 8px 10px rgba(34, 60, 80, 0.13);
+}
+
+.header {
+    margin: 0;
+    padding: 10px;
+    text-align: start;
+    color: black;
+    background-color: #e6e6e6;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image-lock {
+    height: 100px;
+    margin: 20px 50px 0 50px;
+}
+
+input,
+select {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+
+.form-name,
+.form-card-number,
+.form-security-code {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 25px 0;
+    color: grey;
+    width: 320px;
+}
+
+.form-date {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    margin-top: 10px;
+}
+
+.form-name,
+.form-card-number,
+.form-date {
+    gap: 10px;
+}
+
+.form-security-code {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.select {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.select-date,
+.input-security-code {
+    width: 150px;
+}
+
+.input-card {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 16px;
+    margin-bottom: 15px;
+}
+
+.image-card {
+    width: 46px;
+    margin: 0 5px;
+}
+
+.security-code {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task-5</title>
+    <link rel="stylesheet" href="./styles/task-5-styles.css">
+</head>
+<body>
+<div class="main-container">
+    <h3 class="header">
+        PAYMENT INFO
+    </h3>
+    <div class="body-container">
+        <img class="image-lock" src="./images/lock.png" alt="">
+        <form action="/myaction">
+            <h3> Secure Payment Info</h3>
+            <div class="input-card">
+                <input type="radio" name="card">
+                <label class="images-card">
+                    <img src="./images/icons8-мастеркард-36.png" alt="">
+                    <img src="./images/icons8-виза-36.png" alt="">
+                    <img src="./images/icons8-амекс-36.png" alt="">
+                    <img src="./images/icons8-discover-36.png" alt="">
+                </label>
+                <input type="radio" name="card">
+                <img src="./images/icons8-paypal-an-online-payments-system-operating-worldwide-36.png" alt="">
+            </div>
+            <div class="form-name">
+                <label>Name (as it appears on your card)</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-card-number">
+                <label>Card number (no dashes or spaces)</label>
+                <input type="text" name="Card number">
+            </div>
+            <div class="form-date">
+                <span> Expiration date</span>
+                <div class="select">
+                    <select name="date" class="select-date">
+                        <option disabled selected> 01-January</option>
+                        <option value="date">date and month</option>
+                    </select>
+                    <select name="year" class="select-date">
+                        <option disabled selected> 2022</option>
+                        <option value="year">year</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-security-code">
+                <label> Security code (3 on back, Amex: 4 on front)</label>
+                <div class="security-code">
+                    <input type="text" name="Security code" class="input-security-code">
+                    <img src="./images/icons8-обратная-сторона-банковской-карты-20.png" class="image-card">
+                    <img src="./images/icons8-обратная-сторона-банковской-карты-20.png" class="image-card">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

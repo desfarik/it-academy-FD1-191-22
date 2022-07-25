@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<title>person_FILL1_wght400_GRAD0_opsz48-svg</title>
+	<defs>
+		<image  width="34" height="33" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAhAQMAAACGHesvAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAARUlEQVR4nGNggADGByCS/QeIlP+HIO3/E0tC1PP/QZgDMRMTQGTr/zcwMDD///8BqOn//z8gY/7/A5P/QZL/gdLEkGAAAG9WPCe7ianHAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<path id="Layer" class="s0" d="m24 23.9q-3.3 0.1-5.4-2.1-2.1-2.1-2.1-5.4 0-3.3 2.1-5.4 2.1-2.1 5.4-2.1 3.3 0 5.4 2.1 2.1 2.1 2.1 5.4 0 3.3-2.1 5.4-2.1 2.1-5.4 2.2zm-16 16v-4.7q0-1.9 0.9-3.3 1-1.3 2.5-2 3.4-1.5 6.4-2.2 3.1-0.8 6.2-0.8 3.1 0 6.1 0.8 3.1 0.7 6.4 2.2 1.6 0.7 2.5 2 1 1.4 1 3.3v4.7z"/>
+	<use id="" href="#img1" x="7" y="8"/>
+</svg>

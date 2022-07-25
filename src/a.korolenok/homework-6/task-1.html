@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task-1</title>
+<link rel="stylesheet" href="./styles/task-1-styles.css">
+</head>
+<body>
+<div class="main-container">
+    <p> Registration </p>
+    <hr>
+    <form method="post" action="/action">
+        <label>
+            <input name="identity" type="radio">
+            Personal
+        </label>
+        <label>
+            <input name="identity" type="radio">
+            Company
+        </label>
+    </form>
+    <hr>
+    <form method="post" action="/action">
+        <div class="email-box">
+            <img src="./images/mail_FILL0_wght400_GRAD0_opsz48.svg">
+            <label class="email">
+                <input class="email-box-input" name="email" type="email" placeholder="  Email">
+            </label>
+        </div>
+        <div class="name-box">
+            <img src="./images/person_FILL1_wght400_GRAD0_opsz48.svg">
+            <label class="name">
+                <input class="name-box-input" name="name" type="text" placeholder="  Name">
+            </label>
+        </div>
+        <div class="password-box">
+            <img src="./images/lock_FILL0_wght400_GRAD0_opsz48.svg">
+            <label class="password">
+                <input class="password-box-input" name="password" type="password" placeholder="  Password">
+            </label>
+        </div>
+    </form>
+    <form method="post" action="/action">
+        <label>
+            <input name="gender" type="radio">
+            Male
+        </label>
+        <label>
+            <input name="gender" type="radio">
+            Female
+        </label>
+    </form>
+    <div class="register">
+        <p class="information"> By clicking Register, you agree on our <a href="https://webref.ru/html/button"
+                                                                          target="_blank"> terms and condition. </a></p>
+        <button type="submit"> Register</button>
+    </div>
+</div>
+</body>
+</html>
