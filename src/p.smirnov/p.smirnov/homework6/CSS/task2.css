@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+width: 500px;
+display: flex;
+flex-direction: column;
+height: 400px;
+}
+.header{
+border-radius:4px ;
+text-align: center;
+border: 1px solid black;
+background-color: black;
+color: white;
+padding: 10px 0;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+margin: 20px 0;
+padding-left: 10px;
+
+}
+button{
+width: 100px;
+height: 30px;
+background-color: #fc4d5a;
+border: 0;
+color: white;
+position: relative;
+top: -10px;
+left: 15px;
+border-radius: 3px;
+}
+input{
+height: 25px;
+position: relative;
+border-radius: 4px;
+}
+.content{
+border: 1px solid black;
+}
+.input_position_1{
+left: 50px;
+width: 150px;
+}
+
+.input_position_2{
+width: 150px;
+right: -100px;
+}
+.input_position_3{
+left: 25px;
+width: 360px;
+}
+.input_position_4{
+left: 50px;
+width: 360px;
+}
+.input_position_5{
+width: 75px;
+left: 49px;
+}
+.input_position_6{
+right: -75px;
+width: 250px;
+}
+.input_position_7{
+left: 42px;
+width: 360px;
+}
+.radio_1{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.input_position_8{
+top: -2px;
+}

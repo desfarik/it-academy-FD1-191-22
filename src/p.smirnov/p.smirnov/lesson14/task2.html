@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #Tab_1,
+    #Tab_2{
+    color: blueviolet;
+    }
+.label{
+    background-color: blueviolet;
+}
+.display{
+    display: none;
+}
+#Tab_1:checked ~ .tab_1,
+#Tab_2:checked ~ .tab_2{
+    display: block;
+}
+#Tab_1:checked ~ .one{
+    background-color: aqua;
+}
+
+</style>
+
+<body>
+    <div>
+        
+        <input type="radio" name="Tab" id="Tab_1" >
+        <input type="radio" name="Tab" id="Tab_2">
+        <label for="Tab_1" class="label one"> Tab One</label>
+        <label for="Tab_2" class="label two">Tab Two</label>
+        <div class="display tab_1">content one</div>
+        <div class="display tab_2">content two</div>
+    </div>
+</body>
+
+</html>

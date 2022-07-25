@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <style>
+        #Tab_1,
+        #Tab_2,
+        #Tab_3 {
+            display: none;
+        }
+
+        label {
+            background-color: aqua;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border: 1px solid aqua;
+            background-color: aqua;
+            color: white;
+        }
+
+        .display {
+            display: none;
+        }
+
+        
+        input:nth-child(n):checked~ .content .display:nth-child(n){
+            display: block;
+        }
+    
+    </style>
+    <div>
+
+        <input type="radio" name="Tab" id="Tab_1">
+        <input type="radio" name="Tab" id="Tab_2">
+        <input type="radio" name="Tab" id="Tab_3">
+        <div class="container">
+            <div class="header number1"><span class="material-symbols-outlined one">
+                    explore
+                </span>
+                <label id="lb1" for="Tab_1" class="label one"> Tab One</label>
+            </div>
+            <div class="header number2 "><span class="material-symbols-outlined two">
+                    flight
+                </span>
+                <label id="lb2" for="Tab_2" class="label two">Tab Two</label>
+            </div>
+            <div class="header number3"><span class="material-symbols-outlined tree">
+                    card_travel
+                </span><label id="lb3" for="Tab_3" class="label tree">Tab Tree</label>
+            </div>
+        </div>
+        <div class="content">
+            <div class="display tab_1">content one</div>
+            <div class="display tab_2">content two</div>
+            <div class="display tab_3">content tree</div>
+        </div>
+
+    </div>
+</body>
+
+</html>

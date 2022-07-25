@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link data-require="bootstrap@3.3.7" data-semver="3.3.7" rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker-standalone.css" />
+    <script data-require="jquery@3.1.1" data-semver="3.1.1"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/ru.js"></script>
+
+    <script data-require="MomentJS@2.10.0" data-semver="2.10.0"
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+
+    <script data-require="bootstrap@3.3.7" data-semver="3.3.7"
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+        <link rel="stylesheet" href="CSS/task4.css">
+</head>
+<style>
+ 
+</style>
+
+<body>
+    <div class="container">
+        <div class="container_image">
+            <img src="image/Girl.bmp" alt="">
+        </div>
+        <form>
+            <div class="contant">
+                <div class="header">
+                    <b>Regestration info</b>
+                </div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class='input-group date calendar' id='datetimepicker10'>
+                    <input type='text' class="form-control" placeholder="Birhtdate">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar ">
+                        </span>
+                    </span>
+                </div>
+                <script type="text/javascript">
+                    $(function () {
+                        $('#datetimepicker10').datetimepicker({
+                            viewMode: 'years',
+                            format: 'MM/YYYY'
+                        });
+                    });
+                </script>
+                <div>
+                    <input type="text" class="form-control " placeholder="Gender">
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                </div>
+                <div>
+                    <input type="text" class="form-control Email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Phone">
+                </div>
+
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
