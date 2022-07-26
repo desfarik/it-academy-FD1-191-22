@@ -1,0 +1,27 @@
+.header {
+    height: 50px;
+    background-color: #1976d2;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    font-family: Arial;
+}
+
+.block_1 {
+    margin: 40px;
+    padding: 40px;
+
+}
+
+h3 {
+    background-color: #7fffd4;
+    position: sticky;
+    top: 65px;
+    font-family: Arial;
+}
