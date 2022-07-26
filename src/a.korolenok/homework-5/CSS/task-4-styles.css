@@ -1,0 +1,30 @@
+.cone {
+    height: 200px;
+    margin: 240px 0 0 490px;
+    z-index: 1;
+    position: relative;
+}
+.blue-ball,
+.red-ball,
+.green-ball,
+.purple-ball {
+    height: 60px;
+    position: absolute;
+    z-index: 0;
+}
+.blue-ball {
+    left: 525px;
+    top: 175px;
+}
+.red-ball {
+    left: 500px;
+    top: 190px;
+}
+.green-ball {
+    left: 529px;
+    top: 210px;
+}
+.purple-ball {
+    left: 500px;
+    top: 220px;
+}
