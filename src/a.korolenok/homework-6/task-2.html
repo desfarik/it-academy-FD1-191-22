@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task-2</title>
+    <link rel="stylesheet" href="./styles/task-2-styles.css"">
+</head>
+<body>
+<div class="main-container">
+    <div class="header">
+        EVENT REGISTRATION FORM
+    </div>
+    <form action="/myaction">
+        <div class="form-name">
+            <span>Name</span>
+            <div class="input-name">
+                <input type="text" name="first name">
+                <input type="text" name="last name">
+            </div>
+        </div>
+        <div class="input-title-name">
+            <span>First name</span>
+            <span>Last name</span>
+        </div>
+        <div class="form-company">
+            <span> Company</span>
+            <input type="text" name="company" size="48">
+        </div>
+        <div class="form-email">
+            <span> Email</span>
+            <input type="email" name="email" placeholder="example@email.com" size="48">
+        </div>
+        <div class="form-phone">
+            <span>Phone</span>
+            <div class="input-phone">
+                <input type="text" name="Area code" size="7">
+                <input type="text" name="Phone number" size="34">
+            </div>
+        </div>
+        <div class="input-title-phone">
+            <span>Area code</span>
+            <span>Phone number</span>
+        </div>
+        <div class="form-subject">
+            <span> Subject</span>
+            <select name="subject" class="select-subject">
+                <option disabled selected> Choose option</option>
+                <option value="Birthday">Birthday</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Company party">Company party</option>
+            </select>
+        </div>
+        <div class="form-customer">
+            <div> Are you an existing customer?</div>
+            <div class="input-customer">
+                <input type="radio" name="customer">
+                <label> Yes</label>
+                <input type="radio" name="customer">
+                <label> No</label>
+            </div>
+            <div>
+                <button type="submit" class="button-register">REGISTER</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

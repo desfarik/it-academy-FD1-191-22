@@ -1,0 +1,101 @@
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 4px 17px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 17px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 17px 4px rgba(34, 60, 80, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-left,
+.column-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.column-right {
+    padding-left: 45px;
+}
+
+.main-img {
+    width: 420px;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-email,
+.input-password {
+    border: none;
+    width: 280px;
+    height: 30px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #5e6062;
+}
+
+.button-continue,
+.button-input-facebook,
+.button-input-twitter {
+    width: 285px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+
+.button-continue {
+    background: linear-gradient(to left, #d83ac5, #8454c0);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.text {
+    color: #8a9ca4;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.button-input-facebook,
+.button-input-twitter {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 45px;
+
+}
+
+.button-input-facebook {
+    background: linear-gradient(to left, #67adde, #2d7ab0);
+
+}
+
+.button-input-twitter {
+    background: linear-gradient(to left, #6ee1f6, #36aad5);
+
+}
+
+.input-twitter-image,
+.input-facebook-image {
+    width: 25px;
+    position: absolute;
+}
+
+.input-facebook-image {
+    left: 1035px;
+    top: 383px;
+}
+
+.input-twitter-image {
+    left: 1035px;
+    top: 335px;
+}
