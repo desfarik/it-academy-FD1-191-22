@@ -1,0 +1,97 @@
+.container-background {
+    width: 610px;
+    margin: 0 auto;
+    padding: 5px;
+    background: linear-gradient(to top, #d1b4ed, #915bc3);
+}
+
+.container-main {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.container-main-left-image {
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    height: 400px;
+}
+
+.container-main-right {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.container-main-right-title {
+    padding-right: 160px;
+}
+
+.button-continue {
+    background: linear-gradient(to right, #8354c0, #df36c2);
+    color: white;
+    border: none;
+    width: 235px;
+    height: 30px;
+}
+
+input {
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 3px solid palevioletred;
+    height: 25px;
+}
+
+.container-main-right-title-button-connect {
+    color: gray;
+}
+
+.label {
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    fill: white;
+    padding-left: 60px;
+    top: 194px;
+}
+
+.button-twitter {
+    background: linear-gradient(to right, #4fa2e1, #60dffb);
+    color: white;
+    border: none;
+    width: 235px;
+    height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.button-facebook {
+    background: linear-gradient(to right, #324987, #3ea3e9);
+    color: white;
+    border: none;
+    width: 235px;
+    height: 30px;
+    position: relative;
+}
+
+.button-twitter-logo {
+    width: 28px;
+    position: absolute;
+    top: 1px;
+    left: 20px;
+}
+
+.button-facebook-logo {
+    width: 28px;
+    position: absolute;
+    top: 1px;
+    left: 18px;
+    background-color: white;
+}
