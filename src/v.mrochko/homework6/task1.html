@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1</title>
+    <link rel="stylesheet" href="style/task1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body>
+<div class="main">
+    <div class="registration">Registration</div>
+    <form method="post">
+        <div class="flex center">
+            <div>
+                <input class="custom" type="radio" id="personal" name="man" checked>
+                <label for="personal">Personal</label>
+            </div>
+            <div>
+                <input class="custom" type="radio" id="company"  name="man">
+                <label for="company">Company</label>
+            </div>
+        </div>
+        <div class="flex-input">
+            <label for="email" class="icon-label">
+                <span class="material-symbols-outlined">
+                    mail
+                </span>
+            </label>
+            <input type="text" placeholder="Email" id="email" class="input-border">
+        </div>
+        <div class="flex-input">
+            <label for="name" class="icon-label">
+                <span class="material-symbols-outlined color-svg" >
+                    person
+                </span>
+            </label>
+            <input type="text" id="name" placeholder="Name" class="input-border">
+        </div>
+        <div class="flex-input">
+            <label for="password" class="icon-label">
+                <span class="material-symbols-outlined">
+                    security
+                </span>
+            </label>
+            <input type="password" placeholder="Password" id="password" class="input-border">
+        </div>
+        <div class="flex border-non" >
+            <div>
+                <input class="custom" type="radio" id="male" name="persona">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input class="custom" type="radio" id="female" name="persona" checked>
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <div class="flex border-non center">
+            <div class="size">By clicking Register, you agree on our <a href="#"> terms and condition.</a></div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

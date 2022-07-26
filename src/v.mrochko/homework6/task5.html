@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/task5.css">
+</head>
+<body>
+<div class="content">
+    <div class="header-content">PAYMENT INFO</div>
+    <div class="form">
+        <img src="img/lock.png" alt="" class="img-lock">
+        <form>
+            <div class="header-form"> Secure Payment Info</div>
+            <div class="input-radio">
+                <div class="flex">
+                    <input type="radio" name="card" id="card-check" class="custom" checked>
+                    <label for="card-check" class="card-margin">
+                        <img src="img/amazon.png" alt="">
+                        <img src="img/american-express.png" alt="">
+                        <img src="img/mastercard.png" alt="">
+                        <img src="img/visa.png" alt="">
+                    </label>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="card" id="card-not-check" class="custom">
+                    <label for="card-not-check">
+                        <img src="img/switch.png" alt="">
+                    </label>
+                </div>
+            </div>
+            <div>
+                <label class="label-color" for="name-card">Name(as it appears on your card)</label>
+                <br>
+                <input type="text" id="name-card" class="width-input border-input">
+            </div>
+            <div>
+                <label class="label-color" for="number-card">Card number( no dashes or spaces)</label>
+                <br>
+                <input type="text" id="number-card" class="width-input border-input">
+            </div>
+            <div>
+                <label class="label-color" for="select">Expiration date</label>
+                <br>
+                <select id="select" class="border-input">
+                    <option>01-January</option>
+                </select>
+                <label for="year"></label>
+                <select id="year" class="border-input">
+                    <option>2016</option>
+                </select>
+            </div>
+            <div>
+                <label class="label-color" for="code">Security code (3 on back, Amex: 4 on front)</label>
+                <div class="flex-code">
+                    <input type="text" id="code" class="border-input width-input-code">
+                    <img class="img-border" src="img/paypal.png" alt="">
+                    <img src="img/direct-debit.png" alt="">
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

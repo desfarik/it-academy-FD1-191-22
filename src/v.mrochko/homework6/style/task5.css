@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+}
+.input-radio{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.header-form{
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.width-input{
+    width: 100%;
+}
+select{
+    width: 49%;
+}
+.custom:not(:checked)~label img{
+    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.border-input{
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.flex-code{
+    display: flex;
+    justify-content: space-between;
+}
+.width-input-code{
+    width: 48%;
+}
+.img-border{
+    border-right: 1px solid grey;
+    padding-right: 33px;
+}
+.label-color{
+    color: grey;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+input.custom{
+    display: none;
+
+}
+input.custom+label{
+    display: inline-flex;
+    align-items: center;
+}
+input.custom+label:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #3b99fc;
+    border-radius: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 6px;
+    margin-right: 10px;
+
+}
+input.custom:checked+label:before{
+    background-image: url("../img/svg-cirle.svg");
+
+
+}
+input.custom:not(:checked)+label:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.header-content{
+    font-size: large;
+    font-weight: bolder;
+    background-color: #e5e5e5;
+    padding: 5px 0 5px 5px;
+    font-family: 'Kanit', sans-serif;
+}
+.content{
+    width: 870px;
+    margin: 0 auto;
+    border: 4px solid #d2d2d2;
+    border-bottom: none;
+}
+.card-margin{
+    display: flex;
+    gap: 3px;
+}
+.img-lock{
+    position: absolute;
+}
+.form{
+    position: relative;
+    top:10px;
+    padding-bottom: 40px;
+}

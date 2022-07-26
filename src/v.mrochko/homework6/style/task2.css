@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+}
+form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-name{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.flex-start-radio-input{
+    display: flex;
+    justify-content: start;
+    margin-left:  10px;
+    gap: 10px;
+}
+.w50{
+    width: 100px;
+}
+.w100{
+    width: 209px;
+}
+.w30{
+    width: 30px;
+}
+.w70{
+    width: 170px;
+}
+.w203{
+    width: 203px;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: 3px solid blue;
+    border-right: 7px solid;
+    border-image: linear-gradient(to right, blue, purple);
+}
+.container{
+    border-image-slice: 1;
+}
+select{
+    width: 212px;
+}
+.margin-input{
+    margin: 0;
+}
+button{
+    background-color: #fd4d5a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+input, select{
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 4px;
+}
+.header-form{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 6px 6px 0 0;
+}
+input.custom{
+    display: none;
+}
+input.custom+label{
+    display: inline-flex;
+    align-items: center;
+}
+input.custom+label:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #e6e6e6;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-right: 10px;
+}
+input.custom:checked+label:before{
+    background-color: #5eff00;
+    border-color: lightgrey;
+    -webkit-box-shadow: 0 1px 24px -4px rgba(94, 255, 0, 1);
+    -moz-box-shadow: 0 1px 24px -4px rgba(94, 255, 0, 1);
+    box-shadow: 0 1px 24px -4px rgba(94, 255, 0, 1);
+}
+.input-padding{
+    padding: 5px;
+}
+.first-name,.last-name,.tel-code,.tel-number{
+    position: absolute;
+    color:#e6e6e6 ;
+    font-size: 10px;
+}
+.first-name,.tel-code{
+    left: 0;
+    top: 110%;
+}
+.last-name{
+    left: 52%;
+    top: 110%;
+}
+.tel-number{
+    left: 30%;
+    top: 110%;
+}
+.relative{
+    position: relative;
+}

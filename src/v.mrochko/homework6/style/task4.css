@@ -1,0 +1,61 @@
+.main{
+    width: 700px;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+}
+.left-colum{
+    width: 50%;
+
+}
+.right-colum{
+    width: 50%;
+    font-family: sans-serif;
+    background-color: black;
+}
+.header-form{
+    background-color: black;
+    color: white;
+}
+form{
+    padding: 60px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+input{
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+span{
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 3px;
+    font-size: 13px !important;
+}
+.datepicker{
+    position: relative;
+}
+select{
+    width: 101%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+}
+button{
+    background-color: greenyellow;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 20px;
+}
+.margin-div-left-colum{
+    margin: 20px 0;
+}
+img{
+    height: 100%;
+}

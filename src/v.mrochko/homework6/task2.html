@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <link rel="stylesheet" href="style/task2.css">
+</head>
+<body>
+<div class="container">
+    <div class="header-form">
+        EVENT REGISTRATION FORM
+    </div>
+    <form>
+        <div class="input-name">
+            <div>
+                <label for="name">
+                    Name
+                </label>
+            </div>
+            <div class="relative">
+                <input type="text" id="name" class="w50">
+                <span class="first-name">First Name</span>
+                <label for="lastname"></label>
+                <input type="text" id=lastname class="w50">
+                <span class="last-name">Last Name</span>
+            </div>
+        </div>
+        <div class="input-name">
+            <div>
+                <label for="company">
+                    Comapny
+                </label>
+            </div>
+            <div>
+                <input type="text" id="company" class="w100">
+            </div>
+        </div>
+        <div class="input-name">
+            <div>
+                <label for="email">
+                    Email
+                </label>
+            </div>
+            <div>
+                <input type="email" id="email" class="w203 input-padding" placeholder="example@mail.com">
+            </div>
+        </div>
+        <div class="input-name">
+            <div>
+                <label for="phone">
+                    Phone
+                </label>
+            </div>
+            <div class="relative">
+                 <input type="tel" id="cod" class="w30">
+                 <span class="tel-code">Area Code</span>
+                 <label for="cod"></label>
+                 <input type="text" id=phone class="w70">
+                 <span class="tel-number">Phone Number</span>
+            </div>
+        </div>
+        <div class="input-name">
+            <div>
+                <label for="sbj">Subject</label>
+            </div>
+            <div>
+               <select id="sbj" class="input-padding">
+                   <option value="" disabled selected>Choose Option</option>
+               </select>
+            </div>
+        </div>
+        <div class="flex-start-radio-input">
+            Are you an existing customer?
+        </div>
+        <div class="flex-start-radio-input">
+            <div>
+                <input id="yes" type="radio" name="customer" class="margin-input custom" checked>
+                <label for="yes">Yes</label>
+            </div>
+            <div>
+                <input id="no" type="radio" name="customer" class="margin-input custom">
+                <label for="no">No</label>
+            </div>
+        </div>
+        <div class="flex-start-radio-input">
+            <button type="submit">REGISTER</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

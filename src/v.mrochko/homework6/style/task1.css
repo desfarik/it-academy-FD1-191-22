@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+}
+.main{
+    width: 360px;
+    background-color:#ebebeb ;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.registration{
+    text-align: center;
+    padding: 5px 0;
+    color: grey;
+    font-size: 35px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+.flex-input{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.icon-label{
+    color: white;
+    background-color: #3957af;
+    border-radius: 3px 0 0 3px;
+    padding: 3px 5px;
+    line-height: 0;
+}
+.input-border{
+    border: none;
+    -webkit-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    border-radius: 0 3px 3px 0;
+}
+.border-non{
+    border: none;
+}
+.center{
+    align-items: center;
+    margin: 10px 35px;
+}
+.size{
+    font-size: 13px;
+}
+button{
+    background-color: #3957af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+input.custom{
+    display: none;
+
+}
+input.custom+label{
+    display: inline-flex;
+    align-items: center;
+}
+input.custom+label:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #3957af;
+    border-radius: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 10px;
+}
+input.custom:checked+label:before{
+    background-image: url("../img/svg.svg");
+
+}
+input.custom:not(:checked)+label:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #3957af;
+    border-radius: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
