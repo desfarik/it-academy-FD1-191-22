@@ -1,0 +1,177 @@
+.schedule {
+    width: 400px;
+    background-color: #caced8;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+.box {
+    padding: 8px;
+}
+
+.fix {
+    position: relative;
+    left: 12px;
+}
+
+.fix_1 {
+    position: relative;
+    left: 25px;
+}
+
+.num5 {
+    text-align: right;
+}
+
+
+.words {
+    font-family: cursive;
+    color: #80808b;
+}
+
+.numbers {
+    font-family: 'Amita', cursive;
+}
+
+.dialog_1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.dialog_2 {
+    background-color: #ececf4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.dialog_3 {
+    background-color: #ececf4;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-family: cursive;
+    color: #80808b;
+}
+
+.text_in_dialog_3 {
+    position: relative;
+    right: 45px;
+}
+
+.checkbox_1_content_1 {
+    position: relative;
+    left: -10px;
+    top: 10px;
+    font-size: 30px;
+    color: #fed800;
+}
+
+.checkbox_1_content_2 {
+    position: relative;
+    right: 55px;
+    top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.checkbox_1_content_3 {
+    position: relative;
+    left: 60px;
+    top: 3px;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Amita', cursive;
+    line-height: 22px;
+}
+
+.checkbox_1_content_4 {
+    font-size: 30px;
+    position: relative;
+    right: -15px;
+    top: 5px;
+}
+
+.checkbox_2_content_1 {
+    font-size: 30px;
+    position: relative;
+    right: 8px;
+    top: 10px;
+    color: #017fff;
+}
+
+.checkbox_2_content_2 {
+    font-size: 20px;
+    position: relative;
+    right: 60px;
+    top: 12px;
+    font-family: cursive;
+}
+
+.checkbox_2_content_3 {
+    font-size: 20px;
+    position: relative;
+    left: 72px;
+    top: 3px;
+    text-align: right;
+    font-family: 'Amita', cursive;
+    line-height: 22px;
+}
+
+.checkbox_2_content_4 {
+    font-size: 30px;
+    position: relative;
+    left: 16px;
+    top: 5px;
+}
+
+.checkbox_3_content_1 {
+    font-size: 30px;
+    position: relative;
+    right: 5px;
+    top: 10px;
+    color: #fc6a03;
+
+}
+
+.checkbox_3_content_2 {
+    font-size: 20px;
+    position: relative;
+    right: 120px;
+    top: 3px;
+    margin: 10px;
+    font-family: cursive;
+}
+
+.checkbox_3_content_3 {
+    font-size: 30px;
+    position: relative;
+    left: 16px;
+    top: 10px;
+}
+
+.num {
+    margin: 10px;
+    font-family: 'Amita', cursive;
+}
+
+

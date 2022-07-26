@@ -1,0 +1,35 @@
+.container {
+    margin: auto;
+}
+
+.box {
+    aspect-ratio: 1;
+    position: absolute;
+}
+
+.blue {
+    top: 2%;
+    left: 8%;
+}
+
+.red {
+    left: 2%;
+    top: 12%;
+}
+
+.green {
+
+    left: 8%;
+    top: 25%;
+
+}
+
+.purple {
+    top: 30%;
+    left: 4%;
+}
+
+.cone {
+    top: 50%;
+    left: 5%;
+}

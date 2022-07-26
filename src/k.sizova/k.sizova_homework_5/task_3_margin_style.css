@@ -1,0 +1,36 @@
+.container {
+    width: 115px;
+    height: 260px;
+    border: solid 2px black;
+
+}
+
+.red {
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.yellow {
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.green {
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 25px;
+}
