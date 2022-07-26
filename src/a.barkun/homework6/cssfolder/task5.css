@@ -1,0 +1,154 @@
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+}
+label {
+    color: grey;
+}
+.main {
+    min-width: 800px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: solid lightslategrey 8px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: left;
+    background-color: #d1d1d1;
+    padding: 15px;
+    margin-top: 0;
+}
+.locker, .divka {
+    width: 30%;
+}
+.info {
+    border-bottom: 2px solid grey;
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: grey;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.form {
+    flex-grow: 1;
+}
+
+.lock {
+    font-size: 120px;
+
+    color: #d1d1d1;
+}
+.locker {
+    text-align: center;
+}
+.align {
+    margin-bottom: 20px;
+
+}
+input#cardnumber, input#name {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border: solid grey 2px;
+}
+input#year, input#date {
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid grey 2px;
+    display: inline-block;
+}
+input#pin {
+    width: 60%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 13px;
+    border-radius: 7px;
+    border: solid grey 2px;
+    display: inline-block;
+
+}
+
+.datepicker {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 95%;
+}
+.cardpinner {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+
+    align-items: center;
+}
+.pin123, .pin1234 {
+    width: 90px;
+    height: 45px;
+    background-color: #d1d1d1;
+    border-radius: 7px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 2px;
+
+
+}
+.number123 {
+    border: #e77bb0 solid 2px;
+    font-size: 10px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    opacity: 0.7;
+}
+.black {
+    background-color: #656565;
+    align-self: stretch;
+    height: 10px;
+    opacity: 0.7;
+
+}
+div.pin1234 > .black {
+    background-color: transparent;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grow {
+    flex-grow: 1;
+}
+.cardsalign, .paypal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+

@@ -1,0 +1,146 @@
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+}
+
+.main {
+    /*min-width: 1000px;*/
+    /*max-width: 1000px;*/
+    margin: 0 auto;
+    border-radius: 7px;
+    /*border: solid black 2px;*/
+    box-shadow: 10px 10px 10px grey;
+    border-left: solid grey 1px;
+    border-top: solid grey 1px;
+    display: flex;
+    max-width: 800px;
+}
+.leftpart {
+        text-align: center;
+        padding: 50px;
+        width: 50%;
+}
+.rightpart {
+    width: 50%;
+    padding: 50px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: Arial;
+}
+.form {
+    margin-bottom: 25px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+.password::before {
+    content: "lock";
+    position: absolute;
+    top: 35%;
+    left: 0;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.text::before {
+    content: "person";
+    position: absolute;
+    top: 35%;
+    left: 0;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+input#password, input#text {
+    position: relative;
+}
+
+label[for="password"] {
+    position: absolute;
+    z-index: 1;
+}
+label[for="text"] {
+    position: absolute;
+    z-index: 1;
+}
+input[type="submit"] {
+    width: 30%;
+    border: none;
+    border-radius: 7px;
+    background-color: #6daae3;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+
+}
+input#check {
+    display: none;
+}
+input[type=checkbox] + label > span.checkbox:before {
+    content: 'check_box_outline_blank';
+    aspect-ratio: 1;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    height: 16px;
+    margin-right: 24px;
+    vertical-align: bottom;
+}
+input[type=checkbox]:checked + label > span.checkbox:before {
+    content: 'check_box';
+    aspect-ratio: 1;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    height: 16px;
+    margin-right: 24px;
+    vertical-align: bottom;
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+}
+.login {
+    margin-top: 85px;
+}
+a {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+a:link, a:visited, a:hover {
+    color: grey;
+}
+
+div.login > img {
+    width: 35px;
+    aspect-ratio: 1;
+}
+.login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+div.leftpart > img {
+    height: auto;
+}
+
+
+
+
+

@@ -1,0 +1,77 @@
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+}
+
+.main {
+    min-width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: table;
+    font-family: Arial;
+
+}
+.form {
+    width: 50%;
+    display: table-cell;
+    padding: 50px;
+    background-color: black;
+}
+h2 {
+    color: #757575;
+    font-size: 30px;
+    margin-top: 0;
+}
+input {
+    background: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    color: #757575;
+    font-size: 15px;
+}
+.input {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #757575;
+    color: #757575;
+    padding: 10px 0;
+    position: relative;
+}
+.input_eachline {
+    color: #757575;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #58b649;
+    width: 40%;
+    margin-top: 25px;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px 0;
+}
+.birthdate {
+    color: #757575;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.expand {
+    color: #757575;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+}
+
+

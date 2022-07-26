@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./cssfolder/task5.css">
+
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <h2>PAYMENT INFO</h2>
+  </div>
+  <div class="content">
+    <div class="locker"><span class="material-symbols-outlined lock">
+lock
+</span></div>
+    <div class="form">
+      <div class="info align">Secure Payment Info</div>
+              <form action="post">
+
+                <div class="cards align">
+                  <input id="mvad" name="card" type="radio" checked>
+                   <label for="mvad">
+                  <span class="cardsalign">
+                  <img src="./imgfolder/master.png" alt="">
+                  <img src="./imgfolder/visa.png" alt="">
+                  <img src="./imgfolder/amex.png" alt="">
+                  <img src="./imgfolder/discover.png" alt="">
+                  </span>
+                </label>
+                 <div class="grow"></div>
+                    <div class="paypal">
+                  <input id="pp" name="card" type="radio">
+                  <label for="pp">
+                  <span style="display: inline-block; padding-top: 5px"><img src="./imgfolder/paypal.jpg" alt=""></span>
+                  </label>
+                    </div>
+                </div>
+                  <div class="inputstyle align">
+                   <div class="align">
+                       <div>
+                           <label for="name">Name (as it appears on your card)</label>
+                       </div>
+                     <input id="name" type="text">
+                   </div>
+                    <div>
+                        <div>
+                            <label for="cardnumber">Card number (no dashes or spaces)</label>
+                        </div>
+                      <input id="cardnumber" type="text">
+                    </div>
+                  </div>
+                                 <div> <label for="date">Expiration date</label></div>
+                  <div class="datepicker align">
+                                  <input id="date" type="month">
+                                  <input id="year" type="number" placeholder="2016">
+
+                </div>
+
+                <div class="align">
+
+                      <div>
+                          <label for="pin">Security code (3 on back, Amex: 4 on front)</label>
+                      </div>
+
+                    <div class="cardpinner">
+                    <input id="pin" type="text">
+
+                    <div class="pin123">
+                        <div class="black"></div>
+                        <div class="number123">123</div>
+                    </div>
+
+                  <div class="pin1234">
+                      <div class="black"></div>
+                      <div class="number123">1234</div>
+                  </div>
+                    </div>
+                </div>
+
+              </form>
+    </div>
+    <div class="divka"></div>
+  </div>
+</div>
+</body>
+</html>
