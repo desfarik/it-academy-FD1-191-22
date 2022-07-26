@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 30px;
+
+}
+
+.material-symbols-outlined {
+    position: relative;
+    left: 30px;
+    top: 5px;
+
+}
+
+button {
+    background-color: #6eaae6;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+}
+
+.contant {
+    margin-bottom: 30px;
+}
+.bottom{
+    position: relative;
+top: 100px;
+text-align: center;
+}
+.social{
+    margin-top: 60px;
+  
+}

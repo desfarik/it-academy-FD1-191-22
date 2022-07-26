@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 10px;
+
+}
+
+.button_color_1 {
+    background: linear-gradient(to bottom, #8454c3, #d739c3);
+    border: none;
+    margin-top: 20px;
+
+}
+
+.button_color_2 {
+    background: linear-gradient(to right, #35aad3, #5dd7f4);
+    border: none;
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: white;
+
+}
+
+.button_color_3 {
+    background: linear-gradient(to right, #267fb8, #3ea3e7);
+    border: none;
+    font-size: 10px;
+    color: white;
+
+
+}
+
+.right_contant {
+    margin-left: 30px;
+  
+}
+
+
+
+button {
+    width: 180px;
+    height: 30px;
+    
+}
+
+.contant_middle {
+    margin: 20px 0;
+    font-size: 10px;
+    color: grey;
+}
+
+
+
+.image_1 {
+    width: 20px;
+    position: relative;
+    left: -20px;
+
+}
+
+.image_2 {
+    width: 20px;
+    position: relative;
+    left: -15px;
+}
