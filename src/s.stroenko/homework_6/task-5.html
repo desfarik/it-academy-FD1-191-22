@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/task-5.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">PAYMENT INFO</div>
+        <div class="cont">
+            <img src="loock.png" class="loock">
+            <form>
+                <div class="central-block">
+                    <div class="block-header">Secure Payment Info</div>
+                    <div class="input-pay">
+                        <div>
+                            <input type="radio" name="pay">
+                            <img src="./visa.png" class="card">
+                            <img src="./mastercard.png" class="card">
+                            <img src="./amex.jpg" class="card">
+                            <img src="./Discover.png" class="card">
+                        </div>
+                        <div>
+                            <input type="radio" name="pay">
+                            <img src="./Paypal.png" class="card">
+                        </div>
+                    </div>
+                    <div class="data">
+                        <span>Name (as it appears on your card)</span>
+                        <input class="input" name="name">
+                    </div>
+                    <div class="data">
+                        <span>Card number (no dashes or spaces)</span>
+                        <input class="input" name="nunber">
+                    </div>
+                    <div class="data">
+                        <span>Expiration date</span><br>
+                        <select class="input-date">
+                            <option>01-January</option>
+                        </select>
+                        <select class="input-date">
+                            <option>2016</option>
+                        </select>
+                    </div>
+                    <div class="data">
+                        <span>Security code (3 on back, Amex: 4 on front)</span>
+                        <input class="input-code" name="code">
+                        <img src="./code.png" class="card-code">
+                        <img src="./code amex.jpg" class="card-code">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
